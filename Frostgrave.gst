@@ -3,7 +3,7 @@
   <forceTypes>
     <forceType id="f580-839a-93a0-d53d" name="Warband" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="fa4d-3d35-e3f9-27e7" name="Wizard" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="fa4d-3d35-e3f9-27e7" name="Spell Caster" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
         <category id="f1ad-01b3-8196-8ce7" name="Soldier" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
@@ -52,7 +52,7 @@
         <characteristic id="569f-afd4-0222-6a68" name="H"/>
       </characteristics>
     </profileType>
-    <profileType id="58d9-87b8-d5f6-83f1" name="1.22&lt; Apprentice">
+    <profileType id="58d9-87b8-d5f6-83f1" name="1.2&lt; Apprentice">
       <characteristics>
         <characteristic id="1157-b575-385a-793e" name="M"/>
         <characteristic id="8011-35e3-f1d0-b98b" name="F"/>
@@ -86,7 +86,7 @@
         <characteristic id="bfb9-0cd1-652f-e862" name="Notes"/>
       </characteristics>
     </profileType>
-    <profileType id="628c-8ed6-bede-8567" name="1.2&lt;App. Current Health">
+    <profileType id="628c-8ed6-bede-8567" name="1.22&lt;App. Current Health">
       <characteristics>
         <characteristic id="dfd5-106e-c4d8-defe" name="Current Health"/>
       </characteristics>

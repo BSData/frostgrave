@@ -40,7 +40,7 @@
     </forceType>
   </forceTypes>
   <profileTypes>
-    <profileType id="58d4-4e8f-3fd9-76ef" name="1.1&lt; Wizard">
+    <profileType id="58d4-4e8f-3fd9-76ef" name="1&lt; Wizard">
       <characteristics>
         <characteristic id="cc72-de3d-e5e1-0a28" name="LV"/>
         <characteristic id="5e95-8ade-681e-bf89" name="XP"/>
@@ -52,7 +52,7 @@
         <characteristic id="569f-afd4-0222-6a68" name="H"/>
       </characteristics>
     </profileType>
-    <profileType id="58d9-87b8-d5f6-83f1" name="1.2&lt; Apprentice">
+    <profileType id="58d9-87b8-d5f6-83f1" name="1&lt; Apprentice">
       <characteristics>
         <characteristic id="1157-b575-385a-793e" name="M"/>
         <characteristic id="8011-35e3-f1d0-b98b" name="F"/>
@@ -62,7 +62,7 @@
         <characteristic id="d872-c3b5-963f-cae3" name="H"/>
       </characteristics>
     </profileType>
-    <profileType id="1387-ea5a-ab97-4b97" name="1.4&lt; Soldier">
+    <profileType id="1387-ea5a-ab97-4b97" name="1&lt; Soldier">
       <characteristics>
         <characteristic id="a22a-59bf-0218-49e5" name="M"/>
         <characteristic id="ef87-22c3-aa6a-d30b" name="F"/>
@@ -72,7 +72,7 @@
         <characteristic id="eb16-fb65-7a7f-ba1f" name="H"/>
       </characteristics>
     </profileType>
-    <profileType id="d453-c7b2-715a-3ea9" name="3&lt; Spells">
+    <profileType id="d453-c7b2-715a-3ea9" name="4&lt; Spells">
       <characteristics>
         <characteristic id="011f-8fbb-628d-1772" name="School"/>
         <characteristic id="2364-f26b-88ce-c406" name="BCN"/>
@@ -80,15 +80,10 @@
         <characteristic id="3c9c-cd2b-ce11-adaf" name="Descr."/>
       </characteristics>
     </profileType>
-    <profileType id="84ca-e65c-fba6-e936" name="2&lt; Weapon">
+    <profileType id="84ca-e65c-fba6-e936" name="3&lt; Weapon">
       <characteristics>
         <characteristic id="0558-a6b3-f8e6-bf26" name="Dmg. Modi."/>
         <characteristic id="bfb9-0cd1-652f-e862" name="Notes"/>
-      </characteristics>
-    </profileType>
-    <profileType id="628c-8ed6-bede-8567" name="1.22&lt;App. Current Health">
-      <characteristics>
-        <characteristic id="dfd5-106e-c4d8-defe" name="Current Health"/>
       </characteristics>
     </profileType>
     <profileType id="6c9d-87e1-9b3a-1e85" name="Potions">
@@ -127,12 +122,12 @@
         <characteristic id="d16a-97b5-407f-dcc5" name="Effects"/>
       </characteristics>
     </profileType>
-    <profileType id="1cb0-5ef6-86c3-1918" name=" 1.12&lt; Wiz. Current Health">
+    <profileType id="1cb0-5ef6-86c3-1918" name="2&lt; Health">
       <characteristics>
         <characteristic id="590d-b53f-470c-0d22" name="Current Health"/>
       </characteristics>
     </profileType>
-    <profileType id="314c-5129-741a-9769" name="4&lt; Creatures">
+    <profileType id="314c-5129-741a-9769" name="5&lt; Creatures">
       <characteristics>
         <characteristic id="fa9e-5ed3-24f9-2651" name="M"/>
         <characteristic id="6a03-f3b1-dd47-1808" name="F"/>

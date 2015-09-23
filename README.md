@@ -2,10 +2,14 @@ Frostgrave
 ==========
 
 ####Contents####
-
+* [GAME][]
 * [Overview][]
 * [Links][]
 
+[GAME]: #game
+
+This is intended for the miniatures game "Frostgrave" and in no way replaces the need for use of the main rule book.
+All information in this game system is for keeping track of forces and their gains.
 
 [Overview]: #overview
 [Links]: #links

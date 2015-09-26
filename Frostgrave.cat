@@ -782,24 +782,9 @@
         </link>
       </links>
     </entry>
-    <entry id="134d-3bb3-e331-289a" name="Base and Base Resources" points="0.0" categoryId="df9e-dde2-0b62-4711" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="134d-3bb3-e331-289a" name="Base and Base Resources" points="0.0" categoryId="1ac1-c711-5ac8-b33a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="1730-9561-f48d-94bc" name="Buy/ Sell Magic Weapons and Armour" points="0.0" categoryId="33d4-3817-59d1-3bed" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="6bc0-12c0-3e24-2ecc" name="&lt; Magic Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -815,7 +800,7 @@
         <link id="71fb-fe0a-b1a4-309e" targetId="0e6c-ef19-606a-1335" linkType="profile">
           <modifiers/>
         </link>
-        <link id="6807-f40a-449d-29af" targetId="c3d9-7510-fbf0-5621" linkType="entry group">
+        <link id="6807-f40a-449d-29af" targetId="0b05-c0f1-944b-5926" linkType="entry group">
           <modifiers/>
         </link>
         <link id="4c47-ae61-e727-7d6c" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -868,7 +853,7 @@
         </link>
       </links>
     </entry>
-    <entry id="52c5-09a1-1ec5-88b6" name="Magic Items (Obtained)" points="0.0" categoryId="433d-8388-71a8-973e" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="52c5-09a1-1ec5-88b6" name="Magic Items (Obtained)" points="0.0" categoryId="433d-8388-71a8-973e" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="1.0E10" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -880,7 +865,7 @@
         </link>
       </links>
     </entry>
-    <entry id="6c11-2f6a-460a-49d6" name="Magic Weapons and Armour (Obtained)" points="0.0" categoryId="33d4-3817-59d1-3bed" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6c11-2f6a-460a-49d6" name="Magic Weapons and Armour (Obtained)" points="0.0" categoryId="33d4-3817-59d1-3bed" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -14324,6 +14309,14 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="cb95-c1cd-90be-97c5" name="Buy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="ff21-8aa2-44f2-5697" name="Candle of Summoning" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
@@ -14796,6 +14789,18 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="5263-b3ba-afec-6267" name="Gc" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fa67-eee8-0a15-7d9c" targetId="bcd0-e3ed-da12-f8ba" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e743-a03b-717f-dd88" name="Gloves of Casting" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
@@ -15229,6 +15234,14 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="03fe-d5fd-37f2-c7f5" name="Obtained" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="742c-290e-ea51-4bcf" name="Orb of Power (8)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
@@ -15411,6 +15424,14 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </profiles>
       <links/>
     </entry>
+    <entry id="b720-30e0-4637-a1bd" name="Re-sell" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="947e-7093-66a0-192a" name="Ring of Power (1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
@@ -15552,6 +15573,14 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
+    <entry id="a836-f34a-ef6e-02d1" name="Sell" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="417c-3fbc-944d-5cba" name="Set Current Health" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="14" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -15616,7 +15645,11 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="53d5-2ac1-d6b1-e533" targetId="bf43-eb03-e9c0-a5b1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="2c35-922d-61cc-ff2e" name="Staff (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -15997,21 +16030,102 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
-    <entry id="b6df-4677-e0f3-2f71" name="V- Bow DM+2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b6df-4677-e0f3-2f71" name="V- Bow DM+2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="7152-e0ff-0f26-38df" name="&lt; Stock &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="a94e-ac33-4874-4387" name="Buy/ Sell" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="d936-08fe-48db-1f3b" targetId="cb95-c1cd-90be-97c5" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="300.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="34b6-b8b0-6025-39c6" targetId="b720-30e0-4637-a1bd" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-150.0" repeat="true" numRepeats="1" incrementParentId="b6df-4677-e0f3-2f71" incrementChildId="34b6-b8b0-6025-39c6" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b6df-4677-e0f3-2f71" incrementChildId="d936-08fe-48db-1f3b" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="a8d0-f0e7-b6a1-32f4" name="Obtained/ Sell" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="e31b-64c0-e959-09a3" targetId="03fe-d5fd-37f2-c7f5" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="165e-cd7f-dd7e-2a79" targetId="a836-f34a-ef6e-02d1" linkType="entry">
+                  <modifiers>
+                    <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="b6df-4677-e0f3-2f71" incrementChildId="e31b-64c0-e959-09a3" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="-150.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links/>
+      <profiles>
+        <profile id="37e3-c6b7-7ede-119e" profileTypeId="d2e1-58ef-48e2-3240" name="Current Gc" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9a7b-819f-6af1-9f52" name="Amount" value="0"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" field="9a7b-819f-6af1-9f52" value="150" repeat="true" numRepeats="1" incrementParentId="b6df-4677-e0f3-2f71" incrementChildId="34b6-b8b0-6025-39c6" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="9a7b-819f-6af1-9f52" value="150" repeat="true" numRepeats="1" incrementParentId="b6df-4677-e0f3-2f71" incrementChildId="165e-cd7f-dd7e-2a79" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d6d6-be7b-f68b-3836" targetId="f403-82ff-b239-59a9" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
-    <entry id="26aa-0d5a-20cd-52e4" name="V- Bow S+1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="26aa-0d5a-20cd-52e4" name="V- Bow S+1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="bb1e-1535-24e9-f19e" targetId="4f3b-317e-beb0-ce09" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="d986-f517-7e6e-ddb1" name="V- Candle of Summoning" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -30087,7 +30201,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="cd08-c844-aed3-65fd" name="&gt; V-  Magic Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="cd08-c844-aed3-65fd" name="&gt; V-  Magic Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -30221,7 +30335,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="a680-42b5-aa8b-389c" name="&gt; V- Magic Items &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="a680-42b5-aa8b-389c" name="&gt; V- Magic Items &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -30288,7 +30402,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="b6d4-44e9-8949-ee84" name="&gt; V- Potions &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="b6d4-44e9-8949-ee84" name="&gt; V- Potions &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -34470,6 +34584,48 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </modifier>
       </modifiers>
     </profile>
+    <profile id="f403-82ff-b239-59a9" profileTypeId="6aa0-7599-3110-557a" name="Bow DM+2" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="2e11-70f5-81d9-c89f" name="Av. Qty" value="0"/>
+      </characteristics>
+      <modifiers>
+        <modifier type="decrement" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="a836-f34a-ef6e-02d1" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="03fe-d5fd-37f2-c7f5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="cb95-c1cd-90be-97c5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="decrement" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="b720-30e0-4637-a1bd" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile id="4f3b-317e-beb0-ce09" profileTypeId="6aa0-7599-3110-557a" name="Bow S+1" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="2e11-70f5-81d9-c89f" name="Av. Qty" value="0"/>
+      </characteristics>
+      <modifiers>
+        <modifier type="decrement" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="a836-f34a-ef6e-02d1" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="03fe-d5fd-37f2-c7f5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="2e11-70f5-81d9-c89f" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="cb95-c1cd-90be-97c5" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </profile>
     <profile id="8e03-d8ae-145a-da84" profileTypeId="55d8-93c4-c893-4721" name="Celestial Telescope" hidden="false">
       <characteristics>
         <characteristic characteristicId="d16a-97b5-407f-dcc5" name="Effects"/>
@@ -34525,6 +34681,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <conditionGroups/>
         </modifier>
       </modifiers>
+    </profile>
+    <profile id="bcd0-e3ed-da12-f8ba" profileTypeId="d2e1-58ef-48e2-3240" name="Current Gc" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="9a7b-819f-6af1-9f52" name="Amount" value="500"/>
+      </characteristics>
+      <modifiers/>
     </profile>
     <profile id="fd23-0af4-0ae6-2c66" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
       <characteristics>

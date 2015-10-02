@@ -401,6 +401,9 @@
         <link id="9f50-cd21-0bc4-c518" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="fa0d-0832-1712-c9d4" targetId="2761-d2af-6dee-2ab5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ee10-8941-0b51-736b" name="&gt; Apprentice" points="-200.0" categoryId="fa4d-3d35-e3f9-27e7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -14342,7 +14345,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="79b2-3ded-a513-3efd" name="&gt; Buy Elixir of Life" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="79b2-3ded-a513-3efd" name="&gt; Buy Elixir of Life" points="-500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -14742,7 +14745,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="30a1-cea3-3c1d-43b3" name="&gt; Obtained Elixir of Life" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="30a1-cea3-3c1d-43b3" name="&gt; Obtained Elixir of Life" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -17840,6 +17843,14 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
+    <entry id="2761-d2af-6dee-2ab5" name="Gc Total Gained " points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="6c89-a6c7-8fbf-2d00" name="&lt; Apothecary Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -18061,121 +18072,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <modifiers/>
         </link>
       </links>
-    </entryGroup>
-    <entryGroup id="449a-0d36-a17b-cce7" name="&gt; Permanent Injuries &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="f9b2-0fb7-6ef5-4001" name="Lost Toes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="112a-b532-f25f-a175" targetId="9b3b-5226-8fc1-cb51" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f1db-6175-eb51-e73c" name="Smashed Leg" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4634-8cc4-f032-385b" targetId="377b-c924-f9aa-6921" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e5c2-40cd-3896-5cbf" name="Crushed Arm " points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2e99-aec2-e6ee-2a70" targetId="8ab6-d9fb-fbd3-d23a" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d48b-7f82-121f-e8a4" name="Lost Fingers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="18ea-a90b-0186-b053" targetId="3047-e0af-d4c8-651c" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a3ed-015c-9a29-948c" name="Never Quite as Strong" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="18f3-77c6-e5ad-a3ad" targetId="4886-81f3-e581-f317" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4dbe-1f32-1f23-8922" name="Pychological Scars" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fa98-a8d2-bc28-96e8" targetId="5435-0b63-3b75-c783" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2371-cb77-3a28-3504" name="Niggling Injury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="51d9-90a7-8216-b5d1" targetId="47d8-b298-b074-5cda" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c23e-1974-e0cc-ce82" name="Smashed Jaw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bd93-22cb-7a29-0de4" targetId="440e-4583-66dc-3d51" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a867-2727-d049-9e76" name="Lost Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9b1d-3b03-3a7a-0eac" targetId="f36a-3139-2b33-7cb8" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
     </entryGroup>
     <entryGroup id="0669-c1f9-5a41-b730" name="&lt; Ranger Notes &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -31554,6 +31450,121 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="449a-0d36-a17b-cce7" name="&gt; Permanent Injuries &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f9b2-0fb7-6ef5-4001" name="Lost Toes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="112a-b532-f25f-a175" targetId="9b3b-5226-8fc1-cb51" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f1db-6175-eb51-e73c" name="Smashed Leg" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4634-8cc4-f032-385b" targetId="377b-c924-f9aa-6921" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e5c2-40cd-3896-5cbf" name="Crushed Arm " points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2e99-aec2-e6ee-2a70" targetId="8ab6-d9fb-fbd3-d23a" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d48b-7f82-121f-e8a4" name="Lost Fingers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="18ea-a90b-0186-b053" targetId="3047-e0af-d4c8-651c" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a3ed-015c-9a29-948c" name="Never Quite as Strong" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="18f3-77c6-e5ad-a3ad" targetId="4886-81f3-e581-f317" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4dbe-1f32-1f23-8922" name="Pychological Scars" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="fa98-a8d2-bc28-96e8" targetId="5435-0b63-3b75-c783" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2371-cb77-3a28-3504" name="Niggling Injury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="51d9-90a7-8216-b5d1" targetId="47d8-b298-b074-5cda" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c23e-1974-e0cc-ce82" name="Smashed Jaw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bd93-22cb-7a29-0de4" targetId="440e-4583-66dc-3d51" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a867-2727-d049-9e76" name="Lost Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9b1d-3b03-3a7a-0eac" targetId="f36a-3139-2b33-7cb8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="cd08-c844-aed3-65fd" name="&gt; V-  Magic Items &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -31569,6 +31580,310 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
               <modifiers/>
             </link>
             <link id="6c45-5220-9203-ed08" targetId="e55e-e79a-0e53-cfb7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="d2f2-73a6-ee01-5812" name="Staff of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9f67-dc36-e3f9-70d1" targetId="49db-f2ed-450b-272f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ba70-5a60-4afa-37c5" targetId="daa4-3694-6c10-a887" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="01e5-d1ef-07eb-7e6b" targetId="77e4-f5e2-62cf-d6f7" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c81a-bddb-ed2f-3113" name="Staff of Power (2)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="700c-60ee-a954-3fac" targetId="88c8-aceb-9641-65df" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="945f-1594-4ce2-55db" targetId="2c6f-ae4d-7269-dc7d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fd30-dcd4-6463-ca6a" targetId="2b19-2c2d-910d-4e0b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="4e8b-7ee7-c44f-25fd" name="Staff of Power (3)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5b33-bcae-1e9d-9902" targetId="3a01-4ef5-6f6e-218f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="74c7-3626-0e3d-7a6a" targetId="d723-2ee5-b32b-4751" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ae71-69da-092a-7f2d" targetId="c350-9f5a-5140-ae51" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="8946-11d0-4735-56bf" name="Ring of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d4b5-ce20-1f82-0ea1" targetId="26cb-6888-04ef-d0c3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="112a-92a7-3a0a-66ef" targetId="92f4-a84f-dcc7-c84f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6a55-5ddc-9aa5-b822" targetId="a900-dafc-3a9a-914e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="70e1-f19b-7980-4edb" name="Orb of Power (8)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="53fd-5565-de58-19ff" targetId="3644-63fc-4e09-4431" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2911-f2de-6a32-19e7" targetId="08a0-1a13-b8e3-e590" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="36a9-e30b-db29-5930" targetId="c550-45df-eeaf-9485" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="8e50-2b99-e911-08d8" name="Staff of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="12e3-0151-bd2d-167e" targetId="482b-f9af-ce61-ec24" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5544-d604-ac0f-b48f" targetId="d516-a1b5-93a1-3c51" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2b4d-d744-04b6-8d6b" targetId="f7fc-f999-45a0-3019" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="33dc-45e1-d3d8-fc7f" name="Boots of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="79f9-8f15-d375-aeca" targetId="cc67-3266-4945-b066" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="67c5-8dac-66b8-7fdb" targetId="7c21-603e-550b-79c0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3b23-b54c-4dcc-9545" targetId="b723-4460-2b03-5e90" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="2954-eae5-95ef-70dd" name="Ring of Slow Fall" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7f50-5d49-6d40-862a" targetId="4e15-1bec-baf4-7e11" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f175-1e51-c032-69b8" targetId="beb1-50fe-801d-8636" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="49e5-79e3-864c-cd4d" targetId="a5e4-3037-856a-1d3c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="006e-eb2a-1d10-8aff" name="Ring of Will" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7cb0-1353-110d-26de" targetId="a1e3-2ad4-bd11-c9f9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c271-967c-de6a-9394" targetId="1d85-aba0-9e9c-a143" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b3ff-45c6-f979-1669" targetId="e1af-3516-f5f1-e666" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="865e-6632-5e57-d27e" name="Ring of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4241-3e3d-d92e-7e7d" targetId="b07d-dfad-b7fd-f5a4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7a23-cd9e-a102-cb21" targetId="db62-8269-a37e-c5ca" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ad4b-bd96-01fe-0897" targetId="f100-dbfb-9772-2163" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="07a0-2b75-0b65-24c6" name="Gloves of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6aad-03eb-2dbf-715b" targetId="b43d-21ca-59f2-3dbd" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7c04-bb81-b0fc-0665" targetId="6b35-fb14-1b28-6510" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1bd1-689b-fd15-9937" targetId="cda8-5268-35bc-1efa" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="5af6-a491-03c6-5026" name="Robes of Arrow Turning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="35b2-4daf-2c30-4df1" targetId="f64a-a5fa-81f1-3e98" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="de17-d965-032e-3c0a" targetId="7459-d19c-4fa4-e484" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d373-8f6d-89ba-1dce" targetId="2280-51bd-a73e-3cee" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="e89c-d994-3fba-cfa6" name="Candle of Summoning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6e28-0b49-496a-2943" targetId="8ca2-7dfb-6f68-e8a3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2615-3dbb-2a92-30f3" targetId="2bf7-9620-ca93-4adb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="578c-5b8a-40f9-d45a" targetId="5bc4-84ca-2e59-3814" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="22aa-6068-3148-6095" name="Gloves of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="207f-6f4b-fb7b-6d55" targetId="5bb5-2ae1-051e-2d36" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ea4c-638b-1766-1413" targetId="5efc-f9e3-2c54-af65" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8787-38c2-5445-5a20" targetId="f044-b34a-b299-4137" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="23b4-486f-d8ae-6aec" name="Belt of Animal Repellence" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="26ac-45d9-77e7-22a0" targetId="9828-2f9f-b48d-e4e9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ab32-ce78-201f-018a" targetId="52f7-ed85-d08e-b3fc" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="db68-b993-bef1-ba01" targetId="211b-31be-1dc2-6659" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="6894-5332-0917-7568" name="Horn of Destruction" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ce8e-c6d3-d37c-bd81" targetId="eb6e-91ce-9fc3-7ef4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7ab3-fc66-7133-c607" targetId="da13-3137-0f55-1a71" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="154b-7f62-f7b0-fb57" targetId="1385-3fe2-0ec8-b15e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="da6f-0b44-9ab8-1e70" name="Fate Stone" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1fc3-8465-10c5-78bf" targetId="126f-4512-9fdc-2bfb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4626-55d2-40b7-7b6c" targetId="7e41-f80b-e573-54d2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8cd2-e798-4f33-5a4e" targetId="cbe5-3bd6-ef74-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="9dea-8a40-872e-52b5" name="Drinking Horn of Healing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="85f8-56f6-ea10-8602" targetId="2c92-d146-df51-1c48" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d804-0dbb-62ce-d7b5" targetId="37c1-6752-116f-05c4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="798c-7eab-68d4-92c9" targetId="be23-7084-e834-c956" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="5c93-feeb-2d3f-baa6" name="Banner of Courage" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="e4a2-677c-6400-9d5e" targetId="b502-02b5-3247-0735" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e645-223a-1bf0-4728" targetId="c7a2-9f0e-1b66-3782" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e150-79fd-7a59-e6c8" targetId="e552-113d-e7e4-791a" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -32293,7 +32608,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target figure will act first next turn, in a special phase before either player’s wizard phase. If this spell is cast multiple times in the same turn, all figures so affected will act in this special phase, starting with the last figure to have had Fast Act cast upon it, and concluding with the first."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -32581,7 +32896,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If this spell is successfully cast, all bow and crossbow attacks are -1 for the rest of the game. This spell may be cast multiple times (and by multiple spellcasters), with each additional casting increasing the penalty by a further -1, up to a maximum penalty of -10."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="bb42-fa2f-43fb-22f3" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -32773,7 +33088,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell is cast upon a weapon. The next time this weapon causes at least 1 point of damage, it inflicts an additional 5 points of damage."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -32821,7 +33136,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster forms a floating shield to protect himself. This shield absorbs the next 3 points of damage against the spellcaster from any source. Once 3 points have been absorbed the shield vanishes. A spellcaster may only have one Elemental Shield active at any time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -32917,7 +33232,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell creates an impenetrable 6”-long, 3”-high wall within 6” of the spellcaster. At the end of each following turn, roll a d20 – on a 17+ the wall vanishes."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -32965,7 +33280,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="It is assumed that the spellcaster has built a construct prior to using this spell to animate it. If the spell is successfully cast, the construct immediately becomes a member of the warband, taking the place of a soldier. A spellcaster may declare that he is attempting to animate a construct of any size (Small, Medium or Large – see Chapter 6: Bestiary), but the larger the construct, the harder it is to animate, so the following modifiers are applied to his roll to cast the spell: Small -0, Medium -3, Large -6."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33109,7 +33424,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The armour worn by the target now counts as magic armour and grants a +1 to Armour for the rest of the game. Multiple castings of this spell on the same target have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33157,7 +33472,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="A target weapon is given a temporary magic boost by the spellcaster. Melee weapons affected by this spell count as magic weapons and give their users +1 Fight for the rest of the game. Bows and crossbows targeted by the spell give +1 Shoot instead, but do not count as magic weapons. Multiple castings of this spell on the same weapon have no effect. Alternatively, the spell can be used to enchant one arrow or quarrel. This gives +1 Shoot and counts as a magic weapon, but only for the next shot. A bow or crossbow boosted by Enchant Weapon may be used to fire arrows or quarrels similarly enchanted, and the bonuses stack."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33205,7 +33520,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster takes an object, commonly a simple rock, imbues it with magic energy and throws it at his target, whereupon it explodes into hundreds of fragments. The caster picks a target point within 12”. Every figure, including allies, within 1.5” of that point immediately suffers a +3 shooting attack."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33253,7 +33568,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target receives +2 Fight for the rest of the game. Multiple Strength spells on the same target have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33301,7 +33616,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster may move any currently unclaimed treasure within 24” by up to 6” in any direction. As long as he can maintain line of sight to the treasure, he can move it over any terrain or obstacle. If the treasure moves out of line of sight, it immediately falls straight to the ground."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33349,7 +33664,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell causes all humans (i.e. anything not found in Chapter 6: Bestiary) who look at the spellcaster to see a paragon of beauty. Anyone wishing to attack the spellcaster must first pass a Will roll versus the casting roll. Failing this Will roll does not cause the would-be attacker to lose an action. Any model magically compelled to fight the target must also pass a Will roll or suffer -1 to its Fight stat."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33397,7 +33712,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell allows the spellcaster to place one additional treasure token before the start of the game. However, he must also secretly note down which of the treasures he has placed is the Fool’s Gold. When any figure comes into contact with the Fool’s Gold, the treasure token immediately vanishes and is removed from the game."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33445,7 +33760,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="A brightly glowing light surrounds the target figure. For the rest of the game, all shooting attacks against this figure are at +3. Multiple Glow spells on the same target have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33589,7 +33904,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="Any figure wishing to move into contact with the spellcaster must make an immediate Will roll versus the casting roll. If failed, the figure sees a hideous creature instead of the spellcaster and is too scared to attack – he may only make a move that takes him further away. A spellcaster may not have Beauty and Monstrous Form cast at the same time. Undead, constructs, and demons are immune to Monstrous Form."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33637,7 +33952,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster immediately moves to any location within line of sight, but may take no other action this turn. This spell may not be used to enter combat."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33733,7 +34048,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell fires a small, sharp shard of bone at a target. The spellcaster may make an immediate +5 shooting attack against any figure in line of sight. This does not count as a magic attack."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33781,7 +34096,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="A skeletal hand reaches out of the ground and grabs the target’s ankle. The target is held fast and may not move. Any magic form of movement will allow the target to escape the hand. Otherwise, the only way to escape the hand is to fight. The hand has Fight +0 and Health 1. If the hand is damaged, it vanishes, and the target is free. This spell may only be cast against a target that is standing on ground level. The maximum range for this spell is 18”."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33829,7 +34144,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell can be used both ‘Out of Game’ and during the game. If successful, the spellcaster adds one zombie to his warband (see Chapter 6: Bestiary). If the spell is cast before the game, the zombie can be deployed normally. If it is cast during a game, the zombie appears in base contact with the spellcaster. A warband may only have one raised zombie at any one time. If the zombie is killed during a game, Raise Zombie can be cast again to create another. A raised zombie does not count towards the warband size limit and remains with a warband until the end of the game, at which point it crumbles into dust."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -33973,7 +34288,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target must make an immediate Will roll versus the casting roll. If failed, the target immediately loses 3 Health and the spellcaster regains 3 Health. This may not take the spellcaster above his starting health. This spell has no effect on undead, constructs or demons. A spellcaster may target a member of his own warband – if he does, however, the target will immediately (and permanently) leave the warband and will move as quickly as possible off the board."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34021,7 +34336,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell may target a figure within 8”. The target must make a Will roll versus the casting roll or be immediately reduced to 0 Health. All figures may empower their Will roll to resist this spell, even non-spellcasters. The spellcaster immediately loses 1 Health upon attempting this spell (even if it is cast successfully), plus any additional loss incurred by failure or empowerment."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="bb42-fa2f-43fb-22f3" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34061,7 +34376,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </modifier>
       </modifiers>
     </profile>
-    <profile id="dd3c-3f10-0bfc-4edd" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt;Control Undead" hidden="false">
+    <profile id="dd3c-3f10-0bfc-4edd" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Control Undead" hidden="false">
       <characteristics>
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Necromancer"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="12"/>
@@ -34117,7 +34432,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell can only be cast by a wizard, and allows him to absorb the knowledge from a written work without having to read it. A wizard immediately gains 50 experience points for casting this spell to represent the speed with which he can gain knowledge. This spell may only be cast after a game in which the wizard was not reduced to 0 Health."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34213,7 +34528,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell draws a bright rune of power in the sky. The spellcaster may choose one spell for the Draining Word to affect. All rolls to attempt to cast that particular spell are at -3 for the rest of the game. A spellcaster may only have one Draining Word spell in effect at any given time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="07ff-fc73-4ae8-10e0" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34261,7 +34576,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster draws a bright, glowing rune of power on the ground or a wall. A marker should be placed on the table to represent the rune. If any character or creature that was not part of the spellcaster’s warband at the start of the game comes within 1” of the rune, it explodes, and every figure, friend or foe, within 2” suffers an immediate +5 shooting attack. A spellcaster may have up to three such runes in play at any time. At the end of any turn, he may choose to cancel any or all of his runes. If the spellcaster is removed from play, any runes he placed are also removed."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34309,7 +34624,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target is attacked by a sharp animated quill. Although the quill does no damage, it is highly irritating and extremely distracting. While under attack, the target suffers -1 Move, -2 Fight, -4 Shoot and -2 to any casting rolls. At the start of the target’s activation each turn, he may make a Will roll versus the casting roll – if successful, the quill is caught and destroyed. Multiple castings of Furious Quill against the same target have no effect. This spell may be cast against a figure in combat with no penalty."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34357,7 +34672,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell draws a bright rune of power in the sky. The spellcaster may pick one spell for the Power Word to affect. All rolls to cast that particular spell are at +3 for every spellcaster for the rest of the game. Each spellcaster may have only one Power Word in effect at any given time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="07ff-fc73-4ae8-10e0" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34405,7 +34720,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target suffers an immediate +10 attack. Instead of taking damage from this attack, the target is moved 1” directly away from the spellcaster for every point of damage he would have taken. If this pushes the target into a piece of terrain or the edge of the board, he stops immediately. Other figures do not stop (or get hit by) a pushed figure – they are assumed to step out of the way. If the target is pushed off a height, he suffers falling damage as normal."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34501,7 +34816,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell allows the spellcaster to add +1 to his warband’s initiative rolls for the rest of the game. Multiple castings of this spell have no effect, but it may be cast again if the original spellcaster is removed from play."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34693,7 +35008,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell only affects soldiers and creatures. If the target fails a Will roll against the casting roll, he temporarily joins the spellcaster’s warband and can be activated as normal during the soldier phase of the spellcaster’s turn. After each activation, the soldier may make a Will roll versus the casting roll to shake off the spell’s effects. A spellcaster may only have one active Mind Control spell at a time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34789,7 +35104,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="Target gains +3 Will for the rest of the game. Multiple Will Power spells on the same target have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34837,7 +35152,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell may be cast on any terrain feature within 12” that has a flat side, such as most ruins. Place a token next to the terrain feature to represent the Wizard Eye. For the rest of the game, the spellcaster may choose to draw line of sight from the Wizard Eye instead of from his figure when casting spells. The Wizard Eye has 180-degree field of vision. A spellcaster may only maintain one Wizard Eye at a time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34885,7 +35200,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target demon must make an immediate Will roll versus the casting roll. If it fails, the spellcaster gains control of the demon for the rest of the game. A spellcaster may only have one bound demon at a time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34933,7 +35248,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="An imp immediately appears, anywhere within the spellcaster’s line of sight, but no closer than 3” to another figure. The imp follows the normal rules for creatures and will act in the next creature phase. If the same spellcaster casts this spell a second time, the first imp will immediately vanish."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -34981,7 +35296,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target makes an immediate 10” move in any direction, including vertically. This move is not hindered by any terrain unless that terrain is over 10” high. Target may take no other action this turn. This spell cannot be used to move a figure into combat."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35125,7 +35440,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="Although the spellcaster remains in the same physical location, he briefly moves between planes. Until his next activiation, he can ignore all terrain when moving, walking through walls and across chasms. He may not be the target of any shooting attacks or spells. The spellcaster will never be considered in combat during the turn, nor can he be attacked by any figure. However, he also may not pick up treasure, or in any way affect other characters or terrain on the board. If he is carrying treasure, he drops it. It is incredibly draining to move between planes of existence, so if a spellcaster attempts to cast this spell in a second consecutive turn, he suffers a -5 modifier. He suffers a -10 modifier if he attempts it three turns in a row and -15 on the fourth turn and beyond."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="07ff-fc73-4ae8-10e0" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35269,7 +35584,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If successfully cast, all demons within line of sight of the spellcaster must pass an immediate Will roll versus the casting roll or be removed from the game."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35317,7 +35632,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target must make an immediate Will roll versus the casting roll. If he fails, he may not attack, shoot, or cast Line of Sight spells. His Fight stat is reduced to +0 and Move to 1. At the start of each turn, the figure may attempt to break the spell by making another Will roll against the same target, otherwise the effects last until the end of the game."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35461,7 +35776,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell restores 5 points of Health to the target model. This spell cannot take a model above its starting health."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35557,7 +35872,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell can only be cast by a wizard. A wizard may cast this spell immediately after a game in which a member of his warband has died. If successful, that figure is brought back to life, and may return to action in the very next game."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="0f65-b8db-1524-90e3" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35605,7 +35920,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target receives +2 Armour for the rest of the game. Multiple Shield spells on the same target have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35653,7 +35968,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster summons an animal companion of his choice from the following options to join his warband: Bear, Wolf, Snow Leopard, Ice Toad (see Chapter 6: Bestiary). The animal takes the place of a soldier for the purposes of maximum warband size. Animal companions may not collect treasure or carry items. They may be controlled by another spellcaster using the Control Animal spell, although they will re-join their original warband after the game. Animal companions are more strongwilled than wild examples of their species – give them +2 to the Will stat found in the appropriate Bestiary entry. A spellcaster may only have one animal companion at any time."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35797,7 +36112,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target must pass a Will roll versus the casting roll or suffer -1 to its Fight, Shoot, and Will stats for the rest of the game. This spell may be cast on the same target up to five times, for a maximum of 5 to each of the three stats."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35845,7 +36160,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="A spellcaster may attempt to cast this spell before any game. If successful, he gains a familiar in the form of a small creature of his choosing. A spellcaster with a familiar gains +2 Health (write as a split stat). If the spellcaster is ever reduced to his last point of health, the familiar is destroyed. At the start of the next game, the spellcaster will revert to his normal health, unless another Familiar spell is successfully cast. This additional health may take a spellcaster over his usual maximum for the stat."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35893,7 +36208,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="A line of fog, 6” long, 3” high and 1” thick settles across the battlefield within line of sight of the caster (use cotton or paper to mark the patch of fog). Figures can move through the fog with no difficulty, but no-one may draw line of sight through it. At the start of each new turn, roll a d20. On a result of 19 or 20 the fog dissipates and is removed from the table."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35941,7 +36256,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="All ground within a 3” radius of a target point becomes rough ground for the rest of the game."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>
@@ -35989,7 +36304,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster flings a small dart coated in a potent poison. The spellcaster makes an immediate +5 shooting attack against any figure in line of sight. If the attack beats the target’s Armour it causes no damage, but he loses one of his two standard actions per activation for the rest of the game, or until healed by either a Heal spell or a Healing Potion. The remaining action does not have to be the otherwise compulsory movement. Multiple Poison Darts against the same figure have no effect."/>
       </characteristics>
       <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>

@@ -409,7 +409,7 @@
     <entry id="ee10-8941-0b51-736b" name="&gt; Apprentice" points="-200.0" categoryId="fa4d-3d35-e3f9-27e7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="8309-8d7f-3c54-907f" name="Items" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8309-8d7f-3c54-907f" name="Items" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="0fa2-987e-7928-fb6c" name="&lt; Scrolls &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -418,7 +418,7 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="888e-33d1-ad04-a412" name="&lt; Additional Weapons &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="888e-33d1-ad04-a412" name="&lt; Additional Weapons &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="2b7e-5386-79fc-d3b6" name="Bow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -1078,7 +1078,7 @@
         </link>
       </links>
     </entry>
-    <entry id="53aa-c429-0da7-9e79" name="Theif" points="-20.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="53aa-c429-0da7-9e79" name="Thief" points="-20.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -16346,6 +16346,14 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="2761-d2af-6dee-2ab5" name="Gc Total Gained " points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="76fc-69ef-eb9c-aaf8" name="Giant Couldron" points="-250.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -17836,14 +17844,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <links/>
     </entry>
     <entry id="a139-f674-886a-bfe2" name="Will" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="8" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="2761-d2af-6dee-2ab5" name="Gc Total Gained " points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -34136,6 +34136,54 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </modifier>
       </modifiers>
     </profile>
+    <profile id="dd3c-3f10-0bfc-4edd" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Control Undead" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Necromancer"/>
+        <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="12"/>
+        <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="LoS"/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If successfully cast, the target undead creature must make an immediate Will roll versus the casting roll. If the roll fails, the spellcaster gains control of the undead creature for the rest of the game. A spellcaster may only control one undead creature at a time."/>
+      </characteristics>
+      <modifiers>
+        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="2364-f26b-88ce-c406" value="(+4)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="category" childId="c2ea-6b1e-ec1b-d267" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="59c2-d727-553a-4971" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="702f-2191-1dc9-833d" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="3a19-898e-4e2c-f86f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="6d6e-db56-9151-7d85" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="append" field="2364-f26b-88ce-c406" value="(+2)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="category" childId="92ae-96e6-5aca-f1dc" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="d660-5c87-f7e3-e1a5" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="category" childId="6a83-b84e-41c6-e258" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="append" field="2364-f26b-88ce-c406" value="(+6)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="e27d-8698-2ac2-fc8f" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </profile>
     <profile id="f7bf-6658-4105-9ca8" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Raise Zombie" hidden="false">
       <characteristics>
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Necromancer"/>
@@ -34337,54 +34385,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="bb42-fa2f-43fb-22f3" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="append" field="2364-f26b-88ce-c406" value="(+4)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition parentId="category" childId="c2ea-6b1e-ec1b-d267" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="59c2-d727-553a-4971" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="702f-2191-1dc9-833d" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="3a19-898e-4e2c-f86f" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="6d6e-db56-9151-7d85" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="append" field="2364-f26b-88ce-c406" value="(+2)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition parentId="category" childId="92ae-96e6-5aca-f1dc" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="d660-5c87-f7e3-e1a5" field="selections" type="equal to" value="1.0"/>
-                <condition parentId="category" childId="6a83-b84e-41c6-e258" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="append" field="2364-f26b-88ce-c406" value="(+6)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="category" childId="e27d-8698-2ac2-fc8f" field="selections" type="equal to" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-    </profile>
-    <profile id="dd3c-3f10-0bfc-4edd" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Control Undead" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Necromancer"/>
-        <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="12"/>
-        <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="LoS"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If successfully cast, the target undead creature must make an immediate Will roll versus the casting roll. If the roll fails, the spellcaster gains control of the undead creature for the rest of the game. A spellcaster may only control one undead creature at a time."/>
-      </characteristics>
-      <modifiers>
-        <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
         </modifier>

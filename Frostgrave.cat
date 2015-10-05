@@ -70,25 +70,10 @@
             <link id="60f5-c951-5bdb-1069" targetId="64c7-35f2-2aeb-a9d1" linkType="entry">
               <modifiers/>
             </link>
-            <link id="237a-e93a-b0b7-fb21" targetId="449a-0d36-a17b-cce7" linkType="entry group">
+            <link id="62a6-e579-836b-9020" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="a965-ae3d-4ce3-d2b3" targetId="cd58-a102-ab51-93f2" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bb89-797c-e402-4bda" targetId="1bcd-d03d-9b0b-06bd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d3f4-fe53-1f32-99d6" targetId="eed3-d2d8-4fe3-0b93" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="623d-a002-44b9-0db9" targetId="a917-22f4-8825-4a93" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="62a6-e579-836b-9020" targetId="740a-93f0-64b7-63ef" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d051-3612-a757-a30f" targetId="e1e4-9b4b-45cf-bd59" linkType="entry">
+            <link id="100b-c18d-d8e4-0140" targetId="fe8a-9a3a-047c-56a5" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -745,6 +730,9 @@
         <link id="8b54-af80-fc00-dccb" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8623-3346-6df0-dee6" targetId="fe8a-9a3a-047c-56a5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="57b0-cdb9-8498-6755" name="Apothacary" points="-100.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -764,6 +752,9 @@
           <modifiers/>
         </link>
         <link id="c38a-dd44-575e-c7e1" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a480-7e9b-d9a0-2762" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -787,6 +778,9 @@
         <link id="e787-a435-d38e-7355" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="8c01-59e3-2c7e-ff98" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="4329-2c3a-1bcb-b182" name="Barbarian" points="-100.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -806,6 +800,9 @@
           <modifiers/>
         </link>
         <link id="9d3b-57a1-4ad6-665b" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b2bd-1376-9805-f488" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -906,6 +903,9 @@
         <link id="b3b9-c076-2409-7e47" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="c0a2-e1e0-a955-1205" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f402-0f9a-6731-597c" name="Infantryman" points="-50.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -927,6 +927,9 @@
         <link id="e4d0-a213-aab3-01f6" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3b16-b6af-3cd7-7ae0" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="7a01-354d-4fc2-4f5c" name="Knight" points="-100.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -946,6 +949,9 @@
           <modifiers/>
         </link>
         <link id="8b35-8ac7-a739-5b92" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="707e-72df-e14f-ccce" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -993,6 +999,9 @@
         <link id="e25d-d3c0-aa3b-137b" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3eae-40bc-c156-076b" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e34b-ae2c-d99b-39c5" name="Marksman" points="-100.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1012,6 +1021,9 @@
           <modifiers/>
         </link>
         <link id="6022-e1eb-6a9d-38c8" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5764-cd7b-63f6-473c" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1047,6 +1059,9 @@
         <link id="f03f-c965-1f93-92c6" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="4f59-0b50-3e09-3de4" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="cdf3-7678-021f-dddd" name="Scrolls and Grimoires " points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1076,6 +1091,9 @@
         <link id="6139-2edc-43ca-c83c" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="46c5-d720-3f48-74fa" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="53aa-c429-0da7-9e79" name="Thief" points="-20.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1095,6 +1113,9 @@
           <modifiers/>
         </link>
         <link id="a6a1-0cf4-2239-f70a" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bdf9-3719-abd5-523d" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1121,6 +1142,9 @@
         <link id="b4e3-7ab1-8ace-2daa" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="01c7-51ff-a759-7562" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0df2-ddae-45ba-76b1" name="Tracker" points="-80.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1140,6 +1164,9 @@
           <modifiers/>
         </link>
         <link id="6c60-c24e-134f-99a2" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e592-7066-2175-4730" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1163,6 +1190,9 @@
         <link id="13cf-c8e2-f961-9f71" targetId="417c-3fbc-944d-5cba" linkType="entry">
           <modifiers/>
         </link>
+        <link id="80ce-fb97-5609-89cb" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e627-870f-d7dc-496d" name="War Hound" points="-10.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1176,6 +1206,9 @@
           <modifiers/>
         </link>
         <link id="5180-ae6c-9c42-1adc" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac6d-0012-4458-489c" targetId="d411-8347-3254-d33e" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17851,6 +17884,68 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
+    <entry id="fe8a-9a3a-047c-56a5" name="&gt; Current Injury " points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="817f-3dd7-2748-31ef" name="Permannet Injury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4f21-c29c-7fa1-eef9" targetId="449a-0d36-a17b-cce7" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="554e-0e43-9e1f-8be9" name="Badly Wounded" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="91f7-c285-9c69-25c0" name="Medical Treatment" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="a5a1-4673-7839-0e73" name="Close Call" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="33e1-0a68-1abb-a13c" name="Full Recovery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d411-8347-3254-d33e" name="Badly Wounded" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="6c89-a6c7-8fbf-2d00" name="&lt; Apothecary Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -32463,6 +32558,31 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </entryGroups>
       <modifiers/>
       <links/>
+    </entryGroup>
+    <entryGroup id="bb8e-2317-8baf-5a7b" name="0 &lt; Accomplishments" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="cacd-5022-c677-b3f8" targetId="740a-93f0-64b7-63ef" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4438-f9e4-2d99-73fd" targetId="eed3-d2d8-4fe3-0b93" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c08c-7254-bae6-a087" targetId="1bcd-d03d-9b0b-06bd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="19e9-01e6-6c7d-4552" targetId="a917-22f4-8825-4a93" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6bea-80cd-d5cf-0d79" targetId="e1e4-9b4b-45cf-bd59" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7198-9a85-2320-6486" targetId="cd58-a102-ab51-93f2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>

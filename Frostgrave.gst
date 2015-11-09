@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a9da-82ef-3b8b-12ce" revision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a9da-82ef-3b8b-12ce" revision="3" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
-    <forceType id="f580-839a-93a0-d53d" name="Warband" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+    <forceType id="f580-839a-93a0-d53d" name="Warband" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
-        <category id="fa4d-3d35-e3f9-27e7" name="Spell Caster" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="f1ad-01b3-8196-8ce7" name="Soldier" minSelections="0" maxSelections="10" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="fa4d-3d35-e3f9-27e7" name="Spell Caster" minSelections="0" maxSelections="2" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="fa4d-3d35-e3f9-27e7" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </category>
+        <category id="f1ad-01b3-8196-8ce7" name="Soldier" minSelections="0" maxSelections="8" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
+              <conditions>
+                <condition parentId="76d1-4c3a-d8f9-fb40" field="selections" type="equal to" value="1.0"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -17,31 +24,41 @@
         <category id="bfe9-45fe-e307-9a74" name="Creatures (Lurking)" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-      </categories>
-      <forceTypes/>
-    </forceType>
-    <forceType id="8d9f-c822-cdb9-93cd" name="Vault" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-      <categories>
-        <category id="3a24-765d-4f91-7c7f" name="Treasure" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="b994-18e3-3f33-5419" name="&gt; Kennel" minSelections="0" maxSelections="1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="c3cb-5d03-199e-a7da" name="Potions" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="76d1-4c3a-d8f9-fb40" name="&gt; Inn" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="47bb-1d54-50fc-5b60" name="Scrolls and Grimoires" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="6c96-f177-4923-b1d1" name="&gt; Brewery" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="64d6-3636-e936-5a2d" name="Magic Weapons and Armour" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="8cea-a390-c3bd-e238" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
-          <modifiers/>
-        </category>
-        <category id="b91f-ea20-3187-d242" name="Base and Base Resources" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="c1d6-d604-d519-f90a" name="&gt; Dead or Dismissed" minSelections="0" maxSelections="1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
-      <forceTypes/>
+      <forceTypes>
+        <forceType id="438c-37cd-75ac-c2e7" name="The Vault" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <categories>
+            <category id="33d4-3817-59d1-3bed" name="Magic Weapons and Armour" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="433d-8388-71a8-973e" name="Magic Items" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="f477-087f-8629-edd2" name="Potions" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="f177-00a1-e820-9fad" name="Scrolls and Grimoires" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="1ac1-c711-5ac8-b33a" name="Base and Base Resources" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+          </categories>
+          <forceTypes/>
+        </forceType>
+      </forceTypes>
     </forceType>
   </forceTypes>
   <profileTypes>
@@ -141,6 +158,16 @@
         <characteristic id="e360-7860-ae46-6276" name="W"/>
         <characteristic id="bb76-5d89-4e44-4dd6" name="H"/>
         <characteristic id="043a-9a1d-0a73-c09c" name="Notes"/>
+      </characteristics>
+    </profileType>
+    <profileType id="6aa0-7599-3110-557a" name="Stock">
+      <characteristics>
+        <characteristic id="2e11-70f5-81d9-c89f" name="Av. Qty"/>
+      </characteristics>
+    </profileType>
+    <profileType id="d2e1-58ef-48e2-3240" name="Gc">
+      <characteristics>
+        <characteristic id="9a7b-819f-6af1-9f52" name="Amount"/>
       </characteristics>
     </profileType>
   </profileTypes>

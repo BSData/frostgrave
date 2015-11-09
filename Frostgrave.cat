@@ -2270,7 +2270,6 @@
         </link>
       </links>
     </entry>
-<<<<<<< HEAD
     <entry id="cdf3-7678-021f-dddd" name="Grimoires " points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2283,8 +2282,6 @@
         </link>
       </links>
     </entry>
-=======
->>>>>>> origin/master
     <entry id="f402-0f9a-6731-597c" name="Infantryman" points="-50.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -2752,22 +2749,14 @@
         </link>
       </links>
     </entry>
-<<<<<<< HEAD
     <entry id="71f9-55ce-0c01-166d" name="Scrolls" points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-=======
-    <entry id="cdf3-7678-021f-dddd" name="Scrolls and Grimoires " points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
->>>>>>> origin/master
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-<<<<<<< HEAD
         <link id="1b56-a8c6-1d3e-626e" targetId="8d7e-efd7-84de-64c8" linkType="entry group">
-=======
-        <link id="6bed-1b91-f252-c3a7" targetId="148d-6ed6-5c3f-2b76" linkType="entry group">
->>>>>>> origin/master
           <modifiers/>
         </link>
       </links>
@@ -41935,11 +41924,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-<<<<<<< HEAD
     <entryGroup id="148d-6ed6-5c3f-2b76" name="&gt; V- Grimoires &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-=======
-    <entryGroup id="148d-6ed6-5c3f-2b76" name="&gt; V- Grimoires" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
->>>>>>> origin/master
       <entries/>
       <entryGroups>
         <entryGroup id="ae54-6cb5-c6f3-6942" name="Chronomancer" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -44346,11 +44331,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-<<<<<<< HEAD
     <entryGroup id="8d7e-efd7-84de-64c8" name="&gt; V- Scrolls &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-=======
-    <entryGroup id="8d7e-efd7-84de-64c8" name="&gt; V- Scrolls" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
->>>>>>> origin/master
       <entries/>
       <entryGroups>
         <entryGroup id="eab2-defe-819a-ad88" name="Chronomancer" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">

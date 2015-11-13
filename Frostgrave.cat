@@ -2303,6 +2303,8 @@
       </links>
     </entry>
     <entry id="cdf3-7678-021f-dddd" name="Grimoires " points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+<<<<<<< HEAD
+=======
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2528,6 +2530,245 @@
       <profiles/>
       <links>
         <link id="27d0-a4a5-0d9c-0916" targetId="cd08-c844-aed3-65fd" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6c11-2f6a-460a-49d6" name="Magic Weapons and Armour " points="0.0" categoryId="33d4-3817-59d1-3bed" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+>>>>>>> refs/remotes/BSData/master
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6bed-1b91-f252-c3a7" targetId="148d-6ed6-5c3f-2b76" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f402-0f9a-6731-597c" name="Infantryman" points="-50.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2e8d-8218-65e6-63a0" name="Only Select if cost mod has been selected after the soldier. Not before!" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e302-d172-e031-e348" name="Carrier Pigeon Modi." points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="401a-0f7d-8720-bc05" name="Brewery Modi." points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7fe7-cd0a-8b63-98b7" targetId="5944-e42a-f9cd-a5a1" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a6ea-4a9c-0189-38b6" targetId="c33c-c50c-c6d6-2e94" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d575-686c-ed99-e0aa" targetId="a660-2779-4b21-6e11" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e4d0-a213-aab3-01f6" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3b16-b6af-3cd7-7ae0" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8460-e155-8e7a-d431" name="Inn" points="0.0" categoryId="76d1-4c3a-d8f9-fb40" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="bdbf-74f6-9731-a40c" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d7e9-0573-b5f1-d7e9" name="Kennel" points="0.0" categoryId="b994-18e3-3f33-5419" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries>
+        <entry id="d341-de0f-9858-bded" name="War Hound" points="-10.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a88d-5c97-962a-b142" targetId="c671-4cdf-7570-38f3" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f6ca-6761-88a1-cace" targetId="417c-3fbc-944d-5cba" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2b8e-b71a-c04e-0668" targetId="d411-8347-3254-d33e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c17a-bf7a-bd08-15af" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="7a01-354d-4fc2-4f5c" name="Knight" points="-100.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5788-43d1-a2f3-7933" name="Only Select if cost mod has been selected after the soldier. Not before!" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="859e-f6c9-96be-e67f" name="Carrier Pigeon Modi." points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="dfbe-61ca-33dc-ff4c" name="Brewery Modi." points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d5bd-5e70-3392-fb80" targetId="d1ba-5250-a367-f6aa" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7c5f-bb47-6872-e7e7" targetId="4dd1-624a-1fc5-fa57" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0689-5747-46ae-2ee8" targetId="a660-2779-4b21-6e11" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8b35-8ac7-a739-5b92" targetId="417c-3fbc-944d-5cba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="707e-72df-e14f-ccce" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+<<<<<<< HEAD
+    <entry id="52c5-09a1-1ec5-88b6" name="Magic Items " points="0.0" categoryId="433d-8388-71a8-973e" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="1.0E10" maxPoints="-1.0" collective="false" hidden="false">
+=======
+    <entry id="71f9-55ce-0c01-166d" name="Scrolls" points="0.0" categoryId="f177-00a1-e820-9fad" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+>>>>>>> refs/remotes/BSData/master
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+<<<<<<< HEAD
+        <link id="27d0-a4a5-0d9c-0916" targetId="cd08-c844-aed3-65fd" linkType="entry group">
+=======
+        <link id="1b56-a8c6-1d3e-626e" targetId="8d7e-efd7-84de-64c8" linkType="entry group">
+>>>>>>> refs/remotes/BSData/master
           <modifiers/>
         </link>
       </links>

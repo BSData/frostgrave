@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a9da-82ef-3b8b-12ce" revision="3" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a9da-82ef-3b8b-12ce" revision="4" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="f580-839a-93a0-d53d" name="Warband" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -168,6 +168,11 @@
     <profileType id="d2e1-58ef-48e2-3240" name="Gc">
       <characteristics>
         <characteristic id="9a7b-819f-6af1-9f52" name="Amount"/>
+      </characteristics>
+    </profileType>
+    <profileType id="d398-8745-b759-e0f4" name="BADLY WOUNDED">
+      <characteristics>
+        <characteristic id="19f9-3109-c490-4ac2" name="BADLY WOUNDED!"/>
       </characteristics>
     </profileType>
   </profileTypes>

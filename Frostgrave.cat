@@ -778,7 +778,7 @@
           <entryGroups>
             <entryGroup id="85f9-3c6f-f624-9eee" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="f53b-379c-01e0-0d5b" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f53b-379c-01e0-0d5b" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -793,7 +793,7 @@
             </entryGroup>
             <entryGroup id="20e1-ba21-571e-65ba" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="1df7-7dda-4cee-bf50" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="1df7-7dda-4cee-bf50" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -801,7 +801,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="26ca-ed1e-edb4-4407" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="26ca-ed1e-edb4-4407" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -810,21 +810,6 @@
                   <links/>
                 </entry>
                 <entry id="9722-5087-884a-1dd6" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="de37-af58-d877-8881" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="c3dc-f53b-3ec6-5a1b" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -847,15 +832,119 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="407c-ad71-8e0a-35ca" name="&gt;Dead or Dismissed Apprentice" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="e27e-66a8-a362-16e1" name="First Apprentice" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4cd8-0ace-30c9-14d4" name="First Dead or Dismissed Apprentice" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="fb82-7095-c9c1-a369" name="No. Secondary weapons lost and baught" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="c70c-badf-be51-ccb6" name="Second Apprentice" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="592f-c998-871e-ceb8" name="Second Aprrentice Dead or Dismissed" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="bdef-e47a-5f71-218e" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="68fc-8129-3d4c-a248" name="No. Secondary weapons lost and baught" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="bdef-e47a-5f71-218e" name="Wizard level at time of purchase" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="51ce-f717-93a0-11e4" name="Third Apprentice" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3654-5d1c-1d23-b8c5" name="Third Aprrentice Dead or Dismissed" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="points" value="10.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="bdef-e47a-5f71-218e" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="90f7-12a2-a149-8cb0" name="No. Secondary weapons lost and baught" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="523b-8a31-3507-6a7e" name="Wizard level at time of purchase" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="3df5-83c3-2b60-3165" name="&gt;Dead or Dismissed Archer" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="49c7-9d2f-cdfb-7f2b" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e9ae-d2af-9dd8-d2aa" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="a316-483d-ff58-8a82" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="1aa9-f6c8-bf5c-f781" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="e75f-a161-b3ab-5075" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="4770-0812-987c-6a7b" name="No. Killed or Dismissed" points="-50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -868,9 +957,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="2994-5061-18a3-86e0" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="ccf0-a47f-a2ae-c913" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="83c1-d098-0101-02d4" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="75f8-0a3b-ab0e-f9a5" name="No. Carrier Pigeons Only" points="-49.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -878,7 +967,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="43f6-fb3d-9e3c-d8a4" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f512-6cb1-6f24-d2c7" name="No. Brewery Only" points="-45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -886,22 +975,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="073a-66c6-5b5b-b0b0" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="7ff2-ce38-9703-9794" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="c5d7-c41d-8a3f-494b" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="2b82-8153-3055-6f40" name="No. Both " points="-44.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -932,7 +1006,7 @@
           <entryGroups>
             <entryGroup id="b022-484e-04f8-669f" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="90e3-386b-2b62-6914" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="90e3-386b-2b62-6914" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -947,7 +1021,7 @@
             </entryGroup>
             <entryGroup id="c879-2162-220c-f4b5" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="47da-b05f-badb-8413" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="47da-b05f-badb-8413" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -955,7 +1029,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="5770-70ef-fca5-f407" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="5770-70ef-fca5-f407" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -963,22 +1037,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="597a-5482-b196-146d" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="bea2-0178-93b3-563f" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="6277-3562-45df-c2ed" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="597a-5482-b196-146d" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1004,12 +1063,12 @@
     <entry id="d099-953c-a7dc-afe0" name="&gt;Dead or Dismissed Crossbowman" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="8c7c-e9fb-98db-2ff7" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ef20-1cbc-a05a-7c42" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="e05d-1db3-1c48-ca3c" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="6f5d-bb34-1fcd-5537" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="1220-682c-c30e-23c8" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="7915-80b7-9ad4-ede8" name="No. Killed or Dismissed" points="-50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1022,9 +1081,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="3250-c150-4ecd-089a" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="afb1-1cfb-72c8-f4ff" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="adbb-51f4-bf43-a434" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="8002-81bc-2c12-95d5" name="No. Carrier Pigeons Only" points="-49.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1032,7 +1091,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="c7a0-db4f-3ba2-7398" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0fbe-65cc-506f-b739" name="No. Brewery Only" points="-45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1040,22 +1099,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="f949-c0ea-6467-283e" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="6715-34a8-ecdb-f6bf" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="c689-2c14-b4b5-535a" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="fb93-8c71-f00f-d093" name="No. Both " points="-44.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1086,7 +1130,7 @@
           <entryGroups>
             <entryGroup id="974b-6270-898c-aa33" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="f368-bf3c-f914-345b" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f368-bf3c-f914-345b" name="No. Killed or Dismissed" points="-50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1101,7 +1145,7 @@
             </entryGroup>
             <entryGroup id="ab13-0a8c-20d3-13ff" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="3d56-5898-3c22-0ad4" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="3d56-5898-3c22-0ad4" name="No. Carrier Pigeons Only" points="-49.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1109,7 +1153,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="591b-c22e-e0e4-1390" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="591b-c22e-e0e4-1390" name="No. Brewery Only" points="-45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1117,22 +1161,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="f8c8-ec19-291e-2a2e" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="f421-4faf-4c2a-1735" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="74aa-ec18-f52e-5f22" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f8c8-ec19-291e-2a2e" name="No. Both " points="-44.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1158,12 +1187,12 @@
     <entry id="3181-e28f-4173-bd67" name="&gt;Dead or Dismissed Knight" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="a17e-edf7-1bda-2dcd" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5fcc-c170-0cd5-4b0f" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="b4fb-0099-0c18-5b48" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="255d-a990-4d97-ce10" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="b543-4507-a28f-e028" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0b4c-9264-ae8c-550d" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1176,9 +1205,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="7eb8-6f8e-f81b-a1d5" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9b1b-cf44-6ec3-0017" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="5066-f36e-dec3-1c6a" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f0c0-15cc-6f01-959d" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1186,7 +1215,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e0ad-bac1-14db-bb06" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="1445-967b-e3ae-c5ef" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1194,22 +1223,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="03cf-449e-cf07-ded8" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="5b1e-d71c-684f-cd61" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="73c5-766a-0bff-e187" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="6275-a6c7-4af8-aed8" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1240,7 +1254,7 @@
           <entryGroups>
             <entryGroup id="6986-1983-003c-42ae" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="a94d-7fb1-0a31-5f8a" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="a94d-7fb1-0a31-5f8a" name="No. Killed or Dismissed" points="-80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1255,7 +1269,7 @@
             </entryGroup>
             <entryGroup id="b370-8303-6673-56c0" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="ddf2-736b-e3f8-60f6" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="ddf2-736b-e3f8-60f6" name="No. Carrier Pigeons Only" points="-79.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1263,7 +1277,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="9299-dd32-d972-7598" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="9299-dd32-d972-7598" name="No. Brewery Only" points="-75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1271,22 +1285,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="36a2-479e-1278-3cf3" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="610d-ce33-5038-f1e4" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="4ef8-9172-d1db-ab48" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="36a2-479e-1278-3cf3" name="No. Both " points="-74.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1312,12 +1311,12 @@
     <entry id="f703-4b1e-1c25-4e1b" name="&gt;Dead or Dismissed Marksman" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="f16b-c2c2-fccd-6a8e" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="0cbd-b50b-e9a9-0e2a" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="61f2-7ad6-7cbd-a368" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="31dd-8611-4ce3-76ce" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="298b-8637-c7e3-ddf7" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="a47a-5cbf-de27-cece" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1330,9 +1329,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="587d-bd2d-e877-22c9" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="b80e-2ae6-e3ea-f5c5" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="1ddc-ddc0-03fe-5d8e" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="b601-a2b5-cbec-ae0e" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1340,7 +1339,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="c511-409d-9ffd-9082" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="f99e-b175-be57-a2c7" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1348,22 +1347,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="0742-2dbe-4ebc-740f" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="70fb-23dd-3089-88cc" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="e9c7-6a1f-2665-8da9" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="02f6-e3e6-d07e-763d" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1389,12 +1373,12 @@
     <entry id="a4a9-d8ac-f99e-a563" name="&gt;Dead or Dismissed Ranger" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="e575-61ae-a9f7-080e" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="532a-e67f-cb10-b5b4" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="039f-bf8a-46e9-77c4" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="5ecc-9034-9d08-e10d" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="b7f7-7f3e-c2e6-afd0" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="23a9-eca6-7ba7-5515" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1407,9 +1391,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="c82f-1fdb-9a75-48b0" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="f303-9dbb-98c8-54a3" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="2373-73d2-8da0-3dbe" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="3b3b-b559-7de6-a164" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1417,7 +1401,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="88c7-ca18-cca0-4fa5" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="b618-fcae-9134-3688" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1425,22 +1409,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="1f85-71b6-d78c-d7eb" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="3c0a-a0a6-73eb-cde8" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="3dd3-9f90-37c0-b42d" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="062c-6e51-1f17-fec2" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1471,7 +1440,7 @@
           <entryGroups>
             <entryGroup id="a13e-d89e-0f49-63bc" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="0b01-b7de-9060-b79c" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="0b01-b7de-9060-b79c" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1486,7 +1455,7 @@
             </entryGroup>
             <entryGroup id="dd8b-8f38-fdad-05b9" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="b581-9a7a-d832-2833" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="b581-9a7a-d832-2833" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1494,7 +1463,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="1199-eced-bbf4-ac5e" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="1199-eced-bbf4-ac5e" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1502,22 +1471,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e2ed-28ca-5bdc-3169" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="8850-dedd-6e5d-4c84" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="d2a8-664e-dced-dd5f" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e2ed-28ca-5bdc-3169" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1543,12 +1497,12 @@
     <entry id="4d8f-0295-babc-a323" name="&gt;Dead or Dismissed Thief" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="5e81-9963-4b37-d252" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7d9d-ff7b-e20a-22e0" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="d78e-e177-c55b-356f" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="093a-3f26-d12d-7a81" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="ab7c-6fb9-2415-6ccf" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="d83b-be6c-a341-379c" name="No. Killed or Dismissed" points="-20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1561,9 +1515,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="c0e3-bb01-bdf3-b8da" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="4da0-4945-8d43-11d6" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="19f3-3fa7-9b12-c880" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="2307-610e-2ea5-5efd" name="No. Carrier Pigeons Only" points="-19.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1571,7 +1525,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="547e-910f-4a9f-8c43" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="73dc-8308-c880-003a" name="No. Brewery Only" points="-15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1579,22 +1533,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="9436-a35e-dedf-e74d" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="50bc-53dd-efb8-2b6c" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="db24-5b8e-31cf-03bd" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="4cb9-30d7-98c3-157a" name="No. Both " points="-14.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1625,7 +1564,7 @@
           <entryGroups>
             <entryGroup id="06d3-afd9-f32a-b888" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="2787-be37-5465-948b" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="2787-be37-5465-948b" name="No. Killed or Dismissed" points="-20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1640,7 +1579,7 @@
             </entryGroup>
             <entryGroup id="8845-09d5-6817-0c1c" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="e609-6cfa-bf68-2d0f" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e609-6cfa-bf68-2d0f" name="No. Carrier Pigeons Only" points="-19.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1648,7 +1587,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="05b0-dace-3e91-c350" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="05b0-dace-3e91-c350" name="No. Brewery Only" points="-15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1656,22 +1595,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="4d8e-d923-e636-ba1f" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="c2d2-6b9b-797c-8a51" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="109a-010a-7228-623c" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="4d8e-d923-e636-ba1f" name="No. Both " points="-14.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1697,12 +1621,28 @@
     <entry id="7ac4-4537-5327-213d" name="&gt;Dead or Dismissed Tracker" points="0.0" categoryId="c1d6-d604-d519-f90a" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="7a86-d669-9700-e938" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ea44-0ea5-e0cb-7312" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="9a45-a468-55e6-9e8c" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="565d-54e2-d015-0605" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="5292-c917-e5d2-7b5c" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="9d56-e094-3e53-96bc" name="No. Carrier Pigeons Only" points="-79.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="dbb1-cc44-7c2e-17e6" name="No. Brewery Only" points="-75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="d9db-ab7f-33c7-e696" name="No. Both " points="-74.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1715,40 +1655,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="f3b2-ad7f-cbda-467c" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2df1-1ac3-cddc-1250" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="075d-40c3-8e6b-b7b0" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="c469-f879-327d-1bed" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-                <entry id="aa21-ca96-e4ee-bbd2" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="4a04-8b78-9d11-349a" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="908e-a0b7-b625-07ce" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="a915-3eeb-6930-9068" name="No. Killed or Dismissed" points="-80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1777,24 +1686,9 @@
         <entryGroup id="3aea-08e7-8041-2a22" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="2f2d-900e-478d-1c89" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="e6cc-6c0f-e9b0-85b4" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
             <entryGroup id="3f5b-73b3-1834-eabe" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="80fd-fa0c-377f-580c" name="No. Carrier Pigeons Only" points="-9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="80fd-fa0c-377f-580c" name="No. Carrier Pigeons Only" points="-79.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1802,7 +1696,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="7f10-e9df-4ea3-09c4" name="No. Brewery Only" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="7f10-e9df-4ea3-09c4" name="No. Brewery Only" points="-75.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1810,7 +1704,7 @@
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="79e9-95bc-76d2-339c" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="79e9-95bc-76d2-339c" name="No. Both " points="-74.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1823,9 +1717,9 @@
               <modifiers/>
               <links/>
             </entryGroup>
-            <entryGroup id="fa1c-e7d5-8908-b1e7" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="2c0a-5e22-775a-7295" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="9899-41ae-c29d-8131" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="72ac-ee6a-38a6-6d77" name="No. Killed or Dismissed" points="-80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -1888,21 +1782,6 @@
                   <links/>
                 </entry>
                 <entry id="4225-7d0b-baa8-b917" name="No. Both " points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links/>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-            <entryGroup id="64ad-af66-1356-5f08" name="Only use if Soldier is removed before establishing a base" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="55a0-3d7c-15d2-9cdf" name="No. Killed or Dismissed" points="-10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -2071,6 +1950,9 @@
           <modifiers/>
         </link>
         <link id="8c01-59e3-2c7e-ff98" targetId="d411-8347-3254-d33e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="30a9-b32b-25d2-2e4f" targetId="6255-d026-bd5f-82e8" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -21383,7 +21265,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d411-8347-3254-d33e" name="Badly Wounded" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d411-8347-3254-d33e" name="BADLY WOUNDED" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -47001,7 +46883,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Elementalist"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="12"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="Area Effect"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster may make one +0 attack against every enemy figure (either from an opposing warband or a creature) within 12”. This may include enemy figures in combat, although the normal rules for shooting into combat are followed in this case."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster may make a +0 shoot attack against every enemy figure (either from an opposing warband or a creature) within 12”. This may include enemy figures in combat, although the normal rules for shooting into combat are followed in this case."/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
@@ -47055,7 +46937,8 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Elementalist"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="10"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="LoS"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell creates an impenetrable 6”-long, 3”-high wall within 6” of the spellcaster. At the end of each following turn, roll a d20 – on a 17+ the wall vanishes."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell creates an impenetrable 6”-long, 3”-high wall within 6” of the spellcaster. At the end of each following turn, roll a d20 – on a 17+ the wall vanishes. A wall created by the Wall spell may be climbed the same as any other piece of terrain. The wall has no appreciable thickness.
+"/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
@@ -47865,7 +47748,8 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Illusionist"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="10"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="Self Only"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster immediately moves to any location within line of sight, but may take no other action this turn. This spell may not be used to enter combat."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The spellcaster immediately moves to any location within line of sight, but may take no other action this turn. This spell may not be used to enter combat. You may not teleport off the board, although you can teleport right to the edge.
+"/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
@@ -48303,7 +48187,9 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Necromancer"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="10"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="LoS"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target must make an immediate Will roll versus the casting roll. If failed, the target immediately loses 3 Health and the spellcaster regains 3 Health. This may not take the spellcaster above his starting health. This spell has no effect on undead, constructs or demons. A spellcaster may target a member of his own warband – if he does, however, the target will immediately (and permanently) leave the warband and will move as quickly as possible off the board."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="The target must make an immediate Will roll versus the casting roll. If failed, the target immediately loses 3 Health and the spellcaster regains 3 Health. This may not take the spellcaster above his starting health. This spell has no effect on undead, constructs or demons. A spellcaster may target a member of his own warband – if he does, however, the target will immediately (and permanently) leave the warband and will move as quickly as possible off the board. May be cast against a figure with only 1 or 2 Health. In this case, that figure dies, and
+the wizard regains 3 Health.
+"/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="6ef4-b403-0861-cac6" incrementField="selections" incrementValue="1.0">
@@ -49221,7 +49107,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Soothsayer"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="8"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="LoS"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell may be cast on any terrain feature within 12” that has a flat side, such as most ruins. Place a token next to the terrain feature to represent the Wizard Eye. For the rest of the game, the spellcaster may choose to draw line of sight from the Wizard Eye instead of from his figure when casting spells. The Wizard Eye has 180-degree field of vision. A spellcaster may only maintain one Wizard Eye at a time."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="This spell may be cast on any terrain feature within 12” that has a flat side, such as most ruins. Place a token next to the terrain feature to represent the Wizard Eye. For the rest of the game, the spellcaster may choose to draw line of sight from the Wizard Eye instead of from his figure when casting spells. The Wizard Eye has 180-degree field of vision. A spellcaster may only maintain one Wizard Eye at a time. a spellcaster may only use a Wizard Eye that he himself cast. Thus, an apprentice may NOT use one cast by his wizard, or vice versa. A wizard must have line-of-sight to the point where he will place the Wizard Eye. If Crumble is cast on the point of terrain containing the Wizard Eye, the Wizard Eye is destroyed."/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="49b7-39d2-4455-e053" incrementField="selections" incrementValue="1.0">
@@ -49653,7 +49539,8 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="011f-8fbb-628d-1772" name="School" value="Summoner"/>
         <characteristic characteristicId="2364-f26b-88ce-c406" name="BCN" value="12"/>
         <characteristic characteristicId="0d53-e71e-0d65-e84b" name="Cat." value="Touch"/>
-        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If successfully cast, a demon is immediately placed on the table within 1” of the spellcaster. It may not be placed straight into combat. The demon is treated as though it is already subject to a Bind Demon spell. A spellcaster may only have one bound demon at a time. The type of demon summoned depends on the amount by which the spellcaster succeeded on his casting roll: 1–5 Imp, 6–12 Minor Demon, 13+ Major Demon (see Chapter 6: Bestiary). If a spellcaster rolls a 1 while attempting to cast this spell, a demon is placed on the table and immediately attacks the summoner. The type of demon is determined using the same chart as above, but using the amount by which the casting roll was failed."/>
+        <characteristic characteristicId="3c9c-cd2b-ce11-adaf" name="Descr." value="If successfully cast, a demon is immediately placed on the table within 1” of the spellcaster. It may not be placed straight into combat. The demon is treated as though it is already subject to a Bind Demon spell. A spellcaster may only have one bound demon at a time. The type of demon summoned depends on the amount by which the spellcaster succeeded on his casting roll: 0–5 Imp, 6–12 Minor Demon, 13+ Major Demon (see Chapter 6: Bestiary). If a spellcaster rolls a 1 while attempting to cast this spell, a demon is placed on the table and immediately attacks the summoner. The type of demon is determined using the same chart as above, but using the amount by which the casting roll was failed. If a spellcaster already has a Bound Demon, he may not
+cast this spell."/>
       </characteristics>
       <modifiers>
         <modifier type="decrement" field="2364-f26b-88ce-c406" value="1" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="789f-c8da-a5af-163e" incrementField="selections" incrementValue="1.0">
@@ -50788,6 +50675,25 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="append" field="fc68-ba54-941f-8531" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="direct parent" childId="c71c-5788-6b08-66a7" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="hide" field="a22a-59bf-0218-49e5" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="d411-8347-3254-d33e" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile id="6255-d026-bd5f-82e8" profileTypeId="d398-8745-b759-e0f4" name="BADLY WOUNDED!" hidden="true">
+      <characteristics>
+        <characteristic characteristicId="19f9-3109-c490-4ac2" name="BADLY WOUNDED" value="WILL MISS NEXT GAME"/>
+      </characteristics>
+      <modifiers>
+        <modifier type="show" field="19f9-3109-c490-4ac2" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="d411-8347-3254-d33e" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>

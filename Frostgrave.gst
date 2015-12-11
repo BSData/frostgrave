@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a9da-82ef-3b8b-12ce" revision="4" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a9da-82ef-3b8b-12ce" revision="5" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="f580-839a-93a0-d53d" name="Warband" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -11,29 +11,29 @@
             </modifier>
           </modifiers>
         </category>
-        <category id="f1ad-01b3-8196-8ce7" name="Soldier" minSelections="0" maxSelections="8" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="f1ad-01b3-8196-8ce7" name="Soldiers" minSelections="0" maxSelections="8" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementField="points limit" incrementValue="1.0">
               <conditions>
-                <condition parentId="76d1-4c3a-d8f9-fb40" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="9525-331f-8718-ef30" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </category>
-        <category id="bfe9-45fe-e307-9a74" name="Creatures (Lurking)" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="e9e0-7255-0e95-96cd" name="&gt; Additional Members " minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="b994-18e3-3f33-5419" name="&gt; Kennel" minSelections="0" maxSelections="1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="9525-331f-8718-ef30" name="&gt; Inn " minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="76d1-4c3a-d8f9-fb40" name="&gt; Inn" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="2b61-b146-ee66-b089" name="&gt; Brewery" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="6c96-f177-4923-b1d1" name="&gt; Brewery" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="ab7f-026e-1461-e78e" name="&gt; Warband Information " minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
-        <category id="c1d6-d604-d519-f90a" name="&gt; Dead or Dismissed" minSelections="0" maxSelections="1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+        <category id="9c14-90e4-b283-e370" name="&gt; Dead of Dismissed " minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers/>
         </category>
       </categories>
@@ -53,6 +53,12 @@
               <modifiers/>
             </category>
             <category id="1ac1-c711-5ac8-b33a" name="Base and Base Resources" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="true" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="0b06-279a-14eb-92bc" name="The Hunt for the Golem" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+              <modifiers/>
+            </category>
+            <category id="4490-735c-5535-d8d6" name="Thaw of the Lich Lord" minSelections="0" maxSelections="-1" minPoints="-10000.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
               <modifiers/>
             </category>
           </categories>
@@ -113,8 +119,11 @@
         <characteristic id="9b44-f22f-a090-5b2a" name="Effects"/>
       </characteristics>
     </profileType>
-    <profileType id="b48d-9fbb-640b-0585" name="Scrolls">
-      <characteristics/>
+    <profileType id="b48d-9fbb-640b-0585" name="6&lt; Scrolls">
+      <characteristics>
+        <characteristic id="705d-f8d3-c196-bece" name="BCN"/>
+        <characteristic id="283a-0450-2cf6-bdc6" name="Effect"/>
+      </characteristics>
     </profileType>
     <profileType id="44ab-0c6c-1be8-edbc" name="Grimoires">
       <characteristics/>
@@ -149,7 +158,7 @@
         <characteristic id="590d-b53f-470c-0d22" name="Current Health"/>
       </characteristics>
     </profileType>
-    <profileType id="314c-5129-741a-9769" name="6&lt; Creatures">
+    <profileType id="314c-5129-741a-9769" name="1&lt; Creatures">
       <characteristics>
         <characteristic id="fa9e-5ed3-24f9-2651" name="M"/>
         <characteristic id="6a03-f3b1-dd47-1808" name="F"/>
@@ -173,6 +182,22 @@
     <profileType id="d398-8745-b759-e0f4" name="BADLY WOUNDED">
       <characteristics>
         <characteristic id="19f9-3109-c490-4ac2" name="BADLY WOUNDED!"/>
+      </characteristics>
+    </profileType>
+    <profileType id="2d72-52a0-503b-6623" name="1&lt; Soldier/ Creature">
+      <characteristics>
+        <characteristic id="b0a8-17cb-2468-7859" name="M"/>
+        <characteristic id="d5cb-941f-2259-93dc" name="F"/>
+        <characteristic id="204b-12be-0854-273c" name="S"/>
+        <characteristic id="45c3-f08e-cb48-48ce" name="A"/>
+        <characteristic id="777f-d9f6-bd2b-1c89" name="W"/>
+        <characteristic id="fd61-35d6-df3c-8b96" name="H"/>
+        <characteristic id="315c-e115-52f8-d14c" name="Notes"/>
+      </characteristics>
+    </profileType>
+    <profileType id="0394-614f-e5cd-c4e0" name="2&lt; P.Injurt">
+      <characteristics>
+        <characteristic id="514d-10d0-9ef7-5762" name="Effect"/>
       </characteristics>
     </profileType>
   </profileTypes>

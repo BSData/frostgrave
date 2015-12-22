@@ -48,12 +48,6 @@
             <link id="570c-e8e8-d387-d15e" targetId="2c58-955a-ae57-bdfd" linkType="entry">
               <modifiers/>
             </link>
-            <link id="0e66-e3cb-b02c-50bb" targetId="88db-151a-2f79-690b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5cb3-6b71-b598-1c56" targetId="7a7c-ae4e-c749-410a" linkType="entry">
-              <modifiers/>
-            </link>
             <link id="40fb-8e5d-c2a8-6ecb" targetId="731b-93aa-1a26-1acb" linkType="entry">
               <modifiers/>
             </link>
@@ -70,7 +64,39 @@
             <link id="f457-ead0-0d38-7cb6" targetId="27f5-2d50-106f-5b28" linkType="entry">
               <modifiers/>
             </link>
-            <link id="f884-3cad-5555-d6e0" targetId="66fd-f163-0c14-e95c" linkType="entry">
+          </links>
+        </entryGroup>
+        <entryGroup id="1928-67c5-5cc7-0e83" name="End of Game" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a081-c257-158f-cc04" targetId="4251-3918-8c2d-f6cd" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4d15-77aa-1e20-1596" targetId="7a7c-ae4e-c749-410a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fee7-56a3-5d7f-385e" targetId="66fd-f163-0c14-e95c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="bb38-34a1-f043-87c1" name="Pre-Game Requirements" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a592-b52f-5b9d-f9b1" targetId="2858-164c-5d1d-83c0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c747-bb0f-adbd-627e" targetId="d379-d560-1f4c-ed24" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b556-d4a9-9c6d-7762" targetId="e4b4-c2cb-50ac-5d96" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9c34-f6d3-f2fe-547c" targetId="3121-5fa1-4201-5277" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -79,23 +105,7 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links>
-        <link id="8949-691c-b5a2-7c82" targetId="4251-3918-8c2d-f6cd" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="119b-b1a0-17d3-1590" targetId="2858-164c-5d1d-83c0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ae1d-52ab-7b27-98b0" targetId="d379-d560-1f4c-ed24" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="39f0-8001-9f53-0a7e" targetId="3121-5fa1-4201-5277" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8b6e-a365-2038-0f4c" targetId="e4b4-c2cb-50ac-5d96" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
     <entry id="b587-3b13-bf6f-eb4b" name="&lt; Wizard" points="0.0" categoryId="fa4d-3d35-e3f9-27e7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -430,7 +440,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="4195-7fe2-3730-cb22" name="&lt; Potions &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="4195-7fe2-3730-cb22" name="&lt; Potions &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -473,6 +483,252 @@
               <modifiers/>
               <links>
                 <link id="5dcd-8d90-55dc-794e" targetId="149b-1a8d-eefd-073b" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e818-f4ea-1330-9bbb" targetId="6164-494d-e0b8-2c85" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b43a-229d-c4b9-d955" targetId="7ec4-42b2-1e44-b036" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="245e-2919-6cd2-1b16" targetId="2b19-827e-e312-fabd" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cafe-4a19-4c22-249c" targetId="3d1e-e239-31ca-a1cb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b9e5-291c-b2e2-7bd4" targetId="cf3b-446b-72c3-39d7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="904b-da4c-5e8f-631c" targetId="52c0-9a4c-3d45-d303" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="314d-36ef-808f-05b3" targetId="2016-ba32-3874-8652" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="d978-0db8-0cc1-6078" targetId="b62a-bc61-b45e-7aaf" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9755-2fc6-cd9f-9ac1" targetId="447b-1594-0f5c-531c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2b5d-3181-c8fe-7be1" targetId="2f36-7382-85cd-f83a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="77d4-441c-4714-cf20" targetId="ef6f-3ea3-209f-d50a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="24a5-909d-3b72-cac4" targetId="6c0c-9e29-aed3-9ea6" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2743-6b0b-7730-b430" targetId="5836-0bad-e362-3559" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f69d-f312-632f-dcf6" targetId="9e28-0755-c062-24ec" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="57a2-e260-a2dc-df9d" targetId="f88a-e104-0420-9393" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a45f-6f61-ea03-786f" targetId="3867-7614-157a-c21c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="fdd8-1004-24ed-0c09" targetId="b405-ce14-dffe-9a94" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="0c95-434f-57a3-8bf8" targetId="04c7-43f5-33fd-990e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5cd1-44af-f9cf-ee43" targetId="5cad-903f-597c-6f8a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5639-08ad-1efd-6967" targetId="6a51-a641-669c-eb4e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a3f8-3312-2091-7f50" targetId="2545-052f-d932-1e6f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3519-e1d9-569e-1131" targetId="b287-f286-0e84-7239" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="eed8-69d6-7061-08c1" targetId="2992-260c-4f7c-809b" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9f00-2907-4b81-fa89" targetId="84d5-1c4f-0984-ba27" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9bf8-c222-83e5-b603" targetId="ac2f-6c4f-70b7-6dbe" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f6b6-c4a5-03b9-4c4c" targetId="db77-c2f2-9dad-9cef" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e144-7f96-6610-4ab4" targetId="cb1b-343b-63b5-a6a7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6655-8250-34c8-ec61" targetId="ea91-52b0-b2ae-9f39" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3c96-d1db-be52-e322" targetId="b53b-6159-a547-b372" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1e9d-c139-2794-2464" targetId="0f79-308b-2082-225d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="df30-8336-544a-518b" targetId="9c8f-017c-971e-c101" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7537-43f8-824c-dbba" targetId="e35f-a494-8235-12e8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7b38-e2cf-e55a-bfb8" targetId="b9d9-eb2e-0b58-63f1" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6820-3919-f6b0-905f" targetId="f9db-3a93-4ac4-f9ed" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ea87-6485-70b9-ba06" targetId="f7f7-bdd3-0093-2314" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e0a3-68eb-618e-490e" targetId="fda6-7ac3-2ee0-028e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="fe67-0393-50f3-ae09" targetId="40a5-f59e-9cd0-66da" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2ca7-fe68-fe68-b4a3" targetId="1006-0b87-40e7-a58c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6802-3050-b3eb-3445" targetId="e13a-f913-2f38-cbd3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8929-9028-f089-8bbf" targetId="e13a-f913-2f38-cbd3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="119c-f4d4-44c7-31c4" targetId="9ef8-28b2-03e7-3a42" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="452e-e5c2-8915-131e" targetId="4b68-d962-91e5-9bbb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="70f2-074f-2569-fb69" targetId="8483-a73e-9a33-30cb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f88e-7513-5fc1-4e28" targetId="9407-4d9f-0d93-52bb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="533f-b458-a755-2a57" targetId="a8bf-b47c-abb8-3045" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="864b-ba41-8a50-0a9e" targetId="c18d-076f-ce5c-12a7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="63c9-e683-8e25-bdd0" targetId="53dd-eff7-0db7-41f2" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2672-5c7b-fcfa-6f80" targetId="330b-44e2-cdae-c417" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="35fb-13fd-07f6-7c4f" targetId="1d4d-7a30-e941-68c3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7fab-88c2-645a-2280" targetId="40eb-adb5-c30e-a5b9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ec69-860b-f25b-42dc" targetId="40eb-adb5-c30e-a5b9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ecf3-0b4f-9790-6899" targetId="3a4b-6139-4808-d137" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ae4a-41a0-74d0-16ca" targetId="6cd9-49a2-9b51-fb79" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6825-7750-17a7-dfb5" targetId="6cd9-49a2-9b51-fb79" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="fd38-d369-73c5-5b5a" targetId="266f-4737-816e-8ad9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="365c-1c0f-ef78-9065" targetId="f28a-c465-6c6d-6848" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a54e-6504-e19c-8208" targetId="a110-ba5a-9bf7-e9c8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5f41-9dd0-ad92-2018" targetId="4f5d-439c-da04-3eb7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="71f4-cc41-7d46-e96f" targetId="c285-78d7-597c-440a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2cd3-c7e7-1fe3-dd5d" targetId="62f6-c9bf-6541-bda5" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="09e5-b8a3-205e-6403" targetId="7c9f-c6e0-4ebc-bba9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6d4b-94d8-ef2c-3917" targetId="1f56-80c1-30bf-bfae" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="554d-be82-58e6-0d21" targetId="2f7a-465c-807f-1c23" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f50e-7887-367e-00b1" targetId="31e7-0fb9-193a-2bc4" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9907-c27a-acfd-a821" targetId="5b1a-4e16-5780-dd2d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="eaeb-afc1-b939-56b4" targetId="3cd0-c13d-1433-61e3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="0249-3312-9143-c276" targetId="bd88-dd53-1225-d3f8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="bd08-b7ac-6863-f856" targetId="e29e-c505-9c4f-c0b2" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b668-91c7-ccba-36ff" targetId="2ad9-b8b0-924d-41c8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="393c-16e4-7e46-d7d9" targetId="5da3-7b22-c0bf-60ef" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9a60-07de-bf57-7e21" targetId="afdc-3050-6c69-73c9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="27bf-5156-95a2-74de" targetId="d4c9-50d9-1c28-ba35" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ee5c-26b4-c292-6b44" targetId="4fe4-354d-41f3-2fae" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f36a-3715-c7f0-a4f9" targetId="5cf6-23c8-bc4e-f75d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8967-7e67-a5ad-95c8" targetId="73bf-6242-914a-bc6f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5ef3-bdc2-0c78-b02b" targetId="7090-cca6-4dc0-5619" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f9fe-6907-197f-b095" targetId="4a73-ea3d-4ec3-b1eb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="02d6-3b4b-c842-be12" targetId="09e6-7c3c-0066-7dc9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1037-43c3-b9f6-80d9" targetId="dc38-d003-9ce3-c704" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="53e8-2806-bd1f-91f4" targetId="6607-ec68-31f6-6c5f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5ea0-52b0-45a4-f992" targetId="ee07-fa5c-1978-896c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3eb7-857d-4c43-7cf7" targetId="c687-000c-1d98-85d8" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -731,7 +987,7 @@
                 </link>
               </links>
             </entryGroup>
-            <entryGroup id="c4f5-3ebc-6597-394d" name="&lt; Potions &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="c4f5-3ebc-6597-394d" name="&lt; Potions &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -764,6 +1020,262 @@
                   <modifiers/>
                 </link>
                 <link id="62df-0ecf-8b11-2b29" targetId="1d67-5d46-923a-b315" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="0f20-b712-7e02-3ef8" name="&lt; Scrolls&gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="f830-a66c-4f4d-3f1e" targetId="149b-1a8d-eefd-073b" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="0176-3360-1d4f-f9ed" targetId="6164-494d-e0b8-2c85" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8046-5bba-a09c-48f4" targetId="7ec4-42b2-1e44-b036" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8918-f35f-491b-70fe" targetId="2b19-827e-e312-fabd" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7775-7982-ca51-70e7" targetId="3d1e-e239-31ca-a1cb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="4891-3203-eaf3-5198" targetId="cf3b-446b-72c3-39d7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="546e-3e68-396c-b8c6" targetId="52c0-9a4c-3d45-d303" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="98b1-6201-62c8-f18d" targetId="2016-ba32-3874-8652" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="bb49-66d3-c0d2-30e9" targetId="b62a-bc61-b45e-7aaf" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a213-7139-18f2-15fc" targetId="447b-1594-0f5c-531c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b3fa-9cc4-2e39-5fe5" targetId="2f36-7382-85cd-f83a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cfd9-da68-8ff2-fa37" targetId="ef6f-3ea3-209f-d50a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="c1f9-8464-313a-d6ec" targetId="6c0c-9e29-aed3-9ea6" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8aac-7bc0-b858-664f" targetId="5836-0bad-e362-3559" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6b4b-dc8c-db0e-c422" targetId="9e28-0755-c062-24ec" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3b51-9462-736b-223e" targetId="f88a-e104-0420-9393" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9165-09d3-8bbc-6594" targetId="3867-7614-157a-c21c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6c5e-ddcf-6377-f7fa" targetId="b405-ce14-dffe-9a94" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1a93-e9e5-37b0-389c" targetId="04c7-43f5-33fd-990e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="82f5-71d0-62e0-c3db" targetId="5cad-903f-597c-6f8a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cedd-fc3b-8f05-a2d7" targetId="6a51-a641-669c-eb4e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ee7d-1068-3d63-c811" targetId="2545-052f-d932-1e6f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f793-c46e-b601-9b02" targetId="b287-f286-0e84-7239" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="dfc1-64d1-9123-952b" targetId="2992-260c-4f7c-809b" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="44fd-c9c0-ec8a-8954" targetId="84d5-1c4f-0984-ba27" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8ffa-1b9d-0f5a-5ee2" targetId="ac2f-6c4f-70b7-6dbe" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="b9d9-be8f-b886-3036" targetId="db77-c2f2-9dad-9cef" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e09c-f766-aee6-81a2" targetId="cb1b-343b-63b5-a6a7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e095-29d6-e583-ef73" targetId="ea91-52b0-b2ae-9f39" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a4f1-94ca-c503-5295" targetId="b53b-6159-a547-b372" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5a89-63f2-f20c-1d34" targetId="0f79-308b-2082-225d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="36e4-3980-62d3-1118" targetId="9c8f-017c-971e-c101" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ed8d-d738-5183-8162" targetId="e35f-a494-8235-12e8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1076-ddc5-c8a2-f5e6" targetId="b9d9-eb2e-0b58-63f1" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="90a8-3c36-3f76-3957" targetId="f9db-3a93-4ac4-f9ed" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="03c5-9a88-3a04-e969" targetId="f7f7-bdd3-0093-2314" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="9cd1-f892-bfb5-6ade" targetId="fda6-7ac3-2ee0-028e" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="53ab-c9f8-0021-5fea" targetId="40a5-f59e-9cd0-66da" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="32e3-dedc-ccab-36f3" targetId="1006-0b87-40e7-a58c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5f4c-735f-f1ec-37a6" targetId="e13a-f913-2f38-cbd3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1c43-4ce5-a3be-4dd5" targetId="e13a-f913-2f38-cbd3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cb1c-0e7e-6c06-39ef" targetId="9ef8-28b2-03e7-3a42" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e7e8-0d57-95ad-5f3d" targetId="4b68-d962-91e5-9bbb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1242-45c7-3c95-0de3" targetId="8483-a73e-9a33-30cb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="c9ae-709b-bf45-62de" targetId="9407-4d9f-0d93-52bb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3354-2227-a949-006e" targetId="a8bf-b47c-abb8-3045" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ce36-c862-94cf-5e89" targetId="c18d-076f-ce5c-12a7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="bbcd-f64a-6050-028d" targetId="53dd-eff7-0db7-41f2" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="49b8-d04d-391c-e07e" targetId="330b-44e2-cdae-c417" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="cdc6-727b-d70d-a411" targetId="1d4d-7a30-e941-68c3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="047b-9581-2f11-ddde" targetId="40eb-adb5-c30e-a5b9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="dbcf-8593-53b9-9e5c" targetId="40eb-adb5-c30e-a5b9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8be8-1e3f-130e-0644" targetId="3a4b-6139-4808-d137" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="beec-12a2-a145-b7cb" targetId="6cd9-49a2-9b51-fb79" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3b6e-69b4-afa1-e6df" targetId="6cd9-49a2-9b51-fb79" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7b10-0e32-3732-65d6" targetId="266f-4737-816e-8ad9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="049c-5f96-ef51-68be" targetId="f28a-c465-6c6d-6848" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7eb0-4955-7131-9909" targetId="a110-ba5a-9bf7-e9c8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="ba31-ee64-e37f-4f02" targetId="4f5d-439c-da04-3eb7" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6a27-0be6-4cb1-8b6a" targetId="c285-78d7-597c-440a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a60f-e635-569e-5b3b" targetId="62f6-c9bf-6541-bda5" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="741c-a2ad-04c7-3ef0" targetId="7c9f-c6e0-4ebc-bba9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7e3b-1581-2645-a721" targetId="1f56-80c1-30bf-bfae" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5026-3145-cefc-9717" targetId="2f7a-465c-807f-1c23" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6167-cc58-efe5-9464" targetId="31e7-0fb9-193a-2bc4" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="1547-6af7-edff-9db6" targetId="5b1a-4e16-5780-dd2d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5fba-31d6-7111-6c5b" targetId="3cd0-c13d-1433-61e3" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="0212-50ed-4944-90ae" targetId="bd88-dd53-1225-d3f8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="38b6-c6e3-5ab3-6aab" targetId="e29e-c505-9c4f-c0b2" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="248b-b771-bb02-cb0a" targetId="2ad9-b8b0-924d-41c8" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="6386-088a-3c9a-774f" targetId="5da3-7b22-c0bf-60ef" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="dc15-1f18-502a-79a8" targetId="afdc-3050-6c69-73c9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="2b12-635f-9d30-4588" targetId="d4c9-50d9-1c28-ba35" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e3fe-6205-c83c-5093" targetId="4fe4-354d-41f3-2fae" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="a394-90df-475d-e6a0" targetId="5cf6-23c8-bc4e-f75d" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="157c-d0b2-bd1f-238b" targetId="73bf-6242-914a-bc6f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="83a4-06b0-56c5-208f" targetId="7090-cca6-4dc0-5619" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="582e-9cea-fd54-5980" targetId="4a73-ea3d-4ec3-b1eb" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="76e4-5722-90fc-01dc" targetId="09e6-7c3c-0066-7dc9" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="4872-dcd5-cd33-afe5" targetId="dc38-d003-9ce3-c704" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="54c3-417a-2865-3d5d" targetId="6607-ec68-31f6-6c5f" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="f321-034a-f607-a82f" targetId="ee07-fa5c-1978-896c" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="c204-b7c5-1bb7-d1a8" targetId="c687-000c-1d98-85d8" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -3568,7 +4080,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="b1d4-7e0c-4e9b-45ad" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="2142-da0f-2c72-fac7" name="The Silent Tower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
               <entries/>
@@ -3600,7 +4116,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="9a55-3aab-7a44-5f15" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="84af-f67b-585a-885e" name="The Library" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3608,7 +4128,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="8b19-b8d9-f671-6340" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="7f98-0628-d38d-8613" name="The Living Museum" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3632,7 +4156,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="8e49-7379-eb41-b8a4" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="12d3-1d1b-d0a4-73eb" name="The Worm Hunts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3656,7 +4184,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="cbc4-1cf9-033e-6cc5" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="22e1-be09-0df6-b1bf" name="The Haunted Houses" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3680,7 +4212,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="a567-b315-d3c0-d880" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="5701-b9a9-e8d0-5cca" name="The Well of Dreams and Sorrows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3704,7 +4240,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="b0eb-8371-3ed0-9a57" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="8eb5-4dfb-a892-c581" name="The Keep" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3728,7 +4268,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="76b8-091f-cfa7-0acd" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="c419-2ef2-6398-c1bc" name="The Complex Temple" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3760,7 +4304,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="884f-e438-bfc6-8c90" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="47d2-a53c-e21a-e213" name="Genie in the Bottle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3800,7 +4348,11 @@ example, if they have no open item slot).</description>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="607b-1454-8c28-1508" targetId="bb8e-2317-8baf-5a7b" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>

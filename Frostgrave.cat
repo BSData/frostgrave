@@ -14338,14 +14338,39 @@ example, if they have no open item slot).</description>
       <entryGroups/>
       <modifiers>
         <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="21e9-91a1-8203-7f03" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="b85e-032f-2b2a-b904" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="21e9-91a1-8203-7f03" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="21e9-91a1-8203-7f03" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="21e9-91a1-8203-7f03" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e508-0dc5-d4a4-264c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2b7e-5386-79fc-d3b6" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14356,15 +14381,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ac9-f8a1-130f-c158" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ac9-f8a1-130f-c158" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="b85e-032f-2b2a-b904" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="0ac9-f8a1-130f-c158" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="0ac9-f8a1-130f-c158" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e508-0dc5-d4a4-264c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2b7e-5386-79fc-d3b6" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14601,15 +14651,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="f578-f2e8-e128-4eba" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="f578-f2e8-e128-4eba" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="6168-7ca6-81e3-2a1e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="f578-f2e8-e128-4eba" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="f578-f2e8-e128-4eba" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="7dea-4ddd-c580-8de9" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="a198-8ac1-0f6d-c58b" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14620,15 +14695,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="34ba-1d9d-e65e-cd38" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="0ac9-f8a1-130f-c158" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="6168-7ca6-81e3-2a1e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="34ba-1d9d-e65e-cd38" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="34ba-1d9d-e65e-cd38" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="7dea-4ddd-c580-8de9" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="a198-8ac1-0f6d-c58b" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14736,15 +14836,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="1a1b-f983-5266-46f2" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="1a1b-f983-5266-46f2" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="3584-6978-b683-8345" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="1a1b-f983-5266-46f2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="1a1b-f983-5266-46f2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14755,15 +14880,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="4a3d-0f40-016e-d9f3" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="4a3d-0f40-016e-d9f3" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="3584-6978-b683-8345" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="4a3d-0f40-016e-d9f3" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="4a3d-0f40-016e-d9f3" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -14774,15 +14924,40 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="98d1-75f1-64b5-d5f9" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="98d1-75f1-64b5-d5f9" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="3584-6978-b683-8345" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="98d1-75f1-64b5-d5f9" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="98d1-75f1-64b5-d5f9" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -15572,15 +15747,52 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="f473-a347-e52b-0795" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="f473-a347-e52b-0795" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="b9b2-285d-4aa2-ee8b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="f473-a347-e52b-0795" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="f473-a347-e52b-0795" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="c90b-c6e3-47fe-9d09" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="c849-1bb5-5227-d4ce" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="1e13-0fdd-cda8-c849" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="3c26-955f-4b21-c9cf" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -15591,15 +15803,52 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="bb44-cf96-d6aa-f063" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="bb44-cf96-d6aa-f063" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="b9b2-285d-4aa2-ee8b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="bb44-cf96-d6aa-f063" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="bb44-cf96-d6aa-f063" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="c90b-c6e3-47fe-9d09" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="c849-1bb5-5227-d4ce" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="1e13-0fdd-cda8-c849" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="3c26-955f-4b21-c9cf" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -15610,15 +15859,52 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="78b1-99d7-c529-cff1" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="78b1-99d7-c529-cff1" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="b9b2-285d-4aa2-ee8b" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="78b1-99d7-c529-cff1" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="78b1-99d7-c529-cff1" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="c90b-c6e3-47fe-9d09" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="c849-1bb5-5227-d4ce" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="direct parent" childId="1e13-0fdd-cda8-c849" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="direct parent" childId="3c26-955f-4b21-c9cf" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -15963,15 +16249,21 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="f4b4-d284-9049-b4ec" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="f4b4-d284-9049-b4ec" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="73a9-1321-6677-7a94" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="f4b4-d284-9049-b4ec" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -16046,15 +16338,21 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="b45b-22c8-fa03-fc96" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b45b-22c8-fa03-fc96" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="f795-7f96-e094-5769" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b45b-22c8-fa03-fc96" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27393,15 +27691,21 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="5a02-92e8-2be3-ff8d" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="5a02-92e8-2be3-ff8d" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="a278-df6c-c75f-54b8" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="5a02-92e8-2be3-ff8d" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27530,15 +27834,33 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="9d78-530b-663c-58ea" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="9d78-530b-663c-58ea" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="2c35-922d-61cc-ff2e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="9d78-530b-663c-58ea" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="9d78-530b-663c-58ea" field="selections" type="at least" value="1.0"/>
+                <condition parentId="direct parent" childId="b27d-183c-8ca8-0160" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27549,15 +27871,33 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="b48e-49a0-3de1-289c" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b48e-49a0-3de1-289c" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="2c35-922d-61cc-ff2e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b48e-49a0-3de1-289c" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="b48e-49a0-3de1-289c" field="selections" type="at least" value="1.0"/>
+                <condition parentId="direct parent" childId="b27d-183c-8ca8-0160" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27948,15 +28288,40 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="3e49-5743-f0e1-f37b" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="3e49-5743-f0e1-f37b" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="c965-ed32-538c-f495" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="3e49-5743-f0e1-f37b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="3e49-5743-f0e1-f37b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="5f86-0cbf-28a1-ca26" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="3476-d3c5-ac40-2ce1" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27967,15 +28332,40 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="d942-a967-45b8-e4bd" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="d942-a967-45b8-e4bd" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="c965-ed32-538c-f495" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="d942-a967-45b8-e4bd" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="d942-a967-45b8-e4bd" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="5f86-0cbf-28a1-ca26" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="3476-d3c5-ac40-2ce1" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -27986,15 +28376,40 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="60b6-ace5-b17e-3360" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
         <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="60b6-ace5-b17e-3360" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="c965-ed32-538c-f495" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="60b6-ace5-b17e-3360" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="60b6-ace5-b17e-3360" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="5f86-0cbf-28a1-ca26" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="3476-d3c5-ac40-2ce1" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -52378,6 +52793,18 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="2948-8793-6e64-1838" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="c849-1bb5-5227-d4ce" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="923f-777f-e86a-25c0" profileTypeId="58d9-87b8-d5f6-83f1" name="&gt; Apprentice" hidden="false">
@@ -52411,6 +52838,18 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             <condition parentId="category" childId="d735-853c-8950-8e73" field="selections" type="equal to" value="3.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="1157-b575-385a-793e" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="3c26-955f-4b21-c9cf" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </profile>

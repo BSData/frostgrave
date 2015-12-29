@@ -22525,7 +22525,11 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </modifiers>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="ac95-f399-3df5-111d" targetId="92df-e57d-6abb-b8ba" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="6164-494d-e0b8-2c85" name="Scroll &quot;Animal Companion&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -22540,7 +22544,11 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </modifiers>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="679a-e8b1-e55e-f558" targetId="92df-e57d-6abb-b8ba" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7ec4-42b2-1e44-b036" name="Scroll &quot;Animate Construct&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -23307,7 +23315,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
-    <entry id="f28a-c465-6c6d-6848" name="Scroll &quot;Planar Walk&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="f28a-c465-6c6d-6848" name="Scroll &quot;Plane Walk&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -26309,7 +26317,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <profiles/>
       <links/>
     </entry>
-    <entry id="1cbc-91b7-7ee1-544c" name="Scroll qty &quot;Planar Walk&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1cbc-91b7-7ee1-544c" name="Scroll qty &quot;Plane Walk&quot;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -47193,12 +47201,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
                 <link id="fe67-4f0b-21af-fd70" targetId="f1eb-aa4a-edf4-d576" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="7a3f-6334-86f1-20bd" targetId="3446-0195-b7ad-778a" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="109c-c9a0-309f-76d1" targetId="8cb4-c2e4-6fd5-1b8b" linkType="entry">
-                  <modifiers/>
-                </link>
               </links>
             </entryGroup>
             <entryGroup id="59cc-b5c8-b336-7279" name="&quot;Create Grimoire&quot;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -48304,6 +48306,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="04c7-43f5-33fd-990e" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="9bc7-9594-5ad1-1c56" profileTypeId="d453-c7b2-715a-3ea9" name="0&lt; Decay" hidden="false">
@@ -48355,6 +48363,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6a51-a641-669c-eb4e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48412,6 +48426,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b9d9-eb2e-0b58-63f1" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="50ff-ba71-8f3e-c3e9" profileTypeId="d453-c7b2-715a-3ea9" name="0&lt; Fleet Feet" hidden="false">
@@ -48463,6 +48483,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f9db-3a93-4ac4-f9ed" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48520,6 +48546,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3a4b-6139-4808-d137" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="810e-c727-356a-f1be" profileTypeId="d453-c7b2-715a-3ea9" name="0&lt; Slow" hidden="false">
@@ -48571,6 +48603,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e29e-c505-9c4f-c0b2" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48628,6 +48666,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7090-cca6-4dc0-5619" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="db38-83f9-5bab-884f" profileTypeId="d453-c7b2-715a-3ea9" name="0&lt; Time Walk" hidden="false">
@@ -48679,6 +48723,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4a73-ea3d-4ec3-b1eb" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48736,6 +48786,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2f36-7382-85cd-f83a" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="977a-fbff-8604-579d" profileTypeId="d453-c7b2-715a-3ea9" name="1&lt; Destructive Sphere" hidden="false">
@@ -48787,6 +48843,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2545-052f-d932-1e6f" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48844,6 +48906,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="84d5-1c4f-0984-ba27" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="b52f-e0c8-ca89-e59a" profileTypeId="d453-c7b2-715a-3ea9" name="1&lt; Elemental Bolt" hidden="false">
@@ -48895,6 +48963,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ac2f-6c4f-70b7-6dbe" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -48952,6 +49026,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="db77-c2f2-9dad-9cef" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="39c4-b387-47e5-e8b9" profileTypeId="d453-c7b2-715a-3ea9" name="1&lt; Elemental Shield " hidden="false">
@@ -49003,6 +49083,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="cb1b-343b-63b5-a6a7" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49060,6 +49146,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3cd0-c13d-1433-61e3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="c73b-55af-1f98-e82b" profileTypeId="d453-c7b2-715a-3ea9" name="1&lt; Wall" hidden="false">
@@ -49111,6 +49203,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9b63-65b9-9c55-f0b7" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49168,6 +49266,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7ec4-42b2-1e44-b036" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="120c-59db-963f-5ae2" profileTypeId="d453-c7b2-715a-3ea9" name="2&lt; Control Construct" hidden="false">
@@ -49219,6 +49323,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f88a-e104-0420-9393" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49276,6 +49386,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ea91-52b0-b2ae-9f39" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="efaf-7d70-8ff5-e1f7" profileTypeId="d453-c7b2-715a-3ea9" name="2&lt; Enchant Armour" hidden="false">
@@ -49327,6 +49443,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b53b-6159-a547-b372" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49384,6 +49506,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0f79-308b-2082-225d" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="f6ce-4edf-c635-3469" profileTypeId="d453-c7b2-715a-3ea9" name="2&lt; Grenade" hidden="false">
@@ -49435,6 +49563,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9ef8-28b2-03e7-3a42" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49492,6 +49626,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="afdc-3050-6c69-73c9" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="005d-7a48-4b5b-908d" profileTypeId="d453-c7b2-715a-3ea9" name="2&lt; Telekinesis" hidden="false">
@@ -49543,6 +49683,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5cf6-23c8-bc4e-f75d" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49600,6 +49746,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="cf3b-446b-72c3-39d7" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="76de-90dc-4e97-5d72" profileTypeId="d453-c7b2-715a-3ea9" name="3&lt; Fool&apos;s Gold" hidden="false">
@@ -49651,6 +49803,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="fda6-7ac3-2ee0-028e" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49708,6 +49866,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e13a-f913-2f38-cbd3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="8e57-4a77-d272-f810" profileTypeId="d453-c7b2-715a-3ea9" name="3&lt; Illusionary Soldier" hidden="false">
@@ -49759,6 +49923,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="8483-a73e-9a33-30cb" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49816,6 +49986,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="a8bf-b47c-abb8-3045" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="6978-9af4-c58f-624c" profileTypeId="d453-c7b2-715a-3ea9" name="3&lt; Monstrous Form" hidden="false">
@@ -49867,6 +50043,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="1d4d-7a30-e941-68c3" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -49924,6 +50106,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="73bf-6242-914a-bc6f" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="104e-efed-2e06-6e41" profileTypeId="d453-c7b2-715a-3ea9" name="3&lt; Transpose" hidden="false">
@@ -49975,6 +50163,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="09e6-7c3c-0066-7dc9" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50032,6 +50226,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b62a-bc61-b45e-7aaf" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="ef50-8117-3dfd-bb9d" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Bones Of The Earth" hidden="false">
@@ -50083,6 +50283,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="447b-1594-0f5c-531c" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50140,6 +50346,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3867-7614-157a-c21c" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="d003-eab4-8c87-0c10" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Raise Zombie" hidden="false">
@@ -50191,6 +50403,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7c9f-c6e0-4ebc-bba9" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50248,6 +50466,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="31e7-0fb9-193a-2bc4" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="7e78-fede-59e4-4b20" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Spell Eater" hidden="false">
@@ -50299,6 +50523,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2ad9-b8b0-924d-41c8" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50356,6 +50586,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5da3-7b22-c0bf-60ef" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="995f-d795-baa7-24ed" profileTypeId="d453-c7b2-715a-3ea9" name="4&lt; Strike Dead" hidden="false">
@@ -50407,6 +50643,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d4c9-50d9-1c28-ba35" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50464,6 +50706,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="149b-1a8d-eefd-073b" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="5c83-b8dc-c168-2eaa" profileTypeId="d453-c7b2-715a-3ea9" name="5&lt; Create Grimoire" hidden="false">
@@ -50515,6 +50763,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b405-ce14-dffe-9a94" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50572,6 +50826,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2992-260c-4f7c-809b" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="8fde-3f51-42fa-72d2" profileTypeId="d453-c7b2-715a-3ea9" name="5&lt; Explosive Rune" hidden="false">
@@ -50623,6 +50883,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9c8f-017c-971e-c101" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50680,6 +50946,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="1006-0b87-40e7-a58c" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="278f-ad00-9d54-aa6f" profileTypeId="d453-c7b2-715a-3ea9" name="5&lt; Power Word" hidden="false">
@@ -50731,6 +51003,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c285-78d7-597c-440a" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50788,6 +51066,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="62f6-c9bf-6541-bda5" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="8b73-e36b-fda1-8bf2" profileTypeId="d453-c7b2-715a-3ea9" name="5&lt; Write Scroll" hidden="false">
@@ -50839,6 +51123,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c687-000c-1d98-85d8" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -50896,6 +51186,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2b19-827e-e312-fabd" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="ef2c-bf05-fe27-5f6c" profileTypeId="d453-c7b2-715a-3ea9" name="6&lt; Combat Awareness" hidden="false">
@@ -50947,6 +51243,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5836-0bad-e362-3559" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51004,6 +51306,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="40a5-f59e-9cd0-66da" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="9dbe-158a-18f7-772d" profileTypeId="d453-c7b2-715a-3ea9" name="6&lt; Mind Control" hidden="false">
@@ -51055,6 +51363,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="53dd-eff7-0db7-41f2" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51112,6 +51426,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5b1a-4e16-5780-dd2d" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="9e2d-8e05-589e-4316" profileTypeId="d453-c7b2-715a-3ea9" name="6&lt; Reveal Secret" hidden="false">
@@ -51163,6 +51483,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2f7a-465c-807f-1c23" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51220,6 +51546,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6607-ec68-31f6-6c5f" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="a0ae-e66a-e43c-742d" profileTypeId="d453-c7b2-715a-3ea9" name="6&lt; Wizard Eye" hidden="false">
@@ -51271,6 +51603,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ee07-fa5c-1978-896c" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51328,6 +51666,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="52c0-9a4c-3d45-d303" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="b65c-000e-80c6-0d2f" profileTypeId="d453-c7b2-715a-3ea9" name="7&lt; Imp" hidden="false">
@@ -51379,6 +51723,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9407-4d9f-0d93-52bb" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51436,6 +51786,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c18d-076f-ce5c-12a7" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="ef88-3966-e54d-4c3c" profileTypeId="d453-c7b2-715a-3ea9" name="7&lt; Plague of Insects" hidden="false">
@@ -51487,6 +51843,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6cd9-49a2-9b51-fb79" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51544,6 +51906,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="266f-4737-816e-8ad9" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="9f0f-30da-cc94-10d5" profileTypeId="d453-c7b2-715a-3ea9" name="7&lt; Plane Walk" hidden="false">
@@ -51595,6 +51963,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f28a-c465-6c6d-6848" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51652,6 +52026,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4f5d-439c-da04-3eb7" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="ab50-0993-0257-c0c8" profileTypeId="d453-c7b2-715a-3ea9" name="7&lt; Summon Demon" hidden="false">
@@ -51703,6 +52083,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4fe4-354d-41f3-2fae" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51760,6 +52146,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="3d1e-e239-31ca-a1cb" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="07a7-b090-46fb-b5c4" profileTypeId="d453-c7b2-715a-3ea9" name="8&lt; Blinding Light" hidden="false">
@@ -51811,6 +52203,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2016-ba32-3874-8652" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51868,6 +52266,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6c0c-9e29-aed3-9ea6" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="2b94-6d6f-c897-eca7" profileTypeId="d453-c7b2-715a-3ea9" name="8&lt; Dispel" hidden="false">
@@ -51919,6 +52323,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="hide" field="011f-8fbb-628d-1772" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="b287-f286-0e84-7239" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -51976,6 +52386,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="4b68-d962-91e5-9bbb" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="1ee8-3fa4-1c8c-06d0" profileTypeId="d453-c7b2-715a-3ea9" name="8&lt; Miraculous Cure" hidden="false">
@@ -52027,6 +52443,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="330b-44e2-cdae-c417" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -52084,6 +52506,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="1f56-80c1-30bf-bfae" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="7c9e-2627-1917-acff" profileTypeId="d453-c7b2-715a-3ea9" name="8&lt; Shield" hidden="false">
@@ -52135,6 +52563,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="bd88-dd53-1225-d3f8" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -52192,6 +52626,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6164-494d-e0b8-2c85" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="a043-74be-aa98-0a89" profileTypeId="d453-c7b2-715a-3ea9" name="9&lt; Brew Potion" hidden="false">
@@ -52243,6 +52683,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="ef6f-3ea3-209f-d50a" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -52300,6 +52746,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="9e28-0755-c062-24ec" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="0c0b-c76d-c474-66f0" profileTypeId="d453-c7b2-715a-3ea9" name="9&lt; Curse" hidden="false">
@@ -52351,6 +52803,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="5cad-903f-597c-6f8a" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -52408,6 +52866,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e35f-a494-8235-12e8" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="f7fa-f9c0-d9d3-db21" profileTypeId="d453-c7b2-715a-3ea9" name="9&lt; Fog" hidden="false">
@@ -52459,6 +52923,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="f7f7-bdd3-0093-2314" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -52516,6 +52986,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="40eb-adb5-c30e-a5b9" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
     </profile>
     <profile id="e4c0-c4e5-dea0-beeb" profileTypeId="d453-c7b2-715a-3ea9" name="9&lt; Poison Dart" hidden="false">
@@ -52567,6 +53043,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <modifier type="set" field="3c9c-cd2b-ce11-adaf" value="-" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="9d32-52f5-df27-a8b6" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="0d53-e71e-0d65-e84b" value="(+Scroll)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="a110-ba5a-9bf7-e9c8" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>

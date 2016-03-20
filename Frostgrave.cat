@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4137-4672-dcbc-1c57" revision="7" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4137-4672-dcbc-1c57" revision="8" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="ab7f-026e-1461-e78e" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="eb1f-6226-c5af-e1be" name="Money" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1367,7 +1367,7 @@
         </link>
       </links>
     </entry>
-    <entry id="addf-e88c-a3cc-7017" name="&gt;Dead or Dismissed Apothecary" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="addf-e88c-a3cc-7017" name="&gt;Dead or Dismissed Apothecary" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="f1c9-aa63-df11-92b6" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1429,7 +1429,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="407c-ad71-8e0a-35ca" name="&gt;Dead or Dismissed Apprentice" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="407c-ad71-8e0a-35ca" name="&gt;Dead or Dismissed Apprentice" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="e27e-66a8-a362-16e1" name="First Apprentice" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1533,7 +1533,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="3df5-83c3-2b60-3165" name="&gt;Dead or Dismissed Archer" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3df5-83c3-2b60-3165" name="&gt;Dead or Dismissed Archer" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="e9ae-d2af-9dd8-d2aa" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1595,7 +1595,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="d017-f564-e2e0-8054" name="&gt;Dead or Dismissed Barbarian" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d017-f564-e2e0-8054" name="&gt;Dead or Dismissed Barbarian" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="7c28-286e-418e-da6c" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1657,7 +1657,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="01b1-9134-cbdd-2058" name="&gt;Dead or Dismissed Bard" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="01b1-9134-cbdd-2058" name="&gt;Dead or Dismissed Bard" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="7a0d-ff90-dc40-9e99" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1719,7 +1719,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="d099-953c-a7dc-afe0" name="&gt;Dead or Dismissed Crossbowman" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d099-953c-a7dc-afe0" name="&gt;Dead or Dismissed Crossbowman" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ef20-1cbc-a05a-7c42" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1781,7 +1781,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="6c39-0647-cc17-21f7" name="&gt;Dead or Dismissed Crow Master" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6c39-0647-cc17-21f7" name="&gt;Dead or Dismissed Crow Master" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b0f0-b88d-b050-36d1" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1843,7 +1843,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="1773-1a95-0e5d-35a7" name="&gt;Dead or Dismissed Infantryman" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1773-1a95-0e5d-35a7" name="&gt;Dead or Dismissed Infantryman" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="f6c4-75a6-367f-d408" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1905,7 +1905,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="2f20-8195-db75-999d" name="&gt;Dead or Dismissed Javelineer" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2f20-8195-db75-999d" name="&gt;Dead or Dismissed Javelineer" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="5863-ea45-62f9-1f16" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1967,7 +1967,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="3181-e28f-4173-bd67" name="&gt;Dead or Dismissed Knight" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3181-e28f-4173-bd67" name="&gt;Dead or Dismissed Knight" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="5fcc-c170-0cd5-4b0f" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2029,7 +2029,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="0f8a-1f08-3a29-4985" name="&gt;Dead or Dismissed Man-at-Arms" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0f8a-1f08-3a29-4985" name="&gt;Dead or Dismissed Man-at-Arms" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="9ed4-9d39-cfdf-7f33" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2091,7 +2091,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f703-4b1e-1c25-4e1b" name="&gt;Dead or Dismissed Marksman" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f703-4b1e-1c25-4e1b" name="&gt;Dead or Dismissed Marksman" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="0cbd-b50b-e9a9-0e2a" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2153,7 +2153,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="8b2b-e129-d986-651d" name="&gt;Dead or Dismissed Pack Mule" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8b2b-e129-d986-651d" name="&gt;Dead or Dismissed Pack Mule" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="830c-6975-d738-578f" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2215,7 +2215,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="a4a9-d8ac-f99e-a563" name="&gt;Dead or Dismissed Ranger" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="a4a9-d8ac-f99e-a563" name="&gt;Dead or Dismissed Ranger" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="532a-e67f-cb10-b5b4" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2277,7 +2277,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="60aa-24f7-34de-f3b7" name="&gt;Dead or Dismissed Templar" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="60aa-24f7-34de-f3b7" name="&gt;Dead or Dismissed Templar" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="45e3-3815-347f-6072" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2339,7 +2339,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="4d8f-0295-babc-a323" name="&gt;Dead or Dismissed Thief" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4d8f-0295-babc-a323" name="&gt;Dead or Dismissed Thief" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="7d9d-ff7b-e20a-22e0" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2401,7 +2401,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5714-06de-fae1-ffbf" name="&gt;Dead or Dismissed Thug" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5714-06de-fae1-ffbf" name="&gt;Dead or Dismissed Thug" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="e81b-7920-b382-ab41" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2463,7 +2463,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="7ac4-4537-5327-213d" name="&gt;Dead or Dismissed Tracker" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7ac4-4537-5327-213d" name="&gt;Dead or Dismissed Tracker" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ea44-0ea5-e0cb-7312" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2525,7 +2525,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="095b-835a-14c1-0f59" name="&gt;Dead or Dismissed Treasure Hunter" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="095b-835a-14c1-0f59" name="&gt;Dead or Dismissed Treasure Hunter" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="3aea-08e7-8041-2a22" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2587,7 +2587,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="14ca-8372-3f1d-e92b" name="&gt;Dead or Dismissed War hound" points="0.0" categoryId="9c14-90e4-b283-e370" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="14ca-8372-3f1d-e92b" name="&gt;Dead or Dismissed War hound" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="6c22-5a0a-f245-d4d7" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2720,7 +2720,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="3642-7e3b-9892-d0aa" name="Animate Construct" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="3642-7e3b-9892-d0aa" name="Animate Construct" points="0.0" categoryId="fead-a942-31bd-08a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="b70c-3de2-8b7b-b10b" name="Construct Size" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3144,6 +3144,207 @@ nor can they receive this bonus from another bard.</description>
       <profiles/>
       <links/>
     </entry>
+    <entry id="6110-54ec-6799-d222" name="Captain" points="100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f376-aa72-6185-a185" name="Stat Increases" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c3dc-8c87-31aa-11a9" name="Move +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c8de-d4db-9cbb-ea57" name="Fight +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="126f-b5bc-3e20-aa2a" name="Shoot +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="60b8-2331-9711-88fc" name="Will +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a129-6197-8583-161c" name="Health +2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="8366-435c-7e04-c38e" name="Tricks of the Trade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="966c-3a06-e92d-1388" name="Captain Weapons and Equipment" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="439e-4060-fa73-c41e" name="Captain Weapons and Armour" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="8653-5c1a-841c-72cb" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="439e-4060-fa73-c41e" childId="5130-6008-f86c-145b" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="439e-4060-fa73-c41e" childId="e06b-0002-2f04-184d" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="ec00-f56f-320e-2020" name="Dagger" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="439e-4060-fa73-c41e" childId="5130-6008-f86c-145b" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="439e-4060-fa73-c41e" childId="e06b-0002-2f04-184d" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="439e-4060-fa73-c41e" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="eafb-9969-f6e7-0e20" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="2e77-b702-6303-4c4f" name="Crossbow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="e06b-0002-2f04-184d" name="Two-Handed Weapon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="5130-6008-f86c-145b" name="Staff" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="e17f-55b4-1e4d-530f" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="439e-4060-fa73-c41e" childId="ec00-f56f-320e-2020" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="439e-4060-fa73-c41e" childId="5130-6008-f86c-145b" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="439e-4060-fa73-c41e" childId="e06b-0002-2f04-184d" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="2598-9179-33ec-2679" name="Armour" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="e7f4-7e4b-caa1-fe3e" name="Leather Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                    <entry id="d356-a1ac-f0b9-7d18" name="Mail Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links/>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3b05-87c4-82a0-bdba" targetId="5282-972a-46ea-f5e2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7e7c-8e20-79da-45c7" name="Crossbowman" points="-50.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -3318,7 +3519,7 @@ The crow master can pick up treasure, but he may not carry any other items.</des
         </link>
       </links>
     </entry>
-    <entry id="ca81-973e-ce19-e8a3" name="Illusionary Soldier" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="ca81-973e-ce19-e8a3" name="Illusionary Soldier" points="0.0" categoryId="fead-a942-31bd-08a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -3420,7 +3621,7 @@ The crow master can pick up treasure, but he may not carry any other items.</des
         </link>
       </links>
     </entry>
-    <entry id="8460-e155-8e7a-d431" name="Inn" points="0.0" categoryId="9525-331f-8718-ef30" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8460-e155-8e7a-d431" name="Inn" points="0.0" categoryId="7a12-9ec0-2b81-6143" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -3516,7 +3717,7 @@ They can also be thrown up to 10”.</description>
         </link>
       </links>
     </entry>
-    <entry id="d7e9-0573-b5f1-d7e9" name="Kennel" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="d7e9-0573-b5f1-d7e9" name="Kennel" points="0.0" categoryId="fead-a942-31bd-08a3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
         <entry id="3c32-2e3d-d50d-51ac" name="War Hound" points="-10.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -3947,7 +4148,7 @@ example, if they have no open item slot).</description>
         </link>
       </links>
     </entry>
-    <entry id="8ddf-6cbb-d3a3-c98a" name="Raise Zombie" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="8ddf-6cbb-d3a3-c98a" name="Raise Zombie" points="0.0" categoryId="fead-a942-31bd-08a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -4053,7 +4254,7 @@ example, if they have no open item slot).</description>
         </link>
       </links>
     </entry>
-    <entry id="566b-d407-a040-c727" name="Standard Campaign" points="0.0" categoryId="ab7f-026e-1461-e78e" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="566b-d407-a040-c727" name="Standard Campaign" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="5f61-cebf-2599-42fa" name="Scenarios" minSelections="0" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4365,7 +4566,7 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="0e05-3036-a5f6-849e" name="Summon Demon" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="0e05-3036-a5f6-849e" name="Summon Demon" points="0.0" categoryId="fead-a942-31bd-08a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="141d-ff79-5e68-9354" name="Demon Summoned" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4397,7 +4598,7 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="5958-7163-69a4-8aae" name="Summon Demon" points="0.0" categoryId="e9e0-7255-0e95-96cd" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+    <entry id="5958-7163-69a4-8aae" name="Summon Demon" points="0.0" categoryId="fead-a942-31bd-08a3" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups>
         <entryGroup id="f16b-dbb6-c705-40b1" name="Demon Summoned" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4504,7 +4705,7 @@ example, if they have no open item slot).</description>
         </link>
       </links>
     </entry>
-    <entry id="7003-6b48-482b-c228" name="Thaw of the Lich Lord" points="0.0" categoryId="ab7f-026e-1461-e78e" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7003-6b48-482b-c228" name="Thaw of the Lich Lord" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="9f55-e624-1763-627a" name=".1&lt; Scenario One" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4936,7 +5137,7 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="8711-fa6d-22e8-7a16" name="The Hunt for the Golem" points="0.0" categoryId="ab7f-026e-1461-e78e" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="8711-fa6d-22e8-7a16" name="The Hunt for the Golem" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="b2b1-a7a3-91a6-c663" name=".1&lt; Scenario One" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8713,6 +8914,14 @@ example, if they have no open item slot).</description>
       <links/>
     </entry>
     <entry id="2c58-955a-ae57-bdfd" name="250Gc" points="250.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="2f54-5b0b-8f72-7a09" name="500Gc" points="500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -42329,393 +42538,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="e8de-6e88-d693-3051" name="&gt; V-  Lich Lord Treasure &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="eebb-6f09-2339-646c" name="Amulet of Resistance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="3eb9-4697-f36e-9d6d" targetId="a024-f853-7f0b-3b4b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="10cc-cf5a-acc9-6385" targetId="0a5d-2088-eb0c-fddd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a217-e6be-8371-7e86" targetId="e55e-e79a-0e53-cfb7" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1ace-0a58-73f3-f182" targetId="c1ec-b0a9-2db5-8c7b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="7e38-d2d1-9a75-e271" name="Staff of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="bce7-660c-b380-892f" targetId="49db-f2ed-450b-272f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7956-1827-7a10-a4bd" targetId="daa4-3694-6c10-a887" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2637-78f1-78ca-0436" targetId="77e4-f5e2-62cf-d6f7" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0c8f-04e7-0b8f-87db" targetId="70a8-3f3e-ff5d-a715" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="723f-1c8f-694d-4f29" name="Staff of Power (2)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="8019-f688-ee83-1821" targetId="88c8-aceb-9641-65df" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e574-1f24-bcfe-bb7e" targetId="2c6f-ae4d-7269-dc7d" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4e87-1f04-77dc-1e23" targetId="2b19-2c2d-910d-4e0b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="16d6-e05d-29b3-638c" targetId="5f07-ab49-0c90-5373" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="ba2b-e349-a012-fc0b" name="Staff of Power (3)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="30d6-bc66-020f-bde8" targetId="3a01-4ef5-6f6e-218f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="eff1-60ec-88e7-4f02" targetId="d723-2ee5-b32b-4751" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c7ea-87e2-d8b7-0eba" targetId="c350-9f5a-5140-ae51" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6b45-bc37-f5b7-92cd" targetId="95cb-be5e-d93c-a105" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="6191-6692-8ee1-deeb" name="Ring of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6ec7-130c-cb6b-5326" targetId="26cb-6888-04ef-d0c3" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="aaac-f5b3-d368-0238" targetId="92f4-a84f-dcc7-c84f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4df6-5432-6f79-ab8a" targetId="a900-dafc-3a9a-914e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8863-1a60-bdf8-fe91" targetId="f759-eef3-f752-fb8b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="f410-c60d-a789-736f" name="Orb of Power (8)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="a307-c381-6011-d85d" targetId="3644-63fc-4e09-4431" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8cc7-bad6-6db1-7a24" targetId="08a0-1a13-b8e3-e590" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c6ad-9610-dbdb-606e" targetId="c550-45df-eeaf-9485" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="7390-cbcf-0759-a2cc" targetId="0593-e523-edb2-d25f" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="795c-c9bf-cf15-21d9" name="Staff of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="96ac-f810-8f33-863e" targetId="482b-f9af-ce61-ec24" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="731f-7348-a6a0-f6f0" targetId="d516-a1b5-93a1-3c51" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4b32-2edf-0ce8-7da7" targetId="f7fc-f999-45a0-3019" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="384f-18f6-bd63-1e0e" targetId="b26c-de63-a161-2628" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="27b1-20b2-2758-9e52" name="Boots of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="f2df-b526-ff93-6003" targetId="cc67-3266-4945-b066" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="db3b-ad5a-7892-3be1" targetId="7c21-603e-550b-79c0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="cb8e-39d6-2997-7b3d" targetId="b723-4460-2b03-5e90" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1eef-e8ea-8ce9-fbda" targetId="6dd8-c25c-9d7a-281f" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="7035-3f86-a00d-9009" name="Ring of Slow Fall" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="d044-7c4f-a0c1-6268" targetId="4e15-1bec-baf4-7e11" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="28a4-c8f3-4cbb-bb85" targetId="beb1-50fe-801d-8636" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="fac6-19c3-42f9-0590" targetId="a5e4-3037-856a-1d3c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d7bf-ec7e-e25f-681f" targetId="8de5-4dd4-281f-7d36" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="17f1-d887-1c18-415f" name="Ring of Will" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="8acd-c33b-67ae-1bb8" targetId="a1e3-2ad4-bd11-c9f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="145c-8e84-3c98-5cbb" targetId="1d85-aba0-9e9c-a143" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c528-3508-eff4-b4c4" targetId="e1af-3516-f5f1-e666" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b971-a9cd-7ef7-8bdb" targetId="02ca-a716-85f6-a0cf" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="8ac9-181c-f62d-1907" name="Ring of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="f355-9f16-bc6d-229c" targetId="b07d-dfad-b7fd-f5a4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="485b-a1ec-e583-51c4" targetId="db62-8269-a37e-c5ca" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0ac0-bda4-cd6a-9630" targetId="f100-dbfb-9772-2163" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1bbe-5665-f882-f27a" targetId="8050-5762-7d33-e917" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="52e2-1c4d-9139-a2e0" name="Gloves of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="ac48-79ce-be79-7084" targetId="b43d-21ca-59f2-3dbd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="fbad-5e74-8278-07d7" targetId="6b35-fb14-1b28-6510" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b612-88d0-44d6-c344" targetId="cda8-5268-35bc-1efa" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b102-4336-b035-d035" targetId="e05a-6da7-f329-5463" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="a822-617c-1874-3d9d" name="Robes of Arrow Turning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="6fa8-4c25-4ddd-0de3" targetId="f64a-a5fa-81f1-3e98" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3950-974c-1125-12e9" targetId="7459-d19c-4fa4-e484" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8113-4c48-6e5e-3fe5" targetId="2280-51bd-a73e-3cee" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a424-e370-1ff2-62c4" targetId="0b8e-1c1b-0eb5-7220" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="df4d-5b37-e91d-5b13" name="Candle of Summoning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="4e13-c1f2-26dd-f833" targetId="8ca2-7dfb-6f68-e8a3" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5a9e-7b97-d99e-9192" targetId="2bf7-9620-ca93-4adb" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="fadd-137a-371a-2218" targetId="5bc4-84ca-2e59-3814" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bab6-3f46-a507-8268" targetId="9bcc-4f5e-94a3-b44d" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="50ed-0ab4-7114-2c01" name="Gloves of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="bd72-d6f3-f2da-6ffb" targetId="5bb5-2ae1-051e-2d36" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5ffb-c3ae-27aa-07ae" targetId="5efc-f9e3-2c54-af65" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4594-4607-908f-7964" targetId="f044-b34a-b299-4137" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0f58-a2b8-d674-a8e7" targetId="37e6-e79b-ad5e-a104" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="43f6-e6ff-c9e6-97de" name="Belt of Animal Repellence" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="d59e-ff7b-f111-6e81" targetId="9828-2f9f-b48d-e4e9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e60b-07b8-5a1b-4ec8" targetId="52f7-ed85-d08e-b3fc" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dfac-b072-8fba-b4a5" targetId="211b-31be-1dc2-6659" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5ccb-2838-bc5d-91e7" targetId="d223-aaf3-6efc-b2c4" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="d92d-c1f7-83a1-55b4" name="Horn of Destruction" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="1f4b-5200-4c26-62f7" targetId="eb6e-91ce-9fc3-7ef4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dd12-036c-6bdf-706c" targetId="da13-3137-0f55-1a71" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e4a7-10f3-585a-0cb5" targetId="1385-3fe2-0ec8-b15e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b0b1-1c67-f9ee-431c" targetId="c3df-4578-a7fe-cce6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="b0f8-d24c-064f-aee2" name="Fate Stone" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="5084-8abe-b2ef-4d00" targetId="126f-4512-9fdc-2bfb" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3980-d14f-a41a-03f7" targetId="7e41-f80b-e573-54d2" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="01b0-41f0-214d-302f" targetId="cbe5-3bd6-ef74-7a94" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="944d-4494-d3cb-e68b" targetId="61a8-2627-eb15-2a1e" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="8fcb-a342-986f-ffa2" name="Drinking Horn of Healing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="9fef-321c-cb7a-2197" targetId="2c92-d146-df51-1c48" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1a91-2d86-627c-be3a" targetId="37c1-6752-116f-05c4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d009-2b9e-c03a-8421" targetId="be23-7084-e834-c956" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="db80-9276-6e7f-d4dc" targetId="02c2-b152-f56e-92bf" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="13de-37ae-7466-05fd" name="Banner of Courage" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="9780-d704-5b62-2ef5" targetId="b502-02b5-3247-0735" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5c1c-57b0-cbde-08a8" targetId="c7a2-9f0e-1b66-3782" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0518-c316-0a89-7e14" targetId="e552-113d-e7e4-791a" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="dd7d-6db4-3b1b-6467" targetId="7556-3e51-6582-04ec" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <links/>
-    </entryGroup>
     <entryGroup id="cd08-c844-aed3-65fd" name="&gt; V-  Magic Items &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -43155,6 +42977,393 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
               <modifiers/>
             </link>
             <link id="bbd0-58f8-d77f-6b2a" targetId="59fd-c6a8-b748-3573" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="e8de-6e88-d693-3051" name="&gt; V-  Thaw of the Lich Lord Treasure &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="eebb-6f09-2339-646c" name="Wraithbottle" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="3eb9-4697-f36e-9d6d" targetId="a024-f853-7f0b-3b4b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="10cc-cf5a-acc9-6385" targetId="0a5d-2088-eb0c-fddd" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a217-e6be-8371-7e86" targetId="e55e-e79a-0e53-cfb7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1ace-0a58-73f3-f182" targetId="c1ec-b0a9-2db5-8c7b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7e38-d2d1-9a75-e271" name="Grimoire of the Revenant" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="bce7-660c-b380-892f" targetId="49db-f2ed-450b-272f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7956-1827-7a10-a4bd" targetId="daa4-3694-6c10-a887" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2637-78f1-78ca-0436" targetId="77e4-f5e2-62cf-d6f7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0c8f-04e7-0b8f-87db" targetId="70a8-3f3e-ff5d-a715" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="723f-1c8f-694d-4f29" name="Grimoire of the Homunculus" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8019-f688-ee83-1821" targetId="88c8-aceb-9641-65df" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e574-1f24-bcfe-bb7e" targetId="2c6f-ae4d-7269-dc7d" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4e87-1f04-77dc-1e23" targetId="2b19-2c2d-910d-4e0b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="16d6-e05d-29b3-638c" targetId="5f07-ab49-0c90-5373" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="ba2b-e349-a012-fc0b" name="Grimoire of Lichdom" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="30d6-bc66-020f-bde8" targetId="3a01-4ef5-6f6e-218f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="eff1-60ec-88e7-4f02" targetId="d723-2ee5-b32b-4751" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c7ea-87e2-d8b7-0eba" targetId="c350-9f5a-5140-ae51" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6b45-bc37-f5b7-92cd" targetId="95cb-be5e-d93c-a105" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="6191-6692-8ee1-deeb" name="Scarf of Obscurance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6ec7-130c-cb6b-5326" targetId="26cb-6888-04ef-d0c3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="aaac-f5b3-d368-0238" targetId="92f4-a84f-dcc7-c84f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4df6-5432-6f79-ab8a" targetId="a900-dafc-3a9a-914e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8863-1a60-bdf8-fe91" targetId="f759-eef3-f752-fb8b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="f410-c60d-a789-736f" name="Ivory Scroll" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a307-c381-6011-d85d" targetId="3644-63fc-4e09-4431" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8cc7-bad6-6db1-7a24" targetId="08a0-1a13-b8e3-e590" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c6ad-9610-dbdb-606e" targetId="c550-45df-eeaf-9485" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7390-cbcf-0759-a2cc" targetId="0593-e523-edb2-d25f" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="795c-c9bf-cf15-21d9" name="Book of the Rangifer" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="96ac-f810-8f33-863e" targetId="482b-f9af-ce61-ec24" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="731f-7348-a6a0-f6f0" targetId="d516-a1b5-93a1-3c51" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4b32-2edf-0ce8-7da7" targetId="f7fc-f999-45a0-3019" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="384f-18f6-bd63-1e0e" targetId="b26c-de63-a161-2628" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="27b1-20b2-2758-9e52" name="Horn of Hellfire" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f2df-b526-ff93-6003" targetId="cc67-3266-4945-b066" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="db3b-ad5a-7892-3be1" targetId="7c21-603e-550b-79c0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="cb8e-39d6-2997-7b3d" targetId="b723-4460-2b03-5e90" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1eef-e8ea-8ce9-fbda" targetId="6dd8-c25c-9d7a-281f" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7035-3f86-a00d-9009" name="Vial of Starlight" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d044-7c4f-a0c1-6268" targetId="4e15-1bec-baf4-7e11" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="28a4-c8f3-4cbb-bb85" targetId="beb1-50fe-801d-8636" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fac6-19c3-42f9-0590" targetId="a5e4-3037-856a-1d3c" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d7bf-ec7e-e25f-681f" targetId="8de5-4dd4-281f-7d36" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="17f1-d887-1c18-415f" name="Club of Battering" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8acd-c33b-67ae-1bb8" targetId="a1e3-2ad4-bd11-c9f9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="145c-8e84-3c98-5cbb" targetId="1d85-aba0-9e9c-a143" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c528-3508-eff4-b4c4" targetId="e1af-3516-f5f1-e666" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b971-a9cd-7ef7-8bdb" targetId="02ca-a716-85f6-a0cf" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="8ac9-181c-f62d-1907" name="Crystal Rose" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f355-9f16-bc6d-229c" targetId="b07d-dfad-b7fd-f5a4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="485b-a1ec-e583-51c4" targetId="db62-8269-a37e-c5ca" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0ac0-bda4-cd6a-9630" targetId="f100-dbfb-9772-2163" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1bbe-5665-f882-f27a" targetId="8050-5762-7d33-e917" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="52e2-1c4d-9139-a2e0" name="Ring of Life" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ac48-79ce-be79-7084" targetId="b43d-21ca-59f2-3dbd" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fbad-5e74-8278-07d7" targetId="6b35-fb14-1b28-6510" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b612-88d0-44d6-c344" targetId="cda8-5268-35bc-1efa" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b102-4336-b035-d035" targetId="e05a-6da7-f329-5463" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="a822-617c-1874-3d9d" name="Book of Bones" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6fa8-4c25-4ddd-0de3" targetId="f64a-a5fa-81f1-3e98" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3950-974c-1125-12e9" targetId="7459-d19c-4fa4-e484" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8113-4c48-6e5e-3fe5" targetId="2280-51bd-a73e-3cee" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a424-e370-1ff2-62c4" targetId="0b8e-1c1b-0eb5-7220" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="df4d-5b37-e91d-5b13" name="Vampire Blade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4e13-c1f2-26dd-f833" targetId="8ca2-7dfb-6f68-e8a3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5a9e-7b97-d99e-9192" targetId="2bf7-9620-ca93-4adb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fadd-137a-371a-2218" targetId="5bc4-84ca-2e59-3814" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bab6-3f46-a507-8268" targetId="9bcc-4f5e-94a3-b44d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="50ed-0ab4-7114-2c01" name="Eye of Amoto" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="bd72-d6f3-f2da-6ffb" targetId="5bb5-2ae1-051e-2d36" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5ffb-c3ae-27aa-07ae" targetId="5efc-f9e3-2c54-af65" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4594-4607-908f-7964" targetId="f044-b34a-b299-4137" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0f58-a2b8-d674-a8e7" targetId="37e6-e79b-ad5e-a104" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="43f6-e6ff-c9e6-97de" name="Sword of Undead Slaying" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d59e-ff7b-f111-6e81" targetId="9828-2f9f-b48d-e4e9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e60b-07b8-5a1b-4ec8" targetId="52f7-ed85-d08e-b3fc" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="dfac-b072-8fba-b4a5" targetId="211b-31be-1dc2-6659" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5ccb-2838-bc5d-91e7" targetId="d223-aaf3-6efc-b2c4" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="d92d-c1f7-83a1-55b4" name="Unbreakable Orb" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1f4b-5200-4c26-62f7" targetId="eb6e-91ce-9fc3-7ef4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="dd12-036c-6bdf-706c" targetId="da13-3137-0f55-1a71" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e4a7-10f3-585a-0cb5" targetId="1385-3fe2-0ec8-b15e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b0b1-1c67-f9ee-431c" targetId="c3df-4578-a7fe-cce6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="b0f8-d24c-064f-aee2" name="Boots of Leaping" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5084-8abe-b2ef-4d00" targetId="126f-4512-9fdc-2bfb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3980-d14f-a41a-03f7" targetId="7e41-f80b-e573-54d2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="01b0-41f0-214d-302f" targetId="cbe5-3bd6-ef74-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="944d-4494-d3cb-e68b" targetId="61a8-2627-eb15-2a1e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="8fcb-a342-986f-ffa2" name="Quiver of the Soul Seeker" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9fef-321c-cb7a-2197" targetId="2c92-d146-df51-1c48" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="1a91-2d86-627c-be3a" targetId="37c1-6752-116f-05c4" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d009-2b9e-c03a-8421" targetId="be23-7084-e834-c956" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="db80-9276-6e7f-d4dc" targetId="02c2-b152-f56e-92bf" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="13de-37ae-7466-05fd" name="Magic Spectacles" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9780-d704-5b62-2ef5" targetId="b502-02b5-3247-0735" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5c1c-57b0-cbde-08a8" targetId="c7a2-9f0e-1b66-3782" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0518-c316-0a89-7e14" targetId="e552-113d-e7e4-791a" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="dd7d-6db4-3b1b-6467" targetId="7556-3e51-6582-04ec" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -53521,6 +53730,19 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
     <profile id="4f3b-317e-beb0-ce09" profileTypeId="6aa0-7599-3110-557a" name="Bow S+1" hidden="false">
       <characteristics>
         <characteristic characteristicId="2e11-70f5-81d9-c89f" name="Av. Qty" value="0"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5282-972a-46ea-f5e2" profileTypeId="b61b-0c97-c7d1-7544" name="Captain" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="f7bf-365b-c258-39c9" name="LV" value="0"/>
+        <characteristic characteristicId="036a-b7a9-721d-26d9" name="XP" value="0"/>
+        <characteristic characteristicId="fc8a-4d10-ff67-b712" name="M" value="6"/>
+        <characteristic characteristicId="8c04-f946-05f3-dcbb" name="F" value="+2"/>
+        <characteristic characteristicId="5c35-03bb-538f-1ec0" name="S" value="+1"/>
+        <characteristic characteristicId="65fd-5ef4-79dc-22c2" name="A" value="10"/>
+        <characteristic characteristicId="bdaf-6952-5055-4b9c" name="W" value="+3"/>
+        <characteristic characteristicId="0f26-8389-5c14-46cc" name="H" value="12"/>
       </characteristics>
       <modifiers/>
     </profile>

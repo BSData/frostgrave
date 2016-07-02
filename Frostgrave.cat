@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4137-4672-dcbc-1c57" revision="8" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4137-4672-dcbc-1c57" revision="9" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -68,7 +68,87 @@
         </entryGroup>
         <entryGroup id="1928-67c5-5cc7-0e83" name="End of Game" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="b48f-a43c-e3c4-84c5" name="Captain&apos;s Share" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="aa3c-2d35-a05f-4602" targetId="7549-1a52-0fdb-a6bf" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-100.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="e47b-0c4d-6ae9-0aa4" targetId="9089-f70d-3c2e-b238" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="ba62-7edb-e628-ea0a" targetId="e52a-7f7c-22b5-c581" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="ffc1-bb94-45c0-18fd" targetId="02a1-f882-1c31-1de7" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="a5ff-c7a3-b0cb-c168" targetId="dd91-52fe-d031-ded5" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="12b3-2148-2a48-46f7" targetId="32a9-659f-1fe9-aabf" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="b769-f004-d1fa-defc" targetId="eeb0-f20e-e13d-1576" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-150.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="f006-1462-bf9c-7495" targetId="41b7-95a3-4cde-68dd" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-200.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="8529-bd2b-6672-7d21" targetId="2c58-955a-ae57-bdfd" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="-250.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <links>
             <link id="a081-c257-158f-cc04" targetId="4251-3918-8c2d-f6cd" linkType="entry">
@@ -3144,7 +3224,7 @@ nor can they receive this bonus from another bard.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="6110-54ec-6799-d222" name="Captain" points="100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6110-54ec-6799-d222" name="Captain" points="-100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="f376-aa72-6185-a185" name="Stat Increases" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3194,8 +3274,188 @@ nor can they receive this bonus from another bard.</description>
           <modifiers/>
           <links/>
         </entryGroup>
-        <entryGroup id="8366-435c-7e04-c38e" name="Tricks of the Trade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+        <entryGroup id="8366-435c-7e04-c38e" name="Tricks of the Trade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8e05-2d0e-5955-1da2" name="Furious Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="2c4e-60bc-3106-558f" profileTypeId="0363-7b73-ca70-5998" name="Furious Attack" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Fight for one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="5f17-40e1-21ff-3c7c" name="Riposte" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="eed6-d9e5-60e3-df86" profileTypeId="0363-7b73-ca70-5998" name="Riposte" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Fight for one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="47cc-82c7-0367-57d2" name="Coup de Grâce" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8552-c998-07b8-e419" profileTypeId="0363-7b73-ca70-5998" name="Coup de Grâce" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Damage to any hand-to-hand attack that has
+dealt at least 1 point of damage"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After damage is calculated"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="77bf-158f-2a63-c326" name="Steady Hand" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="109d-bcc4-eceb-f6d4" profileTypeId="0363-7b73-ca70-5998" name="Steady Hand" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Shoot for one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="8624-3a66-aa2e-e426" name="Dead Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e82a-bc76-abe6-8fb4" profileTypeId="0363-7b73-ca70-5998" name="Dead Eye" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Shoot for one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="6c70-4699-4d60-e0ad" name="Brace" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a876-e047-ffe1-b7f1" profileTypeId="0363-7b73-ca70-5998" name="Brace" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Armour for one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="6a52-780b-acd1-cf21" name="Dodge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3248-719d-6d65-bc46" profileTypeId="0363-7b73-ca70-5998" name="Dodge" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Armour to one attack"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="+1 Armour to one attack"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="22a2-e9fa-d6fd-553c" name="Nerves of Steel" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e4bb-210f-6b29-2983" profileTypeId="0363-7b73-ca70-5998" name="Nerves of Steel" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+4 Will for one Will roll"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the roll is made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="b761-c4f4-d2bc-3cc5" name="Iron Heart" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f622-fc50-f03f-6773" profileTypeId="0363-7b73-ca70-5998" name="Iron Heart" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Will for one Will roll"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the roll is made"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="a8fb-860d-1053-48cf" name="Sprint" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7228-6865-59cb-fd51" profileTypeId="0363-7b73-ca70-5998" name="Sprint" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Move for the rest of the turn"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="c358-e2ba-6c47-8176" name="Leadership" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0de0-6127-eea9-ea6f" profileTypeId="0363-7b73-ca70-5998" name="Leadership" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="If using a Group Activation, the captain may
+activate up to three soldiers within 3&quot; who have
+not already been activated in the turn"/>
+                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <links/>
@@ -3226,7 +3486,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="ec00-f56f-320e-2020" name="Dagger" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="ec00-f56f-320e-2020" name="Dagger" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -3248,7 +3508,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="eafb-9969-f6e7-0e20" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="eafb-9969-f6e7-0e20" name="Bow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3256,7 +3516,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="2e77-b702-6303-4c4f" name="Crossbow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="2e77-b702-6303-4c4f" name="Crossbow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3264,7 +3524,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e06b-0002-2f04-184d" name="Two-Handed Weapon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e06b-0002-2f04-184d" name="Two-Handed Weapon" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3272,7 +3532,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="5130-6008-f86c-145b" name="Staff" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="5130-6008-f86c-145b" name="Staff" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3280,7 +3540,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e17f-55b4-1e4d-530f" name="Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e17f-55b4-1e4d-530f" name="Shield" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -3314,7 +3574,7 @@ nor can they receive this bonus from another bard.</description>
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="d356-a1ac-f0b9-7d18" name="Mail Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="d356-a1ac-f0b9-7d18" name="Mail Armour" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -3333,7 +3593,11 @@ nor can they receive this bonus from another bard.</description>
             </entryGroup>
           </entryGroups>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="7e4b-8fc0-f12a-1237" targetId="a660-2779-4b21-6e11" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -53744,7 +54008,105 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="bdaf-6952-5055-4b9c" name="W" value="+3"/>
         <characteristic characteristicId="0f26-8389-5c14-46cc" name="H" value="12"/>
       </characteristics>
-      <modifiers/>
+      <modifiers>
+        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="e7f4-7e4b-caa1-fe3e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+2)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="d356-a1ac-f0b9-7d18" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="decrement" field="fc8a-4d10-ff67-b712" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="d356-a1ac-f0b9-7d18" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="e7f4-7e4b-caa1-fe3e" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="direct parent" childId="d356-a1ac-f0b9-7d18" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="direct parent" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+2)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="e7f4-7e4b-caa1-fe3e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+3)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="e17f-55b4-1e4d-530f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="d356-a1ac-f0b9-7d18" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8c04-f946-05f3-dcbb" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="c8de-d4db-9cbb-ea57" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="5c35-03bb-538f-1ec0" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="126f-b5bc-3e20-aa2a" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="fc8a-4d10-ff67-b712" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="c3dc-8c87-31aa-11a9" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0f26-8389-5c14-46cc" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="a129-6197-8583-161c" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="bdaf-6952-5055-4b9c" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="60b8-2331-9711-88fc" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="922e-df0f-d269-0bed" profileTypeId="84ca-e65c-fba6-e936" name="Crossbow" hidden="false">
       <characteristics>

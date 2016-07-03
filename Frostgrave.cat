@@ -4,7 +4,7 @@
     <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="eb1f-6226-c5af-e1be" name="Money" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="eb1f-6226-c5af-e1be" name="2 &lt; Gold &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="99c0-79f0-2a56-53e5" name="&lt; Warband Starting Fund" points="500.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -53,7 +53,7 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="af00-3fec-2e84-ceb5" name="Wizard Experience" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="af00-3fec-2e84-ceb5" name="1 &lt; Wizard Experience &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -66,15 +66,15 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1928-67c5-5cc7-0e83" name="End of Game" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5df5-7f17-85a8-11d7" name="3 &lt; Captain Experience and Share of Gold &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="b48f-a43c-e3c4-84c5" name="Captain&apos;s Share" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="401b-142f-a258-7136" name="&lt; Captain&apos;s Share &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <links>
-                <link id="aa3c-2d35-a05f-4602" targetId="7549-1a52-0fdb-a6bf" linkType="entry">
+                <link id="622c-7c76-ccd9-cf09" targetId="7549-1a52-0fdb-a6bf" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-100.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -82,7 +82,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="e47b-0c4d-6ae9-0aa4" targetId="9089-f70d-3c2e-b238" linkType="entry">
+                <link id="0b6d-fae1-8885-7f39" targetId="9089-f70d-3c2e-b238" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -90,7 +90,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="ba62-7edb-e628-ea0a" targetId="e52a-7f7c-22b5-c581" linkType="entry">
+                <link id="df22-fb1f-28bf-fae4" targetId="e52a-7f7c-22b5-c581" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -98,7 +98,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="ffc1-bb94-45c0-18fd" targetId="02a1-f882-1c31-1de7" linkType="entry">
+                <link id="14aa-6ee1-9d5d-01c0" targetId="02a1-f882-1c31-1de7" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -106,7 +106,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="a5ff-c7a3-b0cb-c168" targetId="dd91-52fe-d031-ded5" linkType="entry">
+                <link id="f359-f63a-560f-4278" targetId="dd91-52fe-d031-ded5" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-50.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -114,7 +114,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="12b3-2148-2a48-46f7" targetId="32a9-659f-1fe9-aabf" linkType="entry">
+                <link id="0c1d-5294-f9d3-7e04" targetId="32a9-659f-1fe9-aabf" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -122,7 +122,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="b769-f004-d1fa-defc" targetId="eeb0-f20e-e13d-1576" linkType="entry">
+                <link id="50ad-4c2a-55a9-8258" targetId="eeb0-f20e-e13d-1576" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-150.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -130,7 +130,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="f006-1462-bf9c-7495" targetId="41b7-95a3-4cde-68dd" linkType="entry">
+                <link id="c7fe-261e-ea63-49d7" targetId="41b7-95a3-4cde-68dd" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-200.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -138,7 +138,7 @@
                     </modifier>
                   </modifiers>
                 </link>
-                <link id="8529-bd2b-6672-7d21" targetId="2c58-955a-ae57-bdfd" linkType="entry">
+                <link id="f7f0-d54b-da6c-1285" targetId="2c58-955a-ae57-bdfd" linkType="entry">
                   <modifiers>
                     <modifier type="set" field="points" value="-250.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions/>
@@ -151,35 +151,52 @@
           </entryGroups>
           <modifiers/>
           <links>
-            <link id="a081-c257-158f-cc04" targetId="4251-3918-8c2d-f6cd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4d15-77aa-1e20-1596" targetId="7a7c-ae4e-c749-410a" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="fee7-56a3-5d7f-385e" targetId="66fd-f163-0c14-e95c" linkType="entry">
+            <link id="1cc4-5592-c081-fb2c" targetId="0c94-851b-189b-304c" linkType="entry group">
               <modifiers/>
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="bb38-34a1-f043-87c1" name="Pre-Game Requirements" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5cd8-377c-0544-b8d1" name="4 &lt; Game requirments &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="8d64-f5be-abf6-65e0" name="&lt; Pre-Game &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="bbed-431b-0c36-c829" targetId="2858-164c-5d1d-83c0" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="e25f-c151-8de4-aef4" targetId="d379-d560-1f4c-ed24" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="3a3f-92c3-3f44-7f83" targetId="e4b4-c2cb-50ac-5d96" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="dfdb-3f2e-9411-edd6" targetId="3121-5fa1-4201-5277" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="ceb9-1bf0-340a-d281" name="&lt; End of Game &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="27c9-ba6a-cbab-bf9d" targetId="4251-3918-8c2d-f6cd" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="582f-3b84-f9ce-5ad8" targetId="7a7c-ae4e-c749-410a" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="96d8-ffec-0fb9-21ec" targetId="66fd-f163-0c14-e95c" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
-          <links>
-            <link id="a592-b52f-5b9d-f9b1" targetId="2858-164c-5d1d-83c0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c747-bb0f-adbd-627e" targetId="d379-d560-1f4c-ed24" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b556-d4a9-9c6d-7762" targetId="e4b4-c2cb-50ac-5d96" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="9c34-f6d3-f2fe-547c" targetId="3121-5fa1-4201-5277" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -3227,243 +3244,10 @@ nor can they receive this bonus from another bard.</description>
     <entry id="6110-54ec-6799-d222" name="Captain" points="-100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="f376-aa72-6185-a185" name="Stat Increases" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c3dc-8c87-31aa-11a9" name="Move +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="c8de-d4db-9cbb-ea57" name="Fight +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="126f-b5bc-3e20-aa2a" name="Shoot +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="60b8-2331-9711-88fc" name="Will +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="a129-6197-8583-161c" name="Health +2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="8366-435c-7e04-c38e" name="Tricks of the Trade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="8e05-2d0e-5955-1da2" name="Furious Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="2c4e-60bc-3106-558f" profileTypeId="0363-7b73-ca70-5998" name="Furious Attack" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Fight for one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="5f17-40e1-21ff-3c7c" name="Riposte" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="eed6-d9e5-60e3-df86" profileTypeId="0363-7b73-ca70-5998" name="Riposte" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Fight for one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="47cc-82c7-0367-57d2" name="Coup de Grâce" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="8552-c998-07b8-e419" profileTypeId="0363-7b73-ca70-5998" name="Coup de Grâce" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Damage to any hand-to-hand attack that has
-dealt at least 1 point of damage"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After damage is calculated"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="77bf-158f-2a63-c326" name="Steady Hand" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="109d-bcc4-eceb-f6d4" profileTypeId="0363-7b73-ca70-5998" name="Steady Hand" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Shoot for one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="8624-3a66-aa2e-e426" name="Dead Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="e82a-bc76-abe6-8fb4" profileTypeId="0363-7b73-ca70-5998" name="Dead Eye" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Shoot for one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="6c70-4699-4d60-e0ad" name="Brace" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="a876-e047-ffe1-b7f1" profileTypeId="0363-7b73-ca70-5998" name="Brace" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Armour for one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="6a52-780b-acd1-cf21" name="Dodge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="3248-719d-6d65-bc46" profileTypeId="0363-7b73-ca70-5998" name="Dodge" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Armour to one attack"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="+1 Armour to one attack"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="22a2-e9fa-d6fd-553c" name="Nerves of Steel" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="e4bb-210f-6b29-2983" profileTypeId="0363-7b73-ca70-5998" name="Nerves of Steel" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+4 Will for one Will roll"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the roll is made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="b761-c4f4-d2bc-3cc5" name="Iron Heart" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="f622-fc50-f03f-6773" profileTypeId="0363-7b73-ca70-5998" name="Iron Heart" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Will for one Will roll"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the roll is made"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="a8fb-860d-1053-48cf" name="Sprint" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="7228-6865-59cb-fd51" profileTypeId="0363-7b73-ca70-5998" name="Sprint" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Move for the rest of the turn"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="c358-e2ba-6c47-8176" name="Leadership" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="0de0-6127-eea9-ea6f" profileTypeId="0363-7b73-ca70-5998" name="Leadership" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="If using a Group Activation, the captain may
-activate up to three soldiers within 3&quot; who have
-not already been activated in the turn"/>
-                    <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="966c-3a06-e92d-1388" name="Captain Weapons and Equipment" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="966c-3a06-e92d-1388" name="&lt; Captain Weapons and Equipment &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="439e-4060-fa73-c41e" name="Captain Weapons and Armour" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="439e-4060-fa73-c41e" name="&lt; Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="8653-5c1a-841c-72cb" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -3564,7 +3348,7 @@ not already been activated in the turn"/>
                 </entry>
               </entries>
               <entryGroups>
-                <entryGroup id="2598-9179-33ec-2679" name="Armour" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="2598-9179-33ec-2679" name="&lt; Armour &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="e7f4-7e4b-caa1-fe3e" name="Leather Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
@@ -3599,12 +3383,367 @@ not already been activated in the turn"/>
             </link>
           </links>
         </entryGroup>
+        <entryGroup id="97ce-040d-c36a-4857" name="&gt; Upgrades and abilities &lt;" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="0586-9190-d722-1bea" name="&lt; Tricks of the Trade &gt;" minSelections="2" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="10fd-4a45-5861-b472" name="Furious Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="ef3d-03e0-5cdd-0e70" profileTypeId="0363-7b73-ca70-5998" name="Furious Attack" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Fight for one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="a04d-cbb0-84bf-5cec" name="Riposte" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="abb6-fc52-4f22-e5cd" profileTypeId="0363-7b73-ca70-5998" name="Riposte" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Fight for one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="65f6-3484-4ac4-0040" name="Coup de Grâce" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="689d-73e2-ba64-dd19" profileTypeId="0363-7b73-ca70-5998" name="Coup de Grâce" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Damage to any hand-to-hand attack that has dealt at least 1 point of damage"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After damage is calculated"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="7648-472f-27c2-92b6" name="Steady Hand" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="6423-718e-b2f5-a627" profileTypeId="0363-7b73-ca70-5998" name="Steady Hand" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Shoot for one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="522f-72dd-8177-6302" name="Dead Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="0411-0aac-be62-816c" profileTypeId="0363-7b73-ca70-5998" name="Dead Eye" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Shoot for one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="7c36-53f1-5ad6-5190" name="Brace" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="a4ab-152d-a7c1-4c71" profileTypeId="0363-7b73-ca70-5998" name="Brace" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Armour for one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="4aae-3c8b-f8b8-1f0b" name="Dodge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="957e-643a-86e6-14ef" profileTypeId="0363-7b73-ca70-5998" name="Dodge" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Armour to one attack"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="+1 Armour to one attack"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="6d24-6b16-8b7c-f6bc" name="Nerves of Steel" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="9c84-3cf1-0e9f-b5cd" profileTypeId="0363-7b73-ca70-5998" name="Nerves of Steel" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+4 Will for one Will roll"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the roll is made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="61b4-7e4d-c2e8-84ae" name="Iron Heart" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="4238-ee36-ca86-a29e" profileTypeId="0363-7b73-ca70-5998" name="Iron Heart" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Will for one Will roll"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the roll is made"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="64fb-873f-c9e8-3ace" name="Sprint" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="1b83-1bcd-d100-4d54" profileTypeId="0363-7b73-ca70-5998" name="Sprint" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Move for the rest of the turn"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="3da5-d347-87f4-e35e" name="Leadership" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="409f-5a40-9269-813e" profileTypeId="0363-7b73-ca70-5998" name="Leadership" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="If using a Group Activation, the captain may activate up to three soldiers within 3&quot; who have not already been activated in the turn"/>
+                        <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="f9b7-4927-2af0-896c" name="- Select another per level or..." minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups>
+                    <entryGroup id="af6a-7cd9-8dd8-1be8" name="&lt; An alternative stat increase &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries>
+                        <entry id="c9b8-265f-38be-67f1" name="Health +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                        <entry id="bdc4-5d3d-6b8d-c5a4" name="Will +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                          <entries/>
+                          <entryGroups/>
+                          <modifiers/>
+                          <rules/>
+                          <profiles/>
+                          <links/>
+                        </entry>
+                      </entries>
+                      <entryGroups/>
+                      <modifiers/>
+                      <links/>
+                    </entryGroup>
+                  </entryGroups>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="a2de-28f0-2e2e-426f" name="&lt; Choose Starting Increase &gt;" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="2251-2e4b-da9f-a59e" name="Move +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="1c78-d510-a9f2-c080" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="f923-5fbc-ce57-1957" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="e31f-bc3b-0691-5350" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="e31f-bc3b-0691-5350" name="Fight +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="2251-2e4b-da9f-a59e" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="1c78-d510-a9f2-c080" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="f923-5fbc-ce57-1957" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="f923-5fbc-ce57-1957" name="Shoot +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="1c78-d510-a9f2-c080" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="2251-2e4b-da9f-a59e" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="e31f-bc3b-0691-5350" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="df2a-8fd5-33bd-a20f" name="Will +1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="f923-5fbc-ce57-1957" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="e31f-bc3b-0691-5350" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="1c78-d510-a9f2-c080" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="2251-2e4b-da9f-a59e" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="1c78-d510-a9f2-c080" name="Health +2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="f923-5fbc-ce57-1957" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="2251-2e4b-da9f-a59e" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="a2de-28f0-2e2e-426f" childId="e31f-bc3b-0691-5350" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers>
+            <modifier type="increment" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b688-ca5e-d7f1-6935" incrementField="selections" incrementValue="100.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b688-ca5e-d7f1-6935" incrementField="selections" incrementValue="100.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
         <link id="3b05-87c4-82a0-bdba" targetId="5282-972a-46ea-f5e2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="75c1-e166-5cbc-9359" targetId="b688-ca5e-d7f1-6935" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9205,6 +9344,31 @@ example, if they have no open item slot).</description>
       <entries/>
       <entryGroups/>
       <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="b688-ca5e-d7f1-6935" name="&lt; Captain XP &gt;" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1000" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="minSelections" value="10.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b6ac-ea12-e5ae-f88f" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="minSelections" value="10.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="a48a-77a8-15df-2915" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="minSelections" value="10.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="d26a-6296-f827-0948" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="minSelections" value="20.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="eb7d-617f-686d-fb24" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -16039,6 +16203,38 @@ example, if they have no open item slot).</description>
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="d26a-6296-f827-0948" name="For each enemy soldier or neutral creature the captain takes out of the game" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="eb7d-617f-686d-fb24" name="For each enemy spellcaster the captain takes out of the game" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="b6ac-ea12-e5ae-f88f" name="For each game in which the captain takes part" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="a48a-77a8-15df-2915" name="For finishing the game without being reduced to 0 Health" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="fa67-b0f1-a750-594c" name="Forget Spell" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -29180,6 +29376,25 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <modifiers/>
         </link>
         <link id="e19e-fab4-9d7b-e359" targetId="73a9-1321-6677-7a94" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="0c94-851b-189b-304c" name="&lt; Captain&apos;s accomplishments &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0bb0-da10-95bc-6687" targetId="b6ac-ea12-e5ae-f88f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="49d8-29ea-9a1a-0a06" targetId="a48a-77a8-15df-2915" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7948-f3ca-b21a-39d3" targetId="d26a-6296-f827-0948" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="382b-2fb6-492a-b3e8" targetId="eb7d-617f-686d-fb24" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -42472,6 +42687,189 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
+    <entryGroup id="53fd-da04-af33-9957" name="&lt; Tricks of the Trade &gt;" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9270-64bf-8a1b-921c" name="Furious Attack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b811-96b2-3da5-2413" profileTypeId="0363-7b73-ca70-5998" name="Furious Attack" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Fight for one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f45d-2e1a-dbb9-ad0f" name="Riposte" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8e70-9fb0-3bee-6a9b" profileTypeId="0363-7b73-ca70-5998" name="Riposte" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Fight for one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bed9-a18e-b85b-b37f" name="Coup de Grâce" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="473a-1e8d-16a6-7344" profileTypeId="0363-7b73-ca70-5998" name="Coup de Grâce" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Damage to any hand-to-hand attack that has dealt at least 1 point of damage"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After damage is calculated"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0b74-884c-b148-b31e" name="Steady Hand" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4309-0d41-fa4d-f05a" profileTypeId="0363-7b73-ca70-5998" name="Steady Hand" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Shoot for one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e2a3-e383-c70a-a75a" name="Dead Eye" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e431-0905-cc3c-7e06" profileTypeId="0363-7b73-ca70-5998" name="Dead Eye" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Shoot for one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the rolls are made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8166-4cbd-5f9d-f90e" name="Brace" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1757-7a1f-0fa0-7798" profileTypeId="0363-7b73-ca70-5998" name="Brace" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+3 Armour for one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the rolls are made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="b46d-3f75-4806-17db" name="Dodge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9a4d-1886-ea4b-209e" profileTypeId="0363-7b73-ca70-5998" name="Dodge" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+1 Armour to one attack"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="+1 Armour to one attack"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="bdde-b76d-2047-0643" name="Nerves of Steel" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6683-3671-6574-416c" profileTypeId="0363-7b73-ca70-5998" name="Nerves of Steel" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+4 Will for one Will roll"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Before the roll is made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="fd33-c46b-bcdd-08c4" name="Iron Heart" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4a8f-832a-b6b1-e208" profileTypeId="0363-7b73-ca70-5998" name="Iron Heart" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Will for one Will roll"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="After the roll is made"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5ab5-516e-7d3a-a778" name="Sprint" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ec7e-29cd-d5c0-81a0" profileTypeId="0363-7b73-ca70-5998" name="Sprint" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="+2 Move for the rest of the turn"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4a8f-6283-52f2-d91c" name="Leadership" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="250a-48b2-e3f3-03f2" profileTypeId="0363-7b73-ca70-5998" name="Leadership" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="aa79-6610-3728-77ab" name="Effect" value="If using a Group Activation, the captain may activate up to three soldiers within 3&quot; who have not already been activated in the turn"/>
+                <characteristic characteristicId="6854-e8d0-ce4e-db36" name="When to Declare" value="Upon activation"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="2a85-cd44-27b4-0874" name="&lt; Wizard Stating Weapon &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="c7e2-b9c8-a177-05f1" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -42805,7 +43203,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
     <entryGroup id="cd08-c844-aed3-65fd" name="&gt; V-  Magic Items &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="8762-d29b-690d-0d23" name="Amulet of Resistance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8762-d29b-690d-0d23" name="&lt; Amulet of Resistance &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42827,7 +43225,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="d2f2-73a6-ee01-5812" name="Staff of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d2f2-73a6-ee01-5812" name="Staff of Power (1) &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42849,7 +43247,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="c81a-bddb-ed2f-3113" name="Staff of Power (2)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="c81a-bddb-ed2f-3113" name="&lt; Staff of Power (2)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42871,7 +43269,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="4e8b-7ee7-c44f-25fd" name="Staff of Power (3)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4e8b-7ee7-c44f-25fd" name="&lt; Staff of Power (3) &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42893,7 +43291,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="8946-11d0-4735-56bf" name="Ring of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8946-11d0-4735-56bf" name="&lt; Ring of Power (1) &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42915,7 +43313,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="70e1-f19b-7980-4edb" name="Orb of Power (8)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="70e1-f19b-7980-4edb" name="&lt; Orb of Power (8) &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42937,7 +43335,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="8e50-2b99-e911-08d8" name="Staff of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8e50-2b99-e911-08d8" name="&lt; Staff of Casting &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42959,7 +43357,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="33dc-45e1-d3d8-fc7f" name="Boots of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="33dc-45e1-d3d8-fc7f" name="&lt; Boots of Speed &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -42981,7 +43379,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="2954-eae5-95ef-70dd" name="Ring of Slow Fall" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="2954-eae5-95ef-70dd" name="&lt; Ring of Slow Fall &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43003,7 +43401,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="006e-eb2a-1d10-8aff" name="Ring of Will" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="006e-eb2a-1d10-8aff" name="&lt; Ring of Will &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43025,7 +43423,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="865e-6632-5e57-d27e" name="Ring of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="865e-6632-5e57-d27e" name="&lt; Ring of Teleportation &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43047,7 +43445,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="07a0-2b75-0b65-24c6" name="Gloves of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="07a0-2b75-0b65-24c6" name="&lt; Gloves of Strength &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43069,7 +43467,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="5af6-a491-03c6-5026" name="Robes of Arrow Turning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5af6-a491-03c6-5026" name="&lt; Robes of Arrow Turning &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43091,7 +43489,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="e89c-d994-3fba-cfa6" name="Candle of Summoning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e89c-d994-3fba-cfa6" name="&lt; Candle of Summoning &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43113,7 +43511,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="22aa-6068-3148-6095" name="Gloves of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="22aa-6068-3148-6095" name="&lt; Gloves of Casting &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43135,7 +43533,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="23b4-486f-d8ae-6aec" name="Belt of Animal Repellence" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="23b4-486f-d8ae-6aec" name="&lt; Belt of Animal Repellence &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43157,7 +43555,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="6894-5332-0917-7568" name="Horn of Destruction" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6894-5332-0917-7568" name="&lt; Horn of Destruction &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43179,7 +43577,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="da6f-0b44-9ab8-1e70" name="Fate Stone" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="da6f-0b44-9ab8-1e70" name="&lt; Fate Stone &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43201,7 +43599,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="9dea-8a40-872e-52b5" name="Drinking Horn of Healing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="9dea-8a40-872e-52b5" name="&lt; Drinking Horn of Healing &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43223,7 +43621,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="5c93-feeb-2d3f-baa6" name="Banner of Courage" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="5c93-feeb-2d3f-baa6" name="&lt; Banner of Courage &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43252,7 +43650,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
     <entryGroup id="e8de-6e88-d693-3051" name="&gt; V-  Thaw of the Lich Lord Treasure &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="eebb-6f09-2339-646c" name="Wraithbottle" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="eebb-6f09-2339-646c" name="&lt; Wraithbottle &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43271,7 +43669,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="7e38-d2d1-9a75-e271" name="Grimoire of the Revenant" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7e38-d2d1-9a75-e271" name="&lt; Grimoire of the Revenant &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43290,7 +43688,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="723f-1c8f-694d-4f29" name="Grimoire of the Homunculus" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="723f-1c8f-694d-4f29" name="&lt; Grimoire of the Homunculus &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43309,7 +43707,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="ba2b-e349-a012-fc0b" name="Grimoire of Lichdom" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ba2b-e349-a012-fc0b" name="&lt; Grimoire of Lichdom &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43328,7 +43726,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="6191-6692-8ee1-deeb" name="Scarf of Obscurance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6191-6692-8ee1-deeb" name="&lt; Scarf of Obscurance &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43347,7 +43745,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="f410-c60d-a789-736f" name="Ivory Scroll" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="f410-c60d-a789-736f" name="&lt; Ivory Scroll &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43366,7 +43764,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="795c-c9bf-cf15-21d9" name="Book of the Rangifer" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="795c-c9bf-cf15-21d9" name="&lt; Book of the Rangifer &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43385,7 +43783,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="27b1-20b2-2758-9e52" name="Horn of Hellfire" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="27b1-20b2-2758-9e52" name="&lt; Horn of Hellfire &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43404,7 +43802,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="7035-3f86-a00d-9009" name="Vial of Starlight" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="7035-3f86-a00d-9009" name="&lt; Vial of Starlight &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43423,7 +43821,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="17f1-d887-1c18-415f" name="Club of Battering" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="17f1-d887-1c18-415f" name="&lt; Club of Battering &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43442,7 +43840,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="8ac9-181c-f62d-1907" name="Crystal Rose" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8ac9-181c-f62d-1907" name="&lt; Crystal Rose &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43461,7 +43859,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="52e2-1c4d-9139-a2e0" name="Ring of Life" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="52e2-1c4d-9139-a2e0" name="&lt; Ring of Life &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43480,7 +43878,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="a822-617c-1874-3d9d" name="Book of Bones" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="a822-617c-1874-3d9d" name="&lt; Book of Bones &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43499,7 +43897,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="df4d-5b37-e91d-5b13" name="Vampire Blade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="df4d-5b37-e91d-5b13" name="&lt; Vampire Blade &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43518,7 +43916,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="50ed-0ab4-7114-2c01" name="Eye of Amoto" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="50ed-0ab4-7114-2c01" name="&lt; Eye of Amoto &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43537,7 +43935,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="43f6-e6ff-c9e6-97de" name="Sword of Undead Slaying" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="43f6-e6ff-c9e6-97de" name="&lt; Sword of Undead Slaying &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43556,7 +43954,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="d92d-c1f7-83a1-55b4" name="Unbreakable Orb" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d92d-c1f7-83a1-55b4" name="&lt; Unbreakable Orb &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43575,7 +43973,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="b0f8-d24c-064f-aee2" name="Boots of Leaping" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="b0f8-d24c-064f-aee2" name="&lt; Boots of Leaping &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43594,7 +43992,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="8fcb-a342-986f-ffa2" name="Quiver of the Soul Seeker" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="8fcb-a342-986f-ffa2" name="&lt; Quiver of the Soul Seeker &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43613,7 +44011,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="13de-37ae-7466-05fd" name="Magic Spectacles" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="13de-37ae-7466-05fd" name="&lt; Magic Spectacles &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -43638,388 +44036,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
     </entryGroup>
     <entryGroup id="1f1b-742a-bc2c-0c45" name="&gt; V-  The Hunt for the Golem Treasure &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="5911-66a3-9e9c-4691" name="Amulet of Resistance" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="457e-d250-8af0-91a9" targetId="a024-f853-7f0b-3b4b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6291-314f-93bb-94d4" targetId="0a5d-2088-eb0c-fddd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d633-6e6d-dea4-874d" targetId="e55e-e79a-0e53-cfb7" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c64e-4afe-6e2f-9fa1" targetId="c1ec-b0a9-2db5-8c7b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="a1b9-8a7a-f918-70a3" name="Staff of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="3281-5ac1-9eac-642c" targetId="49db-f2ed-450b-272f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="f9e9-953a-f7a4-1393" targetId="daa4-3694-6c10-a887" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="f747-d453-97af-1a6a" targetId="77e4-f5e2-62cf-d6f7" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6568-1d57-780a-6735" targetId="70a8-3f3e-ff5d-a715" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="c219-a789-44a3-d053" name="Staff of Power (2)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="31c1-6a08-1684-76ea" targetId="88c8-aceb-9641-65df" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e157-d9a3-9cf9-ff10" targetId="2c6f-ae4d-7269-dc7d" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="cbee-199b-0e11-e951" targetId="2b19-2c2d-910d-4e0b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="62c1-c562-cc6b-0740" targetId="5f07-ab49-0c90-5373" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="2f76-099d-8671-8fc9" name="Staff of Power (3)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="0c26-9652-8ff7-4a9d" targetId="3a01-4ef5-6f6e-218f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ec67-d77e-656e-8080" targetId="d723-2ee5-b32b-4751" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="21ac-12b6-1548-4aa6" targetId="c350-9f5a-5140-ae51" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3cba-7bd9-cb4b-c252" targetId="95cb-be5e-d93c-a105" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="2968-eeef-e09f-cd22" name="Ring of Power (1)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="61fb-dddd-bc8d-7ed8" targetId="26cb-6888-04ef-d0c3" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="603c-b464-fb6c-889b" targetId="92f4-a84f-dcc7-c84f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0c47-bf69-dd6e-047e" targetId="a900-dafc-3a9a-914e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6025-bd32-f422-4423" targetId="f759-eef3-f752-fb8b" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="dbe8-0dd0-8da2-9f89" name="Orb of Power (8)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="8c6d-e537-0611-a70c" targetId="3644-63fc-4e09-4431" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2730-7677-255c-7649" targetId="08a0-1a13-b8e3-e590" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3480-5832-1632-2e58" targetId="c550-45df-eeaf-9485" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0e56-19a9-8e9f-21fc" targetId="0593-e523-edb2-d25f" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="023c-5416-103b-df0f" name="Staff of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="8f74-594e-f84f-b303" targetId="482b-f9af-ce61-ec24" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3508-cdc8-9575-55c7" targetId="d516-a1b5-93a1-3c51" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bced-0c7a-ea9c-2c87" targetId="f7fc-f999-45a0-3019" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5f18-a5df-dd14-c501" targetId="b26c-de63-a161-2628" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="70d6-d3eb-96a9-48a8" name="Boots of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="d688-8229-1c19-4d2d" targetId="cc67-3266-4945-b066" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d82e-e6fa-d598-83b9" targetId="7c21-603e-550b-79c0" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d057-6fff-c8f6-da7a" targetId="b723-4460-2b03-5e90" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="f8fb-7389-ed4d-0256" targetId="6dd8-c25c-9d7a-281f" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="275a-2ab8-9589-5dbd" name="Ring of Slow Fall" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="e697-96f2-dba2-e32d" targetId="4e15-1bec-baf4-7e11" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="25ac-40ba-0814-c719" targetId="beb1-50fe-801d-8636" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="afca-091b-9ad6-f2d2" targetId="a5e4-3037-856a-1d3c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4344-5903-324f-a233" targetId="8de5-4dd4-281f-7d36" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="327d-ce0c-8c68-8503" name="Ring of Will" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="b0a4-8a23-23c7-951d" targetId="a1e3-2ad4-bd11-c9f9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e912-a5c3-f9bd-6c22" targetId="1d85-aba0-9e9c-a143" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b0d5-0afe-5b0e-4c3d" targetId="e1af-3516-f5f1-e666" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="75bc-7d24-642a-a4dd" targetId="02ca-a716-85f6-a0cf" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="3a23-84d5-a783-8edb" name="Ring of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="286e-d632-3056-5138" targetId="b07d-dfad-b7fd-f5a4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1145-f56c-a3ab-5130" targetId="db62-8269-a37e-c5ca" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="fc1b-f903-1307-0b7a" targetId="f100-dbfb-9772-2163" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="96eb-5f4f-2e6a-99fc" targetId="8050-5762-7d33-e917" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="9078-c205-87bc-6eb6" name="Gloves of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="cbdd-7d7c-0f90-fb1d" targetId="b43d-21ca-59f2-3dbd" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="757c-0d97-83c0-efe3" targetId="6b35-fb14-1b28-6510" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a422-4f0e-4288-2d9c" targetId="cda8-5268-35bc-1efa" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b635-140f-8a95-c7c7" targetId="e05a-6da7-f329-5463" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="9ddd-969b-381d-1b31" name="Robes of Arrow Turning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="f0cf-8497-42ce-bb28" targetId="f64a-a5fa-81f1-3e98" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="b4da-5860-beaf-4032" targetId="7459-d19c-4fa4-e484" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="71cb-d09c-acca-0401" targetId="2280-51bd-a73e-3cee" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="37ed-f97e-2636-da6b" targetId="0b8e-1c1b-0eb5-7220" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="b8ca-e49e-26e7-7bb4" name="Candle of Summoning" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="b9a9-e1d9-a3fc-ca56" targetId="8ca2-7dfb-6f68-e8a3" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8578-7ea7-7d13-6b6b" targetId="2bf7-9620-ca93-4adb" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="520d-6957-eff4-65aa" targetId="5bc4-84ca-2e59-3814" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0b62-6dbd-5bdf-1537" targetId="9bcc-4f5e-94a3-b44d" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="ab32-6892-93fb-bb4f" name="Gloves of Casting" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="33d3-4904-a171-1d8a" targetId="5bb5-2ae1-051e-2d36" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="df0b-fc48-6b84-f209" targetId="5efc-f9e3-2c54-af65" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e509-987b-30f7-7a20" targetId="f044-b34a-b299-4137" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="00c7-ea0b-6071-7c83" targetId="37e6-e79b-ad5e-a104" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="1e48-fc79-1f89-7086" name="Belt of Animal Repellence" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="487b-9c02-881c-d690" targetId="9828-2f9f-b48d-e4e9" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="58b1-9c51-4b85-7baf" targetId="52f7-ed85-d08e-b3fc" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3bfd-d8c8-61cb-60b0" targetId="211b-31be-1dc2-6659" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="04dc-07d4-b1e2-a569" targetId="d223-aaf3-6efc-b2c4" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="dc37-339f-1e1f-b842" name="Horn of Destruction" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="2d93-c28f-1f06-fd95" targetId="eb6e-91ce-9fc3-7ef4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d24f-b0a4-852f-9bfa" targetId="da13-3137-0f55-1a71" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="403b-e2ef-2b0b-5e68" targetId="1385-3fe2-0ec8-b15e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d460-3fa7-4761-056f" targetId="c3df-4578-a7fe-cce6" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="bbbc-8ac0-cb95-9a2f" name="Fate Stone" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="fdbf-7fd3-4335-a1d8" targetId="126f-4512-9fdc-2bfb" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="0f01-81a7-279c-8447" targetId="7e41-f80b-e573-54d2" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="a2e3-b553-908e-3d69" targetId="cbe5-3bd6-ef74-7a94" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="4056-e57e-c3c3-0451" targetId="61a8-2627-eb15-2a1e" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="3d82-f99a-f03a-05c5" name="Drinking Horn of Healing" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="0f48-b7cd-9029-87cd" targetId="2c92-d146-df51-1c48" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6980-75fe-94b5-c185" targetId="37c1-6752-116f-05c4" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="22bf-0ab4-dad3-b3a4" targetId="be23-7084-e834-c956" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8fa6-e7bf-1769-3bd0" targetId="02c2-b152-f56e-92bf" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="7d82-b304-ac0b-2c50" name="Banner of Courage" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="c75d-c3c9-d3fb-2c71" targetId="b502-02b5-3247-0735" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e35d-b05f-9c5d-a89f" targetId="c7a2-9f0e-1b66-3782" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="acc8-0fa5-d152-d5fc" targetId="e552-113d-e7e4-791a" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="118e-ef99-c614-4852" targetId="7556-3e51-6582-04ec" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <links/>
     </entryGroup>
@@ -45908,7 +45925,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
     <entryGroup id="a680-42b5-aa8b-389c" name="&gt; V- Magic Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="401b-97cd-0a42-11f4" name="Hand Weapon F+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="401b-97cd-0a42-11f4" name="&lt; Hand Weapon F+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -45930,7 +45947,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="573b-1bee-4103-f53b" name="Hand Weapon F+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="573b-1bee-4103-f53b" name="&lt; Hand Weapon F+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -45952,7 +45969,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="edb7-5c12-1a6b-6682" name="Hand Weapon DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="edb7-5c12-1a6b-6682" name="&lt; Hand Weapon DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -45974,7 +45991,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="151e-8911-86dd-ee9b" name="Two-Handed Weapon F+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="151e-8911-86dd-ee9b" name="&lt; Two-Handed Weapon F+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -45996,7 +46013,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="9c27-58c0-6642-bdc8" name="Two-Handed Weapon DM+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="9c27-58c0-6642-bdc8" name="&lt; Two-Handed Weapon DM+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46018,7 +46035,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="cc26-a5a9-c3e6-94d2" name="Two-Handed Weapon DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="cc26-a5a9-c3e6-94d2" name="&lt; Two-Handed Weapon DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46040,7 +46057,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="00bc-1d6b-4d51-6ca1" name="Bow S+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="00bc-1d6b-4d51-6ca1" name="&lt; Bow S+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46062,7 +46079,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="e010-fea1-8b86-e748" name="Bow DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e010-fea1-8b86-e748" name="&lt; Bow DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46084,7 +46101,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="676e-59a1-13b5-15f3" name="Crossbow S+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="676e-59a1-13b5-15f3" name="&lt; Crossbow S+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46106,7 +46123,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="a308-4d97-601b-ef2a" name="Crossbow DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="a308-4d97-601b-ef2a" name="&lt; Crossbow DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46128,7 +46145,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="3206-7a82-a7b5-b80f" name="Dagger F+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3206-7a82-a7b5-b80f" name="&lt; Dagger F+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46150,7 +46167,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="008b-9176-bbca-9c81" name="Ring of Protection A+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="008b-9176-bbca-9c81" name="&lt; Ring of Protection A+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46172,7 +46189,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="61e3-1d16-51b3-2cc2" name="Mail Armour A+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="61e3-1d16-51b3-2cc2" name="&lt; Mail Armour A+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46194,7 +46211,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="cbd3-6d09-d53a-96bf" name="Leather Armour A+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="cbd3-6d09-d53a-96bf" name="&lt; Leather Armour A+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46216,7 +46233,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="63d7-f606-d9ad-4c78" name="Dagger DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="63d7-f606-d9ad-4c78" name="&lt; Dagger DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46238,7 +46255,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="bd5c-7dd2-ec91-aba8" name="Dagger DM+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="bd5c-7dd2-ec91-aba8" name="&lt; Dagger DM+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46260,7 +46277,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1fa6-6cd9-21b6-e3d8" name="Staff F+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1fa6-6cd9-21b6-e3d8" name="&lt; Staff F+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46282,7 +46299,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="593e-8ebe-653f-3ac6" name="Cloak of Protection A+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="593e-8ebe-653f-3ac6" name="&lt; Cloak of Protection A+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46304,7 +46321,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1f13-2dbf-f124-52cb" name="Shield A+1" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1f13-2dbf-f124-52cb" name="&lt; Shield A+1 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -46326,7 +46343,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="ae5b-a39d-3167-d6d4" name="Staff DM+2" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ae5b-a39d-3167-d6d4" name="&lt; Staff DM+2 &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -54078,32 +54095,48 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </modifier>
         <modifier type="set" field="8c04-f946-05f3-dcbb" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="direct parent" childId="c8de-d4db-9cbb-ea57" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="direct parent" childId="e31f-bc3b-0691-5350" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="5c35-03bb-538f-1ec0" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="direct parent" childId="126f-b5bc-3e20-aa2a" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="direct parent" childId="f923-5fbc-ce57-1957" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="increment" field="fc8a-4d10-ff67-b712" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="direct parent" childId="c3dc-8c87-31aa-11a9" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="direct parent" childId="2251-2e4b-da9f-a59e" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="increment" field="0f26-8389-5c14-46cc" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="direct parent" childId="a129-6197-8583-161c" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="direct parent" childId="1c78-d510-a9f2-c080" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="bdaf-6952-5055-4b9c" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="direct parent" childId="60b8-2331-9711-88fc" field="selections" type="equal to" value="1.0"/>
+            <condition parentId="direct parent" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
           </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="f7bf-365b-c258-39c9" value="1" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b688-ca5e-d7f1-6935" incrementField="selections" incrementValue="100.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="036a-b7a9-721d-26d9" value="1" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="50ca-d439-caec-c35d" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="0f26-8389-5c14-46cc" value="1" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="c9b8-265f-38be-67f1" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="append" field="bdaf-6952-5055-4b9c" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="bdc4-5d3d-6b8d-c5a4" incrementField="selections" incrementValue="1.0">
+          <conditions/>
           <conditionGroups/>
         </modifier>
       </modifiers>

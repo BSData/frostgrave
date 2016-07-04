@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4137-4672-dcbc-1c57" revision="9" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4137-4672-dcbc-1c57" revision="10" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -3241,15 +3241,15 @@ nor can they receive this bonus from another bard.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="6110-54ec-6799-d222" name="Captain" points="-100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6110-54ec-6799-d222" name="Captain" points="-100.0" categoryId="0675-ac24-e8b8-7e5c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="-1.0E11" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="966c-3a06-e92d-1388" name="&lt; Captain Weapons and Equipment &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="966c-3a06-e92d-1388" name="&lt; Captain Weapons and Equipment &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E9" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="439e-4060-fa73-c41e" name="&lt; Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="439e-4060-fa73-c41e" name="&lt; Weapons and Armour &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E9" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="8653-5c1a-841c-72cb" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="8653-5c1a-841c-72cb" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -3270,7 +3270,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="ec00-f56f-320e-2020" name="Dagger" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="ec00-f56f-320e-2020" name="Dagger" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -3292,7 +3292,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="eafb-9969-f6e7-0e20" name="Bow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="eafb-9969-f6e7-0e20" name="Bow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3300,7 +3300,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="2e77-b702-6303-4c4f" name="Crossbow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="2e77-b702-6303-4c4f" name="Crossbow" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3308,7 +3308,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e06b-0002-2f04-184d" name="Two-Handed Weapon" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e06b-0002-2f04-184d" name="Two-Handed Weapon" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3316,7 +3316,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="5130-6008-f86c-145b" name="Staff" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="5130-6008-f86c-145b" name="Staff" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -3324,7 +3324,7 @@ nor can they receive this bonus from another bard.</description>
                   <profiles/>
                   <links/>
                 </entry>
-                <entry id="e17f-55b4-1e4d-530f" name="Shield" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="e17f-55b4-1e4d-530f" name="Shield" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -3348,9 +3348,9 @@ nor can they receive this bonus from another bard.</description>
                 </entry>
               </entries>
               <entryGroups>
-                <entryGroup id="2598-9179-33ec-2679" name="&lt; Armour &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entryGroup id="2598-9179-33ec-2679" name="&lt; Armour &gt;" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
-                    <entry id="e7f4-7e4b-caa1-fe3e" name="Leather Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="e7f4-7e4b-caa1-fe3e" name="Leather Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -3358,7 +3358,7 @@ nor can they receive this bonus from another bard.</description>
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="d356-a1ac-f0b9-7d18" name="Mail Armour" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="d356-a1ac-f0b9-7d18" name="Mail Armour" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E10" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -3735,8 +3735,58 @@ nor can they receive this bonus from another bard.</description>
           </modifiers>
           <links/>
         </entryGroup>
+        <entryGroup id="1ea0-47a4-c96e-4974" name="Only Select if cost mod has been selected after the soldier. Not before!" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e67e-9520-54cf-5f93" name="Carrier Pigeon Modi." points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="510d-6c74-44ab-a058" name="Brewery Modi." points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="d406-5e49-efce-d749" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2687-e6f6-f86d-0462" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -3744,6 +3794,9 @@ nor can they receive this bonus from another bard.</description>
           <modifiers/>
         </link>
         <link id="75c1-e166-5cbc-9359" targetId="b688-ca5e-d7f1-6935" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6cb3-3020-afc1-90fa" targetId="fe8a-9a3a-047c-56a5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4656,6 +4709,89 @@ example, if they have no open item slot).</description>
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="c00e-209e-4f5e-9281" name="Sellsword" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b1f9-6ab1-6ff2-eaaa" name=".1 Scenario One" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="9296-0e97-8cf5-5209" name="The Stars are Wrong" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="3ed9-76eb-33ca-9bd1" name="&lt; Treasure and Experience &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="bf40-547d-5e74-e944" name=".2 Scenario Two" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="af55-377c-35a9-3b88" name="With Magnetic Force" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="e02f-d362-9a7c-ab88" name="&lt; Treasure and Experience &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="2e23-0f1d-a39a-4655" name=".3 Scenario Three" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="de94-41c6-61ed-83f9" name="The Pits of Null" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="aba2-0d6e-c305-8723" name="&lt; Treasure and Experience &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3a49-a53c-2c65-8d77" name="Sellsword Treasure" points="0.0" categoryId="3c0f-d675-e034-de79" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E9" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="566b-d407-a040-c727" name="Standard Campaign" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -5980,6 +6116,68 @@ example, if they have no open item slot).</description>
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="2096-3dae-3c43-4bae" name="&gt;Dead or Dismissed Captain" points="0.0" categoryId="dd89-c6da-59f8-0fa7" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="75be-cc61-cfb8-b7a0" name="Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="950b-966b-0b03-d85b" name="No Cost Modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="230a-20b4-2091-b8c2" name="No. Killed or Dismissed" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="d4b9-5002-383c-4b4d" name="Cost modifiers" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="dc91-3432-65b1-5766" name="No. Carrier Pigeons Only" points="-99.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="4604-8ebe-267e-c2ab" name="No. Brewery Only" points="-95.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="0b63-5f88-b674-48a3" name="No. Both " points="-94.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </entries>
   <rules/>
@@ -13342,6 +13540,60 @@ example, if they have no open item slot).</description>
           <links/>
         </entry>
         <entry id="33e1-0a68-1abb-a13c" name="Full Recovery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="34a2-40e3-280e-dfe5" name="&gt; Current Injury " points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9a29-47ea-bfc4-0e40" name="Permannet Injury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="88c0-b3a4-eb4f-5e52" targetId="60fe-be5a-5b73-5ba4" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ebbf-0277-1022-0c65" name="Badly Wounded" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="930b-e982-3444-7fa3" name="Medical Treatment" points="-100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="2601-dfae-81ae-2a84" name="Close Call" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="f492-82ca-ab2d-7ea6" name="Full Recovery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -28449,6 +28701,18 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entry>
+    <entry id="03af-b2c7-5ef7-5d04" name="Smashed Jaw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d09c-ef24-51c8-fbee" targetId="9cb8-60ff-bf7d-c38c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="bc46-ef7e-e67f-eae8" name="Smashed Leg" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -43192,10 +43456,49 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <link id="5bc4-f431-4996-c7cc" targetId="85be-3367-1938-2713" linkType="entry">
           <modifiers/>
         </link>
-        <link id="24d8-37fc-45ee-8525" targetId="f443-c5cc-05cf-65ce" linkType="entry">
+        <link id="24d8-37fc-45ee-8525" targetId="03af-b2c7-5ef7-5d04" linkType="entry">
           <modifiers/>
         </link>
         <link id="3b4f-d2a9-8107-44d1" targetId="bc46-ef7e-e67f-eae8" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="60fe-be5a-5b73-5ba4" name="&gt; Permanent Injuries &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="68e4-f0a3-238b-8956" targetId="4539-85c0-7f31-9c0b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0340-130e-46f1-29bd" targetId="fe33-2194-0fcf-be72" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8038-d9a7-b2d1-8e41" targetId="b210-71b1-6f5b-a334" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="65fc-f4e0-ae7a-6aad" targetId="52a0-deb8-8fa7-d8ef" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="27d4-823e-ff6f-ff1e" targetId="f8be-c6e2-4945-517a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c75b-bef9-91ba-1a4b" targetId="7ab7-282e-9e52-a188" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8098-3cf8-f4eb-a524" targetId="85be-3367-1938-2713" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="47f4-aa4d-91a9-570e" targetId="f443-c5cc-05cf-65ce" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="a5e5-07bb-6229-0f0d" targetId="bc46-ef7e-e67f-eae8" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -55175,6 +55478,12 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <conditionGroups/>
         </modifier>
       </modifiers>
+    </profile>
+    <profile id="9cb8-60ff-bf7d-c38c" profileTypeId="0394-614f-e5cd-c4e0" name="Smashed Jaw" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="514d-10d0-9ef7-5762" name="Effect" value="A captain with a Smashed Jaw may not use group activation, even if he has the Leadership trick. A captain can only receive this injury once. Any further Smashed Jaw results must be re-rolled."/>
+      </characteristics>
+      <modifiers/>
     </profile>
     <profile id="1b87-a3f2-ec5a-db70" profileTypeId="2d72-52a0-503b-6623" name="Snow Leopard" hidden="false">
       <characteristics>

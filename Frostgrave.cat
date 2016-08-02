@@ -2951,6 +2951,50 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="0428-495a-6269-1a28" name="&lt; Apothecary Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8b8a-a6f5-ca03-8f95" name="Health Potion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="31ef-742c-9b7c-a48e" name="Staff (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f670-088c-5fd9-e0e4" profileTypeId="84ca-e65c-fba6-e936" name="Staff" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-1 Damage modifier to enemy&apos;s attacks in hand-to-hand combat."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="57b0-cdb9-8498-6755" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="57b0-cdb9-8498-6755" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2970,9 +3014,6 @@
       <profiles/>
       <links>
         <link id="6b0c-6ee2-1f8c-efdb" targetId="adb6-82c1-4370-d8e3" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="3b3d-2437-5385-5dfb" targetId="6c89-a6c7-8fbf-2d00" linkType="entry group">
           <modifiers/>
         </link>
         <link id="8731-9b6e-fb91-ccda" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -3104,6 +3145,54 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="7eb5-7902-1744-b715" name="&lt; Barbarian Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="226b-ae5b-e372-1057" name="Two-Handed Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="1e8f-b390-c343-04c2" profileTypeId="84ca-e65c-fba6-e936" name="Two-Handed Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="4329-2c3a-1bcb-b182" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="4329-2c3a-1bcb-b182" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="4329-2c3a-1bcb-b182" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="4329-2c3a-1bcb-b182" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3123,9 +3212,6 @@
       <profiles/>
       <links>
         <link id="7157-6c96-3c98-2f01" targetId="5eb4-b0f8-2eea-7b22" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="bf3c-35d2-d7e6-cb19" targetId="c3d9-7510-fbf0-5621" linkType="entry group">
           <modifiers/>
         </link>
         <link id="d77f-79a9-ca8b-66ab" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -4104,6 +4190,58 @@ The crow master can pick up treasure, but he may not carry any other items.</des
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="63af-6648-7a53-ea3b" name="&lt; Infantryman Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2252-3388-7cff-c95c" name="Two-Handed Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="0a50-b695-cea8-44f9" profileTypeId="84ca-e65c-fba6-e936" name="Two-Handed Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="f402-0f9a-6731-597c" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="f402-0f9a-6731-597c" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f402-0f9a-6731-597c" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f402-0f9a-6731-597c" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8dc4-73dd-ee3e-48af" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4123,9 +4261,6 @@ The crow master can pick up treasure, but he may not carry any other items.</des
       <profiles/>
       <links>
         <link id="7fe7-cd0a-8b63-98b7" targetId="5944-e42a-f9cd-a5a1" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a6ea-4a9c-0189-38b6" targetId="c33c-c50c-c6d6-2e94" linkType="entry group">
           <modifiers/>
         </link>
         <link id="d575-686c-ed99-e0aa" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -4360,6 +4495,49 @@ They can also be thrown up to 10”.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="fd7f-d569-cbee-e8be" name="&lt; Knight Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b818-ee57-2912-c04f" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="dfa2-5bd4-a9a7-9d68" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7a01-354d-4fc2-4f5c" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7a01-354d-4fc2-4f5c" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d7c2-b01e-627d-789d" targetId="a278-df6c-c75f-54b8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="8ec4-32aa-9a3a-c3c9" targetId="f795-7f96-e094-5769" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4379,9 +4557,6 @@ They can also be thrown up to 10”.</description>
       <profiles/>
       <links>
         <link id="d5bd-5e70-3392-fb80" targetId="d1ba-5250-a367-f6aa" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="7c5f-bb47-6872-e7e7" targetId="4dd1-624a-1fc5-fa57" linkType="entry group">
           <modifiers/>
         </link>
         <link id="0689-5747-46ae-2ee8" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -4459,6 +4634,49 @@ They can also be thrown up to 10”.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="1bf2-627f-53d5-13e0" name="&lt; Man-at-Arms Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="708f-f9b1-96db-933f" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="2974-f000-4b66-5d6a" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="72d4-bec0-36e2-f906" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="72d4-bec0-36e2-f906" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="b24d-42ee-86c8-1a7d" targetId="a278-df6c-c75f-54b8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="cb60-d27e-c165-d2b7" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4478,9 +4696,6 @@ They can also be thrown up to 10”.</description>
       <profiles/>
       <links>
         <link id="1e21-8f29-7bf6-94bc" targetId="3043-b6cd-4519-c0e6" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="d047-f650-04ce-9a20" targetId="f651-17ec-47d0-2f06" linkType="entry group">
           <modifiers/>
         </link>
         <link id="3624-f18e-4e07-427e" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -5271,6 +5486,58 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="dd6e-df3c-9212-2056" name="&lt; Templar Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="27cf-c6ef-56d1-7810" name="Two-Handed Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8a62-a545-fb0f-a785" profileTypeId="84ca-e65c-fba6-e936" name="Two-Handed Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="6307-2ad5-0433-f424" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="6307-2ad5-0433-f424" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="6307-2ad5-0433-f424" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="6307-2ad5-0433-f424" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5f57-213e-7da6-4a70" targetId="f795-7f96-e094-5769" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -5290,9 +5557,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="6e21-613f-1324-31e7" targetId="d5b9-fc8c-5e81-a247" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="d5e2-c3b3-daa7-356e" targetId="be9c-ce2f-cc6a-ba88" linkType="entry group">
           <modifiers/>
         </link>
         <link id="bff0-9eba-583e-3bc4" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -5922,6 +6186,42 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="e7fd-3c9a-3e00-cae2" name="&lt; Thug Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="41f8-bc4e-e2e4-18dd" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="6ce4-da8e-c197-6020" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="c49f-bf97-f561-b647" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="c49f-bf97-f561-b647" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -5941,12 +6241,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="16d7-47f4-4431-9b58" targetId="13d7-c245-309a-eabd" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1ac3-7a01-04b2-fa94" targetId="e349-c2cd-eb18-b826" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="e63f-79ce-5b28-1d15" targetId="835e-4fca-699a-c02d" linkType="entry">
           <modifiers/>
         </link>
         <link id="064b-06dd-e214-2179" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -16677,10 +16971,18 @@ example, if they have no open item slot).</description>
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="direct parent" childId="b9b2-285d-4aa2-ee8b" field="selections" type="equal to" value="1.0"/>
                 <condition parentId="roster" childId="f473-a347-e52b-0795" field="selections" type="at least" value="1.0"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="41f8-bc4e-e2e4-18dd" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="b818-ee57-2912-c04f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="708f-f9b1-96db-933f" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -28784,10 +29086,17 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="direct parent" childId="2c35-922d-61cc-ff2e" field="selections" type="equal to" value="1.0"/>
                 <condition parentId="roster" childId="9d78-530b-663c-58ea" field="selections" type="at least" value="1.0"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="2c35-922d-61cc-ff2e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="31ef-742c-9b7c-a48e" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -29238,10 +29547,18 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition parentId="direct parent" childId="c965-ed32-538c-f495" field="selections" type="equal to" value="1.0"/>
                 <condition parentId="roster" childId="3e49-5743-f0e1-f37b" field="selections" type="at least" value="1.0"/>
               </conditions>
-              <conditionGroups/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="2252-3388-7cff-c95c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="226b-ae5b-e372-1057" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="27cf-c6ef-56d1-7810" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -29488,7 +29805,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="6c89-a6c7-8fbf-2d00" name="&lt; Apothecary Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="6c89-a6c7-8fbf-2d00" name="&lt; Apothecary Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="846e-8987-9b7c-7cf8" name="Health Potion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -29498,14 +29815,39 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <profiles/>
           <links/>
         </entry>
+        <entry id="6f4f-ed68-9a1d-1c18" name="Staff (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d57c-e49e-ad35-87d1" profileTypeId="84ca-e65c-fba6-e936" name="Staff" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-1 Damage modifier to enemy&apos;s attacks in hand-to-hand combat."/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
-      <links>
-        <link id="c7b1-4d1e-8456-5375" targetId="2c35-922d-61cc-ff2e" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entryGroup>
     <entryGroup id="1894-7890-e049-0759" name="&lt; Apprentice Additional Weapons &gt;" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -29605,7 +29947,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="a0be-d536-c70e-111c" name="&lt; Archer Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="a0be-d536-c70e-111c" name="&lt; Archer Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29621,8 +29963,50 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c3d9-7510-fbf0-5621" name="&lt; Barbarian Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+    <entryGroup id="c3d9-7510-fbf0-5621" name="&lt; Barbarian Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="05b7-1b48-7a93-dc3d" name="Two-Handed Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5e74-6574-f5e0-7c3b" profileTypeId="84ca-e65c-fba6-e936" name="Two-Handed Weapon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="category" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="category" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="14a3-c388-2622-0633" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="9c4b-4611-338a-20e8" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <links>
@@ -29631,7 +30015,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="bcee-ab84-e103-84b5" name="&lt; Bard Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="bcee-ab84-e103-84b5" name="&lt; Bard Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29663,7 +30047,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="0b05-c0f1-944b-5926" name="&lt; Crossbowman Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0b05-c0f1-944b-5926" name="&lt; Crossbowman Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29679,7 +30063,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="8708-3416-bb8a-81e3" name="&lt; Crow Master Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="8708-3416-bb8a-81e3" name="&lt; Crow Master Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29695,20 +30079,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="c33c-c50c-c6d6-2e94" name="&lt; Infantryman Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="102f-5266-1e8d-e386" targetId="c965-ed32-538c-f495" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8a73-e987-c40d-79c6" targetId="73a9-1321-6677-7a94" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="3f9c-d5cf-cd4d-21d0" name="&lt; Javelineer Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="3f9c-d5cf-cd4d-21d0" name="&lt; Javelineer Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29718,39 +30089,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="4dd1-624a-1fc5-fa57" name="&lt; Knight Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="e44c-ab48-1529-b7b2" targetId="b9b2-285d-4aa2-ee8b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c1d5-677f-08ab-8cf9" targetId="a278-df6c-c75f-54b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7384-c05a-8835-139a" targetId="f795-7f96-e094-5769" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="f651-17ec-47d0-2f06" name="&lt; Man-at-Arms Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="1c18-5e22-2b17-becd" targetId="b9b2-285d-4aa2-ee8b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c586-5e71-eb3a-60ae" targetId="a278-df6c-c75f-54b8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3c7c-e368-3d7d-e146" targetId="73a9-1321-6677-7a94" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="be71-97eb-cf61-7e95" name="&lt; Marksman Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="be71-97eb-cf61-7e95" name="&lt; Marksman Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29853,7 +30192,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="469c-a901-2b62-f34a" name="&lt; Pack Mule Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="469c-a901-2b62-f34a" name="&lt; Pack Mule Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -29863,7 +30202,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="0669-c1f9-5a41-b730" name="&lt; Ranger Notes &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0669-c1f9-5a41-b730" name="&lt; Ranger Equipment &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -42886,20 +43225,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="be9c-ce2f-cc6a-ba88" name="&lt; Templar Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="56e3-6cba-d64c-31c1" targetId="c965-ed32-538c-f495" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b7bc-969f-3582-0f39" targetId="f795-7f96-e094-5769" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="b0e5-7473-85e5-0532" name="&lt; Theif Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="b0e5-7473-85e5-0532" name="&lt; Theif Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -42909,17 +43235,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="e349-c2cd-eb18-b826" name="&lt; Thug Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="9df6-15ad-c8ba-327a" targetId="b9b2-285d-4aa2-ee8b" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="80d2-c8f6-7a5f-b0b6" name="&lt; Tracker Notes &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="80d2-c8f6-7a5f-b0b6" name="&lt; Tracker Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -42935,7 +43251,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="0405-aa01-3ec2-6d16" name="&lt; Treasure Hunter Notes  &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0405-aa01-3ec2-6d16" name="&lt; Treasure Hunter Equipment  &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>

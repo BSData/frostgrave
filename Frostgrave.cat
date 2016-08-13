@@ -3067,6 +3067,87 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="8537-62cc-7e22-3010" name="&lt; Archer Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ed87-79a7-2357-60dd" name="Bow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="59e9-30fa-25fd-c749" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="eb30-5ea6-f9ca-3dc8" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="eb30-5ea6-f9ca-3dc8" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="9124-0eef-dabb-238b" name="Dagger (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="517a-b202-8f0c-8cf6" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="eb30-5ea6-f9ca-3dc8" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="eb30-5ea6-f9ca-3dc8" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="eb30-5ea6-f9ca-3dc8" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="eb30-5ea6-f9ca-3dc8" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f493-aa94-cdb8-6702" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3086,9 +3167,6 @@
       <profiles/>
       <links>
         <link id="8d6b-be00-80e2-aa61" targetId="106e-79d4-18f6-dee1" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="462a-7552-1b76-34eb" targetId="a0be-d536-c70e-111c" linkType="entry group">
           <modifiers/>
         </link>
         <link id="1acd-a380-7ce9-21e1" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -3265,6 +3343,46 @@
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="72de-3016-0a79-087c" name="&lt; Bard Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="95e3-a03e-9e46-7277" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f8c4-2f06-97c1-c78b" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="3609-a4ea-e762-5f8e" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="3609-a4ea-e762-5f8e" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1aa6-0bf2-20be-793f" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3299,9 +3417,6 @@ nor can they receive this bonus from another bard.</description>
           <modifiers/>
         </link>
         <link id="ed83-ee22-1873-6ddc" targetId="24de-ac40-a877-f2bc" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a0d6-6cbd-31ad-be6c" targetId="bcee-ab84-e103-84b5" linkType="entry group">
           <modifiers/>
         </link>
         <link id="c1a6-df81-a6d8-c349" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -3989,6 +4104,87 @@ nor can they receive this bonus from another bard.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="7cda-74af-857b-fb65" name="&lt; Crossbowman Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="df6a-8c2e-3876-1220" name="Crossbow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f046-fa6b-4cdc-4363" profileTypeId="84ca-e65c-fba6-e936" name="Crossbow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as seperate actions, may reload in place of mandatory movement, 24&quot; maximum range."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7e7c-8e20-79da-45c7" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7e7c-8e20-79da-45c7" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="f4a2-0c9f-2f2d-ce92" name="Dagger (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="481e-b98d-18ad-7e89" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="7e7c-8e20-79da-45c7" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="7e7c-8e20-79da-45c7" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7e7c-8e20-79da-45c7" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="7e7c-8e20-79da-45c7" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6104-e27f-9c5b-3c48" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4008,9 +4204,6 @@ nor can they receive this bonus from another bard.</description>
       <profiles/>
       <links>
         <link id="71fb-fe0a-b1a4-309e" targetId="0e6c-ef19-606a-1335" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6807-f40a-449d-29af" targetId="0b05-c0f1-944b-5926" linkType="entry group">
           <modifiers/>
         </link>
         <link id="4c47-ae61-e727-7d6c" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -4064,6 +4257,49 @@ nor can they receive this bonus from another bard.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="0fba-c0bf-12da-4a17" name="&lt; Crow Master Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d18b-bf56-566f-8701" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d912-e330-555a-2d49" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="fdc6-359c-ae53-f858" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="fdc6-359c-ae53-f858" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="39bf-eaa7-df2e-fede" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ad26-71da-0c3c-469b" targetId="fbf8-091e-cd94-4d50" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4101,9 +4337,6 @@ The crow master can pick up treasure, but he may not carry any other items.</des
           <modifiers/>
         </link>
         <link id="aab6-2c5a-8f36-9ed4" targetId="417c-3fbc-944d-5cba" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="96ff-52f3-8ccd-f675" targetId="be71-97eb-cf61-7e95" linkType="entry group">
           <modifiers/>
         </link>
         <link id="058a-4d8b-0a03-db2e" targetId="e536-a672-80c9-5501" linkType="profile">
@@ -4329,6 +4562,21 @@ The crow master can pick up treasure, but he may not carry any other items.</des
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="6908-a840-a2d4-7563" name="&lt; Javelineer Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a4fd-2891-28f1-3951" name="Javeline (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4353,9 +4601,6 @@ They can also be thrown up to 10”.</description>
       </rules>
       <profiles/>
       <links>
-        <link id="cf98-aec7-4d85-13c1" targetId="3f9c-d5cf-cd4d-21d0" linkType="entry group">
-          <modifiers/>
-        </link>
         <link id="dd91-9687-de44-7751" targetId="d414-7e2e-3786-e415" linkType="profile">
           <modifiers/>
         </link>
@@ -4749,6 +4994,75 @@ They can also be thrown up to 10”.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="6822-463a-cbfc-4605" name="&lt; Marksman Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2bda-bae9-71a3-58b9" name="Crossbow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="518d-b246-1252-3879" profileTypeId="84ca-e65c-fba6-e936" name="Crossbow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as seperate actions, may reload in place of mandatory movement, 24&quot; maximum range."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="e34b-ae2c-d99b-39c5" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="e34b-ae2c-d99b-39c5" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="753d-8dbd-deac-1e8c" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="2439-d560-a351-0ddd" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="e34b-ae2c-d99b-39c5" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="e34b-ae2c-d99b-39c5" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="33b7-b340-a8f4-e4cb" targetId="f795-7f96-e094-5769" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4768,9 +5082,6 @@ They can also be thrown up to 10”.</description>
       <profiles/>
       <links>
         <link id="0bbc-b12e-689c-0f9d" targetId="d95c-f9b1-4239-c584" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="424b-4be6-c59c-b2e4" targetId="be71-97eb-cf61-7e95" linkType="entry group">
           <modifiers/>
         </link>
         <link id="a306-9930-92c7-7c26" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -4824,6 +5135,54 @@ They can also be thrown up to 10”.</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="b01b-5741-357e-e930" name="&lt; Pack Mule Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2a13-2438-8fd4-a009" name="Dagger (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cc96-2837-f76c-7c1c" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="ed18-fb36-3891-5509" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="ed18-fb36-3891-5509" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="ed18-fb36-3891-5509" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="ed18-fb36-3891-5509" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4862,9 +5221,6 @@ example, if they have no open item slot).</description>
           <modifiers/>
         </link>
         <link id="674f-c789-ba00-91d6" targetId="7caa-2b9a-3b38-f67e" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1aa9-a0b0-c7ed-c937" targetId="469c-a901-2b62-f34a" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -4940,6 +5296,75 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="8104-1f60-4afb-c54f" name="&lt; Ranger Equipment &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="aedf-c354-1879-eff6" name="Bow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="bc1d-6a05-b153-03e4" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f6f3-1069-0cc6-8554" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f6f3-1069-0cc6-8554" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1dc6-a345-b64b-3b11" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7f12-2e10-40db-c2ea" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f6f3-1069-0cc6-8554" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="f6f3-1069-0cc6-8554" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="2e13-8f34-73db-d20a" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4959,9 +5384,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="ee2e-8901-7533-ee05" targetId="d886-fa86-9c07-829c" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a6cc-9926-c009-0491" targetId="0669-c1f9-5a41-b730" linkType="entry group">
           <modifiers/>
         </link>
         <link id="4147-3028-39cb-d7bd" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -6111,6 +6533,54 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="bcde-89bb-2e0b-78b8" name="&lt; Theif Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="89bc-9a60-3ffe-32e7" name="Dagger (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="a95e-2591-38c8-f8e4" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="53aa-c429-0da7-9e79" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="53aa-c429-0da7-9e79" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="53aa-c429-0da7-9e79" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="53aa-c429-0da7-9e79" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -6130,9 +6600,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="5076-efda-c6b3-a3a7" targetId="0a06-8f47-7f9d-624c" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="98b5-6e46-2e40-c240" targetId="b0e5-7473-85e5-0532" linkType="entry group">
           <modifiers/>
         </link>
         <link id="6745-2368-c09b-fb6c" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -6294,6 +6761,75 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="4cbb-b3c7-1ab9-a87f" name="&lt; Tracker Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="114e-2569-e4f7-80de" name="Staff (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="26d4-9e5c-2998-ba11" profileTypeId="84ca-e65c-fba6-e936" name="Staff" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-1 Damage modifier to enemy&apos;s attacks in hand-to-hand combat."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="0df2-ddae-45ba-76b1" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="0df2-ddae-45ba-76b1" childId="245d-3b6f-1f09-86f2" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1dc3-e3d8-c627-ca5e" name="Bow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ac62-caa4-2430-238d" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="0df2-ddae-45ba-76b1" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="0df2-ddae-45ba-76b1" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f1be-3a85-2a7b-dcdd" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -6313,9 +6849,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="29b6-e3e3-79d1-a149" targetId="c7c1-00b8-e320-39c9" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6257-f640-f3ee-08b2" targetId="80d2-c8f6-7a5f-b0b6" linkType="entry group">
           <modifiers/>
         </link>
         <link id="8449-fc08-b00b-69c0" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -6369,6 +6902,87 @@ example, if they have no open item slot).</description>
           <modifiers/>
           <links/>
         </entryGroup>
+        <entryGroup id="918f-fe01-8f72-cd41" name="&lt; Treasure Hunter Equipment  &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="12f7-dd0d-bade-c7d0" name="Dagger (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="b1bd-ac79-2663-4732" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="529b-7db1-2055-a0f8" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                            <condition parentId="529b-7db1-2055-a0f8" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="529b-7db1-2055-a0f8" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="529b-7db1-2055-a0f8" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="ce2a-50cb-f16a-c992" name="Hand Weapon (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3d70-0437-d8b8-e0cc" profileTypeId="84ca-e65c-fba6-e936" name="Hand Weapon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                    <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="529b-7db1-2055-a0f8" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="529b-7db1-2055-a0f8" childId="835e-4fca-699a-c02d" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4f20-3976-a299-b75d" targetId="73a9-1321-6677-7a94" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers>
         <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -6388,9 +7002,6 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links>
         <link id="55a7-fd99-3b44-b9c6" targetId="2fd1-e837-a06d-1b25" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="5f53-4688-f624-2829" targetId="0405-aa01-3ec2-6d16" linkType="entry group">
           <modifiers/>
         </link>
         <link id="71ce-9e0b-62ab-9062" targetId="a660-2779-4b21-6e11" linkType="entry group">
@@ -15509,12 +16120,29 @@ example, if they have no open item slot).</description>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links>
-        <link id="05fe-ff0a-3712-4b98" targetId="3265-ad6c-3b79-c821" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <profiles>
+        <profile id="f4ff-e2a0-5850-2008" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+            <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="4ae3-01c7-8025-43ee" name="Bow DM+2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -15548,6 +16176,9 @@ example, if they have no open item slot).</description>
                   <conditions>
                     <condition parentId="direct parent" childId="e508-0dc5-d4a4-264c" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="2b7e-5386-79fc-d3b6" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="ed87-79a7-2357-60dd" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="1dc3-e3d8-c627-ca5e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="aedf-c354-1879-eff6" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -15823,12 +16454,29 @@ example, if they have no open item slot).</description>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links>
-        <link id="d519-f949-a9d0-6cc2" targetId="922e-df0f-d269-0bed" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <profiles>
+        <profile id="ac61-8f74-3b1f-b33e" profileTypeId="84ca-e65c-fba6-e936" name="Crossbow" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="+2"/>
+            <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as seperate actions, may reload in place of mandatory movement, 24&quot; maximum range."/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="d204-372b-07aa-8dc6" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="d204-372b-07aa-8dc6" name="Crossbow DM+2" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -15862,6 +16510,8 @@ example, if they have no open item slot).</description>
                   <conditions>
                     <condition parentId="direct parent" childId="7dea-4ddd-c580-8de9" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="a198-8ac1-0f6d-c58b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="df6a-8c2e-3876-1220" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2bda-bae9-71a3-58b9" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -16008,12 +16658,41 @@ example, if they have no open item slot).</description>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links>
-        <link id="a86d-7b56-84d1-2805" targetId="fd23-0af4-0ae6-2c66" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
+      <profiles>
+        <profile id="31bf-df1c-5d46-bbb5" profileTypeId="84ca-e65c-fba6-e936" name="Dagger" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-1"/>
+            <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="-"/>
+          </characteristics>
+          <modifiers>
+            <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="category" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="category" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="9241-b7b4-68b5-2e24" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0558-a6b3-f8e6-bf26" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="64f5-fbeb-9b3d-60e8" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="64f5-fbeb-9b3d-60e8" name="Dagger DM+1" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -16047,6 +16726,11 @@ example, if they have no open item slot).</description>
                   <conditions>
                     <condition parentId="direct parent" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="89bc-9a60-3ffe-32e7" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="9124-0eef-dabb-238b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="f4a2-0c9f-2f2d-ce92" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="12f7-dd0d-bade-c7d0" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2a13-2438-8fd4-a009" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -16091,6 +16775,11 @@ example, if they have no open item slot).</description>
                   <conditions>
                     <condition parentId="direct parent" childId="0afa-ba7d-f350-ac24" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="16ce-bf7c-591e-c5eb" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2a13-2438-8fd4-a009" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="12f7-dd0d-bade-c7d0" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="f4a2-0c9f-2f2d-ce92" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="9124-0eef-dabb-238b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="89bc-9a60-3ffe-32e7" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -16979,6 +17668,11 @@ example, if they have no open item slot).</description>
                     <condition parentId="direct parent" childId="41f8-bc4e-e2e4-18dd" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="b818-ee57-2912-c04f" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="708f-f9b1-96db-933f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="ce2a-50cb-f16a-c992" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="1dc6-a345-b64b-3b11" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="753d-8dbd-deac-1e8c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="95e3-a03e-9e46-7277" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="d18b-bf56-566f-8701" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -29093,6 +29787,8 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
                   <conditions>
                     <condition parentId="direct parent" childId="2c35-922d-61cc-ff2e" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="31ef-742c-9b7c-a48e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="114e-2569-e4f7-80de" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="31ef-742c-9b7c-a48e" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -29574,6 +30270,9 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
                   <conditions>
                     <condition parentId="direct parent" childId="5f86-0cbf-28a1-ca26" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="3476-d3c5-ac40-2ce1" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2252-3388-7cff-c95c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="27cf-c6ef-56d1-7810" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="226b-ae5b-e372-1057" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -29618,6 +30317,9 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
                   <conditions>
                     <condition parentId="direct parent" childId="5f86-0cbf-28a1-ca26" field="selections" type="equal to" value="1.0"/>
                     <condition parentId="direct parent" childId="3476-d3c5-ac40-2ce1" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="2252-3388-7cff-c95c" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="27cf-c6ef-56d1-7810" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="27cf-c6ef-56d1-7810" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -29948,13 +30650,40 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <links/>
     </entryGroup>
     <entryGroup id="a0be-d536-c70e-111c" name="&lt; Archer Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+      <entries>
+        <entry id="3e04-c949-b917-f3a7" name="Bow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4ffa-0d87-33bf-756e" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="f9c9-8bf4-05d8-38cf" targetId="b85e-032f-2b2a-b904" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="ed7b-eece-3ab5-178b" targetId="3584-6978-b683-8345" linkType="entry">
           <modifiers/>
         </link>
@@ -30203,13 +30932,40 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       </links>
     </entryGroup>
     <entryGroup id="0669-c1f9-5a41-b730" name="&lt; Ranger Equipment &gt; " minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+      <entries>
+        <entry id="572c-0cdc-f273-6a79" name="Bow (Equiped)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0bb5-7eda-cc50-bf95" profileTypeId="84ca-e65c-fba6-e936" name="Bow" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="0558-a6b3-f8e6-bf26" name="Dmg. Modi." value="-"/>
+                <characteristic characteristicId="bfb9-0cd1-652f-e862" name="Notes" value="Load and fire as a single action, 24&quot; maximum range."/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" field="0558-a6b3-f8e6-bf26" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="append" field="bfb9-0cd1-652f-e862" value="(Magic)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="category" childId="4ae3-01c7-8025-43ee" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="e339-eb4c-d4fd-63fb" targetId="b85e-032f-2b2a-b904" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="50bd-ebbc-a3a6-18e1" targetId="b9b2-285d-4aa2-ee8b" linkType="entry">
           <modifiers/>
         </link>
@@ -43231,22 +43987,6 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
       <modifiers/>
       <links>
         <link id="9211-b32d-c5d7-61c4" targetId="3584-6978-b683-8345" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="80d2-c8f6-7a5f-b0b6" name="&lt; Tracker Equipment &gt;" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="bd8f-b60a-55b1-e341" targetId="b85e-032f-2b2a-b904" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8654-fb58-235f-75c5" targetId="2c35-922d-61cc-ff2e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a96e-1b2d-ce87-fa61" targetId="73a9-1321-6677-7a94" linkType="entry">
           <modifiers/>
         </link>
       </links>

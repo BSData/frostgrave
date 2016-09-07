@@ -14617,7 +14617,7 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="5199-1e81-5f57-272e" name="&gt; Lost Demon in a Bottle" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5199-1e81-5f57-272e" name="&gt; Lost Demon in a Bottle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -15017,7 +15017,7 @@ example, if they have no open item slot).</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="c170-3af0-9b7f-946a" name="&gt; Obtained Demon in a Bottle" points="-200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="c170-3af0-9b7f-946a" name="&gt; Obtained Demon in a Bottle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>

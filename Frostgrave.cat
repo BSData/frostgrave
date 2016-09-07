@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4137-4672-dcbc-1c57" revision="9" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4137-4672-dcbc-1c57" revision="10" gameSystemId="a9da-82ef-3b8b-12ce" gameSystemRevision="1" battleScribeVersion="1.15" name="Frostgrave" authorName="Euan" authorContact="Twitter:@Vescarea / Facebook: Euan Mace" authorUrl="https://github.com/BSData/frostgrave" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="0fd5-6e4d-ded2-9fef" name="&lt; Warband Information" points="0.0" categoryId="e8b0-fabc-7c07-7243" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -4617,7 +4617,7 @@ They can also be thrown up to 10”.</description>
     </entry>
     <entry id="d7e9-0573-b5f1-d7e9" name="Kennel" points="0.0" categoryId="fead-a942-31bd-08a3" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
-        <entry id="3c32-2e3d-d50d-51ac" name="War Hound" points="-10.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3c32-2e3d-d50d-51ac" name="War Hound" points="-10.0" categoryId="f1ad-01b3-8196-8ce7" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0E7" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="f734-9a01-e5fe-881d" name="Only Select if cost mod has been selected after the soldier. Not before!" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-10000.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -47756,7 +47756,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="6587-8562-0680-3f3b" name="Potion of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6587-8562-0680-3f3b" name="Potion of Teleportation" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47781,7 +47781,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="fde2-d11a-e136-7d1b" name="Potion of Invulnerability" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="fde2-d11a-e136-7d1b" name="Potion of Invulnerability" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47806,7 +47806,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="0ebd-2ee4-c1c1-53dc" name="Explosive Cocktail" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="0ebd-2ee4-c1c1-53dc" name="Explosive Cocktail" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47831,7 +47831,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="6ad4-57c5-a0b6-07b6" name="Potion of Invisibility" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6ad4-57c5-a0b6-07b6" name="Potion of Invisibility" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47856,7 +47856,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="06c4-12da-f7a7-d8d4" name="Elixir of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="06c4-12da-f7a7-d8d4" name="Elixir of Speed" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47881,7 +47881,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="3eaa-bb13-8696-b8d0" name="Potion of Toughness" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3eaa-bb13-8696-b8d0" name="Potion of Toughness" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47906,7 +47906,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1e72-4bec-5b92-c16e" name="Potion of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1e72-4bec-5b92-c16e" name="Potion of Strength" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47931,7 +47931,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="49ab-16a2-7af8-9c4d" name="Elixir of Life" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="49ab-16a2-7af8-9c4d" name="Elixir of Life" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -47956,7 +47956,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="0d85-8435-b4e0-8755" name="Demon in a Bottle" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="0d85-8435-b4e0-8755" name="Demon in a Bottle" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1000000.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -55170,7 +55170,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="append" field="1157-b575-385a-793e" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="append" field="8011-35e3-f1d0-b98b" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
@@ -55181,6 +55181,96 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8011-35e3-f1d0-b98b" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="d735-853c-8950-8e73" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="8011-35e3-f1d0-b98b" value="+5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="d735-853c-8950-8e73" field="selections" type="equal to" value="5.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="d8ca-285c-651b-c5c7" value="-1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="d8ca-285c-651b-c5c7" value="0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="2.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="d8ca-285c-651b-c5c7" value="+1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="d8ca-285c-651b-c5c7" value="+2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="d8ca-285c-651b-c5c7" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="5.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+4" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="2.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+6" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+7" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="5.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+8" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="6.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+9" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="7.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="18a2-48d4-7505-0789" value="+10" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="2d5f-fd72-4b3c-5b86" field="selections" type="equal to" value="8.0"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
     </profile>
@@ -55385,7 +55475,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
         <characteristic characteristicId="0f26-8389-5c14-46cc" name="H" value="12"/>
       </characteristics>
       <modifiers>
-        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="increment" field="65fd-5ef4-79dc-22c2" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
@@ -55397,7 +55487,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+2)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="increment" field="65fd-5ef4-79dc-22c2" value="2" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
@@ -55415,7 +55505,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="increment" field="65fd-5ef4-79dc-22c2" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
@@ -55440,7 +55530,7 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="append" field="65fd-5ef4-79dc-22c2" value="(+3)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="increment" field="65fd-5ef4-79dc-22c2" value="3" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
           <conditionGroups>
             <conditionGroup type="and">
@@ -55494,9 +55584,17 @@ Staffs and Rings of Power recharge between games, but Orbs of Power do not regen
           <conditions/>
           <conditionGroups/>
         </modifier>
-        <modifier type="append" field="bdaf-6952-5055-4b9c" value="(+1)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="bdc4-5d3d-6b8d-c5a4" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="bdaf-6952-5055-4b9c" value="+5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
-          <conditionGroups/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="direct parent" childId="df2a-8fd5-33bd-a20f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="bdc4-5d3d-6b8d-c5a4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </profile>
